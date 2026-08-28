@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useCart } from "@/lib/CartProvider";
 
 const LINKS = [
   { href: "/menu", label: "Menu" },
@@ -8,6 +11,8 @@ const LINKS = [
 ] as const;
 
 export default function TopNav() {
+  const { jumlahItem } = useCart();
+
   return (
     <header className="hidden md:flex items-center justify-between px-8 h-16 border-b border-border bg-card">
       <Link href="/" className="font-display text-xl text-sambal">
@@ -23,7 +28,7 @@ export default function TopNav() {
           href="/keranjang"
           className="text-sm px-3 py-1.5 rounded-full bg-sambal text-white"
         >
-          🛒 Keranjang
+          🛒 Keranjang{jumlahItem > 0 ? ` (${jumlahItem})` : ""}
         </Link>
       </nav>
     </header>
