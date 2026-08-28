@@ -105,15 +105,15 @@ Definition of Done tiap task: jalan di mobile (375px) **dan** desktop (1440px), 
 
 ## M2 — Konten
 
-- [ ] Template penulisan item (deskripsi, cerita, resep) — tetapkan panjang & nada
-- [ ] Daftar 80 item + provinsi asal, cek 34 provinsi terwakili
-- [ ] Tulis 50 makanan (umum + tradisional)
-- [ ] Tulis 15 minuman
-- [ ] Tulis 15 jajanan/kudapan
-- [ ] Uji tiap resep secara logika: bahan konsisten dengan langkah, urutan masuk akal, satuan jelas
-- [ ] `data/warung.json` — 8-12 warung fiktif, tiap item dipetakan ke warung
-- [ ] Halaman `app/daerah/[pulau]/page.tsx` — daftar item per pulau + narasi singkat
-- [ ] Jalankan validator konten; nol pelanggaran
+- [x] Template penulisan item — pola dari 10 item M0 dipakai konsisten: deskripsi 1 kalimat, cerita 2-4 kalimat asal-usul, resep 4-6 bahan + 3-6 langkah + tips
+- [x] Daftar 80 item + provinsi asal, cek 34 provinsi terwakili — 34/34 provinsi ada minimal 1 item
+- [x] Tulis 50 makanan (umum + tradisional)
+- [x] Tulis 15 minuman
+- [x] Tulis 15 jajanan/kudapan
+- [x] Uji tiap resep secara logika — dibaca manual saat ditulis (bahan match langkah, satuan jelas); belum ada linter otomatis buat ini, kalau nanti nambah ratusan item baru dipertimbangkan
+- [x] `data/warung.json` — 10 warung fiktif, dipetakan ke item lewat kecocokan `pulau` (`lib/warung.ts`), bukan field per-item — lebih murah, ga perlu isi 80x field warung manual
+- [x] Halaman `app/daerah/[pulau]/page.tsx` — daftar item per pulau + narasi singkat
+- [x] Jalankan validator konten; nol pelanggaran
 
 **M2 selesai bila**: `items.json` 80 item, tidak ada field wajib kosong, validator lolos.
 
