@@ -47,57 +47,57 @@ Definition of Done tiap task: jalan di mobile (375px) **dan** desktop (1440px), 
 ## M1 — Loop inti
 
 ### Filter & cari
-- [ ] `lib/filter.ts` — filter murni (kategori, pulau, pedas, harga, halal) + pencarian teks (nama, daerah, tag)
-- [ ] Self-check `lib/filter.test.ts` — assert hasil filter & pencarian
-- [ ] `components/FilterBar.tsx` — chip scroll horizontal di mobile
-- [ ] `components/FilterSidebar.tsx` — sidebar sticky di desktop
-- [ ] Sinkronkan filter aktif ke query string agar bisa di-share/back
-- [ ] Input pencarian dengan debounce, tombol clear, state kosong ("Ga ada. Coba 'soto'.")
+- [x] `lib/filter.ts` — filter murni (kategori, pulau, halal) + pencarian teks (nama, daerah, tag) — skip filter `harga`/`pedas`, ga ada UI-nya dulu, tambah kalau kepake
+- [x] Self-check `scripts/test-filter.ts` — assert hasil filter & pencarian
+- [x] Chip filter kategori + search — dibangun jadi satu `app/menu/MenuBrowser.tsx`, bukan `FilterBar.tsx` terpisah (belum butuh dipisah, cuma 1 dimensi filter)
+- [ ] `components/FilterSidebar.tsx` — skip, cuma 4 kategori, chip yang sama udah cukup di desktop (wrap ke bawah)
+- [ ] Sinkronkan filter ke query string — skip, tambah kalau share-filtered-menu jadi kebutuhan nyata
+- [ ] Debounce pencarian — skip, 10 item lokal ga butuh debounce; revisit pas item ratusan
 
 ### Detail item
-- [ ] `app/menu/[slug]/page.tsx` + `generateStaticParams`
-- [ ] `components/OpsiPicker.tsx` — radio untuk pilihan tunggal, checkbox untuk multi
-- [ ] Hitung harga dinamis dari opsi terpilih
-- [ ] Tombol "Tambah ke keranjang" sticky di bawah (mobile)
-- [ ] Desktop: tampil sebagai dialog dua kolom di atas katalog, URL tetap berubah (intercepting route atau state modal)
-- [ ] Blok cerita asal daerah + link ke `/daerah/[pulau]`
-- [ ] Metadata + OpenGraph per item
+- [x] `app/menu/[slug]/page.tsx` + `generateStaticParams`
+- [x] `components/OpsiPicker.tsx` — tombol toggle (radio-behavior untuk tunggal, multi-select untuk checkbox)
+- [x] Hitung harga dinamis dari opsi terpilih
+- [x] Tombol "Tambah ke keranjang" sticky di bawah (mobile)
+- [ ] Desktop: dialog modal di atas katalog — skip, dipakai halaman penuh 2 kolom biasa; modal nambah kompleksitas routing (intercepting routes) buat manfaat kecil di v1
+- [x] Blok cerita asal daerah + link ke `/daerah/[pulau]` — link ada, halaman `/daerah/[pulau]` belum dibuat (masuk M2)
+- [x] Metadata + OpenGraph per item
 
 ### Keranjang
-- [ ] `lib/cart.ts` — add / remove / ubah qty / total; fungsi murni
-- [ ] Self-check `lib/cart.test.ts` — assert total, item dengan opsi berbeda dihitung terpisah
-- [ ] `lib/storage.ts` — baca/tulis `localStorage` aman (try/catch, SSR guard, versi skema)
-- [ ] `CartProvider` context + hook `useCart()`
-- [ ] `app/keranjang/page.tsx` (mobile: halaman penuh)
-- [ ] `components/CartDrawer.tsx` (desktop: drawer kanan)
-- [ ] Rincian biaya: subtotal, ongkir fiktif, biaya absurd acak dari daftar tetap
-- [ ] State kosong keranjang + CTA balik ke menu
+- [x] `lib/cart.ts` — add / remove / ubah qty / total; fungsi murni
+- [x] Self-check `scripts/test-cart.ts` — assert total, item dengan opsi berbeda dihitung terpisah
+- [x] `lib/storage.ts` — baca/tulis `localStorage` aman (try/catch, SSR guard)
+- [x] `CartProvider` context + hook `useCart()`
+- [x] `app/keranjang/page.tsx` — satu halaman responsif (mobile penuh, desktop 2-kolom ringkasan)
+- [ ] `components/CartDrawer.tsx` — skip, halaman keranjang biasa udah cukup cepat diakses lewat nav; drawer nambah state overlay buat manfaat kecil
+- [x] Rincian biaya: subtotal, ongkir fiktif, biaya rindu kampung
+- [x] State kosong keranjang + CTA balik ke menu
 
 ### Checkout palsu
-- [ ] `app/checkout/page.tsx`
-- [ ] Form kartu demo: semua input `disabled`, nilai prefilled, badge "KARTU DEMO"
-- [ ] Alamat pengantaran prefilled lucu, boleh diganti (teks bebas, tidak disimpan ke mana pun)
-- [ ] Disclaimer besar di atas tombol bayar
-- [ ] Tombol "Bayar" → simpan order ke localStorage → redirect `/kurir`
-- [ ] Layout dua kolom desktop, satu kolom mobile
+- [x] `app/checkout/page.tsx`
+- [x] Form kartu demo: semua input `disabled`, nilai prefilled, badge "KARTU DEMO"
+- [x] Alamat pengantaran prefilled lucu, boleh diganti (teks bebas, tidak disimpan ke mana pun)
+- [x] Disclaimer besar di atas tombol bayar
+- [x] Tombol "Bayar" → simpan order ke localStorage → redirect `/kurir`
+- [x] Layout dua kolom desktop, satu kolom mobile
 
 ### Kurir & panggilan
-- [ ] `data/kurir.json` — nama, emoji, kecepatan, kalimat khas
-- [ ] `data/alasan.json` — ≥ 25 alasan gagal antar
-- [ ] `app/kurir/page.tsx` — peta doodle SVG/CSS, kurir bergerak sepanjang path, ETA mundur
-- [ ] Durasi animasi 20-35 detik, ada tombol "Lewati"
-- [ ] `prefers-reduced-motion`: lewati animasi, langsung ke panggilan
-- [ ] `components/PanggilanMasuk.tsx` — full-screen mirip panggilan HP, avatar, tombol terima/tolak
-- [ ] Alasan acak + tombol "Ya udah" → layar konsolasi
-- [ ] Desktop: kartu panggilan terpusat, bukan full-screen mentah
+- [x] `data/kurir.json` — nama, emoji (skip kolom "kecepatan"/kalimat khas, belum kepake di UI)
+- [x] `data/alasan.json` — 26 alasan gagal antar
+- [x] `app/kurir/page.tsx` — kurir jalan sepanjang garis putus-putus, ETA mundur (bukan peta SVG penuh — garis dashed lebih murah, efeknya sama)
+- [x] Durasi animasi 22 detik, tombol "Lewati"
+- [x] `prefers-reduced-motion`: lewati animasi, langsung ke panggilan
+- [x] `components/PanggilanMasuk.tsx` — full-screen mirip panggilan HP, avatar, tombol terima/tolak
+- [x] Alasan acak + tombol "Ya udah" → layar konsolasi
+- [ ] Desktop: kartu panggilan terpusat — skip, full-screen dipakai di semua ukuran; kontras dramatisnya justru bagian dari efek leluconnya
 
 ### Konsolasi + resep
-- [ ] `components/LayarKonsolasi.tsx` — "Makanan ga dateng. Tapi resepnya buat kamu."
-- [ ] Tampilkan resep tiap item di keranjang + total uang yang "dihemat"
-- [ ] Tombol: Lihat resep lengkap / Pesan lagi / Bagikan
-- [ ] `app/resep/[slug]/page.tsx` — bahan, langkah, tips, waktu, porsi
-- [ ] `app/resep/page.tsx` — index resep, bisa dicari
-- [ ] Resep: akordeon di mobile, dua kolom (bahan sticky) di desktop
+- [x] `app/pesanan-selesai/page.tsx` (bukan `components/LayarKonsolasi.tsx` — halaman langsung, ga perlu component terpisah untuk 1 pemakaian) — "Makanannya ga dateng. Tapi resepnya buat kamu."
+- [x] Tampilkan resep tiap item di keranjang + total uang yang "dihemat"
+- [x] Tombol: Pesan lagi / Riwayat — skip tombol "Bagikan" (butuh lib/share.ts, itu task M3)
+- [x] `app/resep/[slug]/page.tsx` — bahan, langkah, tips, waktu, porsi + Recipe JSON-LD (diambil maju dari M3, murah sekalian nulis halamannya)
+- [x] `app/resep/page.tsx` — index resep (belum ada search box sendiri, ikut nanti kalau daftarnya panjang)
+- [ ] Resep: akordeon di mobile — skip, daftar linear udah pendek & scroll biasa cukup; dua kolom sticky-bahan di desktop udah jalan
 
 **M1 selesai bila**: dari beranda sampai layar resep bisa dijalani tanpa jalan buntu, di mobile dan desktop.
 

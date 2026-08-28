@@ -1,0 +1,12 @@
+[
+  { "nama": "Warteg Bahari", "pulau": "Jawa", "tagline": "Nasi rumahan, harga masuk akal" },
+  { "nama": "Padang Sederhana Sekali", "pulau": "Sumatera", "tagline": "Rendang paling sabar di kota" },
+  { "nama": "Angkringan Pak Kumis", "pulau": "Jawa", "tagline": "Buka sampai kelaparan hilang sendiri" },
+  { "nama": "Bakso Malang Cak Gilang", "pulau": "Jawa", "tagline": "Kuahnya jujur, ga pelit bumbu" },
+  { "nama": "Lapo Ni Bapak", "pulau": "Sumatera", "tagline": "Rasa kampung, jauh dari kampung" },
+  { "nama": "Dapur Kenari Ternate", "pulau": "Maluku", "tagline": "Ikan segar, ga pakai basa-basi" },
+  { "nama": "Rumah Makan Pace", "pulau": "Papua", "tagline": "Sagu asli, ga pakai instan" },
+  { "nama": "Kedai Tuturuga", "pulau": "Sulawesi", "tagline": "Pedas beneran, bukan cuma nama" },
+  { "nama": "Bale Bali Rasa", "pulau": "Bali", "tagline": "Base genep bikin sendiri tiap pagi" },
+  { "nama": "Warung Bunda Kalbar", "pulau": "Kalimantan", "tagline": "Nyaman kayak masakan mama" }
+]

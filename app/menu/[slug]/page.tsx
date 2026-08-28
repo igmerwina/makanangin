@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { allItems, getItem } from "@/lib/items";
 import { formatRupiah } from "@/lib/harga";
+import { warungUntuk } from "@/lib/warung";
 import OpsiPicker from "@/components/OpsiPicker";
 
 export function generateStaticParams() {
@@ -23,6 +24,7 @@ export default async function ItemDetailPage({ params }: { params: Promise<{ slu
   const { slug } = await params;
   const item = getItem(slug);
   if (!item) notFound();
+  const warung = warungUntuk(item);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-6 md:grid md:grid-cols-2 md:gap-10">
@@ -36,6 +38,9 @@ export default async function ItemDetailPage({ params }: { params: Promise<{ slu
         </Link>
         <p className="mt-3">{item.deskripsi}</p>
         <p className="font-medium mt-3">{formatRupiah(item.harga)}</p>
+        <p className="text-xs text-muted mt-1">
+          Dijual oleh {warung.nama} — {warung.tagline}
+        </p>
 
         <div className="mt-6 rounded-2xl border border-border bg-card p-4">
           <h2 className="font-display text-lg mb-1">Asal-usulnya</h2>

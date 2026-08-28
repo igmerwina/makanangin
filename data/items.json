@@ -399,5 +399,2632 @@
       ],
       "tips": "Pastikan gula merah tertutup rapat adonan supaya tidak bocor saat direbus."
     }
+  },
+  {
+    "slug": "mie-aceh",
+    "nama": "Mie Aceh",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Aceh",
+    "pulau": "Sumatera",
+    "harga": 25000,
+    "emoji": "🍝",
+    "deskripsi": "Mie tebal digoreng bumbu rempah kari, pedas dan gurih, isi daging atau seafood.",
+    "cerita": "Perpaduan budaya dagang Aceh yang jadi jalur rempah dan pengaruh kuliner Arab-India lewat rempah karinya. Biasa disantap dengan emping dan acar timun.",
+    "pedas": 4,
+    "halal": true,
+    "tags": ["berkuah kering", "rempah", "pedas"],
+    "opsi": [
+      { "nama": "Jenis", "pilihan": ["Goreng", "Kuah"] },
+      { "nama": "Isi", "pilihan": ["Daging sapi", "Udang", "Cumi"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "45 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "400 g mie kuning tebal",
+        "200 g daging sapi atau udang",
+        "5 buah cabai merah, 6 bawang merah, 4 bawang putih",
+        "1 sdm bubuk kari, 1 sdt jintan",
+        "2 buah tomat, potong",
+        "Kecap manis, kaldu bubuk secukupnya"
+      ],
+      "langkah": [
+        "Haluskan cabai, bawang merah, bawang putih, jintan.",
+        "Tumis bumbu halus dengan bubuk kari sampai harum.",
+        "Masukkan daging atau udang, masak sampai berubah warna.",
+        "Tambahkan tomat dan sedikit air, masak sampai daging matang.",
+        "Masukkan mie dan kecap manis, aduk rata sampai bumbu meresap dan agak kering.",
+        "Sajikan dengan emping dan acar timun."
+      ],
+      "tips": "Rebus mie sebentar dulu sebelum digoreng biar teksturnya kenyal tapi ga lembek."
+    }
+  },
+  {
+    "slug": "arsik",
+    "nama": "Arsik",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Sumatera Utara",
+    "pulau": "Sumatera",
+    "harga": 35000,
+    "emoji": "🐟",
+    "deskripsi": "Ikan mas dibumbui rempah kuning dan andaliman, dimasak kering tanpa santan.",
+    "cerita": "Hidangan khas Batak yang selalu ada di acara adat. Andaliman, rempah khas Sumatera Utara yang bikin lidah sedikit bergetar, jadi ciri khas rasa yang ga ada di masakan daerah lain.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["ikan", "rempah", "acara adat"],
+    "opsi": [
+      { "nama": "Ukuran ikan", "pilihan": ["Sedang", "Besar (+10k)"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1.5 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "1 ekor ikan mas ukuran sedang",
+        "5 cm kunyit, 3 cm jahe, 3 cm lengkuas",
+        "8 butir bawang merah, 4 siung bawang putih",
+        "1 sdm andaliman",
+        "3 batang kacang panjang, 2 batang serai",
+        "Air asam jawa, garam secukupnya"
+      ],
+      "langkah": [
+        "Bersihkan ikan, beri sedikit garam dan air asam, sisihkan.",
+        "Haluskan kunyit, jahe, lengkuas, bawang merah, bawang putih.",
+        "Tata daun kunyit dan kacang panjang di dasar panci lebar, letakkan ikan di atasnya.",
+        "Lumuri ikan dengan bumbu halus dan andaliman, tambahkan serai.",
+        "Tuang sedikit air, masak dengan api kecil tanpa diaduk sampai air menyusut dan bumbu meresap."
+      ],
+      "tips": "Jangan diaduk selama proses masak supaya ikan tidak hancur, cukup digoyang perlahan panciknya."
+    }
+  },
+  {
+    "slug": "gulai-ikan-patin",
+    "nama": "Gulai Ikan Patin",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Riau",
+    "pulau": "Sumatera",
+    "harga": 32000,
+    "emoji": "🍲",
+    "deskripsi": "Ikan patin dimasak kuah santan kuning asam pedas, khas Melayu Riau.",
+    "cerita": "Sungai-sungai besar di Riau kaya ikan patin, jadi hidangan ini lahir dari kebiasaan masyarakat tepian sungai. Rasa asamnya biasa dari nanas atau tempoyak (durian fermentasi).",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["berkuah", "ikan", "santan"],
+    "opsi": [
+      { "nama": "Asam", "pilihan": ["Nanas", "Tempoyak"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g ikan patin, potong",
+        "500 ml santan",
+        "1/4 buah nanas, potong dadu",
+        "6 cabai merah, 6 bawang merah, 3 bawang putih",
+        "3 cm kunyit, 2 cm lengkuas",
+        "2 batang serai, garam secukupnya"
+      ],
+      "langkah": [
+        "Haluskan cabai, bawang merah, bawang putih, kunyit.",
+        "Tumis bumbu halus dengan lengkuas dan serai sampai harum.",
+        "Tuang santan, masak sampai mendidih sambil diaduk supaya tidak pecah.",
+        "Masukkan ikan patin dan nanas, masak dengan api kecil sampai ikan matang.",
+        "Koreksi rasa dengan garam, sajikan hangat."
+      ],
+      "tips": "Aduk santan searah dan jangan terlalu sering supaya kuahnya tidak pecah."
+    }
+  },
+  {
+    "slug": "gonggong-rebus",
+    "nama": "Gonggong Rebus",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Kepulauan Riau",
+    "pulau": "Sumatera",
+    "harga": 30000,
+    "emoji": "🐌",
+    "deskripsi": "Siput laut khas Batam direbus, disantap dengan sambal cocol.",
+    "cerita": "Gonggong cuma hidup di perairan bersih sekitar Kepulauan Riau, jadi identitas kuliner Batam dan Tanjung Pinang yang ga gampang ditemukan di daerah lain.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["seafood", "rebus", "khas kota"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["1/4 kg", "1/2 kg (+15k)"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "20 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g gonggong segar",
+        "2 lembar daun jeruk",
+        "1 batang serai, memarkan",
+        "Garam secukupnya",
+        "Sambal kecap atau sambal terasi untuk cocol"
+      ],
+      "langkah": [
+        "Cuci bersih gonggong sampai ga ada pasir.",
+        "Rebus air dengan daun jeruk, serai, dan garam sampai mendidih.",
+        "Masukkan gonggong, rebus 5-8 menit sampai matang, jangan kelamaan biar ga alot.",
+        "Tiriskan, sajikan hangat dengan sambal cocol."
+      ],
+      "tips": "Ambil dagingnya pakai tusuk gigi, puntir searah biar gampang keluar utuh."
+    }
+  },
+  {
+    "slug": "gulai-tepek-ikan",
+    "nama": "Gulai Tepek Ikan",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Jambi",
+    "pulau": "Sumatera",
+    "harga": 28000,
+    "emoji": "🍲",
+    "deskripsi": "Ikan gabus dihaluskan jadi lempengan, dimasak gulai santan kuning.",
+    "cerita": "Hidangan wajib di acara adat Jambi. Proses menepek (memipihkan) ikan sampai jadi lempengan tipis butuh keterampilan turun-temurun ibu-ibu Jambi.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["ikan", "santan", "acara adat"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["Sedang", "Besar (+10k)"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1.5 jam",
+      "sulit": "sulit",
+      "bahan": [
+        "500 g daging ikan gabus, haluskan",
+        "150 g tepung sagu",
+        "500 ml santan",
+        "6 cabai merah, 8 bawang merah, 4 bawang putih",
+        "3 cm kunyit, 2 batang serai",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Campur ikan halus dengan tepung sagu dan sedikit garam, uleni sampai kalis.",
+        "Pipihkan adonan jadi lempengan tipis, kukus sampai matang, potong-potong.",
+        "Haluskan cabai, bawang merah, bawang putih, kunyit, tumis sampai harum.",
+        "Tuang santan dan serai, masak sampai mendidih.",
+        "Masukkan potongan tepek ikan, masak sebentar sampai bumbu meresap."
+      ],
+      "tips": "Kukus tepek sampai benar-benar matang dulu sebelum dipotong, supaya ga hancur pas dimasak gulai."
+    }
+  },
+  {
+    "slug": "pempek",
+    "nama": "Pempek",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Sumatera Selatan",
+    "pulau": "Sumatera",
+    "harga": 20000,
+    "emoji": "🐡",
+    "deskripsi": "Adonan ikan dan sagu digoreng, disiram kuah cuko asam pedas.",
+    "cerita": "Konon dibuat pertama kali oleh perantau Tionghoa di Palembang bernama Apek, dari situ nama 'pempek' muncul. Kuah cuko-nya yang asam pedas jadi pembeda utama dari makanan ikan lain.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["ikan", "gorengan", "kuah asam"],
+    "opsi": [
+      { "nama": "Jenis", "pilihan": ["Kapal selam", "Lenjer", "Adaan"], "multi": true },
+      { "nama": "Level pedas cuko", "pilihan": ["Sedang", "Pedas", "Kematian"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g daging ikan tenggiri giling",
+        "250 g tepung sagu",
+        "1 butir telur untuk isian kapal selam",
+        "200 g gula merah, 2 sdm asam jawa (untuk cuko)",
+        "5 cabai rawit, 3 bawang putih (untuk cuko)",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Campur ikan giling dengan garam dan sedikit air, uleni.",
+        "Masukkan tepung sagu sedikit-sedikit sampai kalis, jangan diuleni terlalu lama.",
+        "Bentuk adonan, isi telur mentah untuk versi kapal selam, rebus sampai mengapung.",
+        "Goreng pempek sampai kecokelatan.",
+        "Untuk cuko: rebus gula merah, asam jawa, cabai halus, bawang putih sampai mendidih dan kental, saring.",
+        "Sajikan pempek dengan siraman cuko dan mie kuning, timun cincang."
+      ],
+      "tips": "Jangan uleni adonan sagu terlalu lama, cukup sampai kalis biar teksturnya ga keras."
+    }
+  },
+  {
+    "slug": "pendap",
+    "nama": "Pendap",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Bengkulu",
+    "pulau": "Sumatera",
+    "harga": 25000,
+    "emoji": "🐟",
+    "deskripsi": "Ikan berbumbu dibungkus daun talas, dikukus lama sampai bumbu meresap total.",
+    "cerita": "Hidangan khas Bengkulu yang tahan lama karena dibungkus rapat dan dimasak lama, dulu jadi bekal para pelaut dan pedagang yang berlayar berhari-hari.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["ikan", "kukus", "dibungkus daun"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["1 bungkus", "2 bungkus (+15k)"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "2 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g ikan kembung, bersihkan",
+        "1 butir kelapa parut",
+        "8 cabai merah, 10 bawang merah, 5 bawang putih",
+        "3 cm kunyit, 2 cm jahe",
+        "Daun talas secukupnya untuk bungkus",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Haluskan cabai, bawang merah, bawang putih, kunyit, jahe.",
+        "Campur bumbu halus dengan kelapa parut dan garam.",
+        "Lumuri ikan dengan campuran bumbu kelapa.",
+        "Bungkus rapat dengan daun talas, ikat kencang.",
+        "Kukus bungkusan selama 1.5-2 jam sampai daun talas layu dan bumbu meresap."
+      ],
+      "tips": "Pastikan daun talas dicuci bersih dan agak dilayukan dulu biar ga gatal saat dimakan."
+    }
+  },
+  {
+    "slug": "seruit",
+    "nama": "Seruit",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Lampung",
+    "pulau": "Sumatera",
+    "harga": 27000,
+    "emoji": "🐟",
+    "deskripsi": "Ikan bakar atau goreng dicampur sambal tempoyak, khas Lampung.",
+    "cerita": "Biasa disantap ramai-ramai dengan tangan langsung, jadi simbol kebersamaan masyarakat Lampung. Tempoyak, durian yang difermentasi, bikin rasa sambalnya unik asam-gurih.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["ikan", "bakar", "sambal"],
+    "opsi": [
+      { "nama": "Ikan", "pilihan": ["Ikan baung", "Ikan patin"] },
+      { "nama": "Cara masak", "pilihan": ["Bakar", "Goreng"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "45 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g ikan baung atau patin",
+        "3 sdm tempoyak (durian fermentasi)",
+        "5 cabai rawit, 3 bawang merah",
+        "1 buah tomat",
+        "Garam, jeruk nipis secukupnya"
+      ],
+      "langkah": [
+        "Bersihkan ikan, lumuri jeruk nipis dan garam, bakar atau goreng sampai matang.",
+        "Ulek cabai rawit, bawang merah, tomat kasar.",
+        "Campur ulekan dengan tempoyak, aduk rata jadi sambal.",
+        "Sajikan ikan dengan sambal tempoyak di sampingnya, cocol atau campur langsung."
+      ],
+      "tips": "Kalau ga suka asam kuat, kurangi tempoyak dan tambah tomat biar lebih ringan."
+    }
+  },
+  {
+    "slug": "lempah-kuning",
+    "nama": "Lempah Kuning",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Bangka Belitung",
+    "pulau": "Sumatera",
+    "harga": 28000,
+    "emoji": "🍲",
+    "deskripsi": "Sup ikan asam kuning dengan potongan nanas, segar dan sedikit pedas.",
+    "cerita": "Disebut juga 'gangan', hidangan sehari-hari masyarakat pesisir Bangka Belitung yang kaya hasil laut. Nanas jadi sumber asam alami pengganti asam jawa.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["berkuah", "ikan", "segar"],
+    "opsi": [
+      { "nama": "Ikan", "pilihan": ["Kakap", "Tenggiri"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "40 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g ikan kakap, potong",
+        "1/4 buah nanas, potong",
+        "6 cabai merah, 8 bawang merah, 3 bawang putih",
+        "3 cm kunyit, 2 cm lengkuas",
+        "1 batang serai, garam dan gula secukupnya"
+      ],
+      "langkah": [
+        "Haluskan cabai, bawang merah, bawang putih, kunyit.",
+        "Rebus air dengan bumbu halus, lengkuas, dan serai sampai mendidih.",
+        "Masukkan nanas, masak sampai agak layu.",
+        "Masukkan ikan, masak sampai matang, koreksi rasa dengan garam dan gula.",
+        "Sajikan hangat sebagai sup pendamping nasi."
+      ],
+      "tips": "Masukkan ikan paling akhir dan jangan diaduk kasar supaya potongannya tetap utuh."
+    }
+  },
+  {
+    "slug": "soto-betawi",
+    "nama": "Soto Betawi",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 32000,
+    "emoji": "🍲",
+    "deskripsi": "Daging sapi dan jeroan dalam kuah santan susu, gurih dan creamy.",
+    "cerita": "Muncul sekitar tahun 1970-an di Jakarta, dipopulerkan pedagang keliling bernama Ma'un. Kuahnya campuran santan dan susu jadi ciri khas yang beda dari soto daerah lain.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["berkuah", "daging", "santan"],
+    "opsi": [
+      { "nama": "Isi", "pilihan": ["Daging saja", "Campur jeroan"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "2 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g daging sapi, 200 g jeroan sapi",
+        "400 ml santan, 200 ml susu cair",
+        "6 bawang merah, 4 bawang putih",
+        "3 cm jahe, 2 cm kunyit, 2 batang serai",
+        "2 lembar daun salam, garam secukupnya"
+      ],
+      "langkah": [
+        "Rebus daging dan jeroan sampai empuk, potong dadu, saring kaldunya.",
+        "Haluskan bawang merah, bawang putih, jahe, kunyit, tumis sampai harum.",
+        "Masukkan tumisan bumbu ke kaldu bersama serai dan daun salam.",
+        "Tuang santan dan susu, masak dengan api kecil sambil diaduk supaya tidak pecah.",
+        "Masukkan potongan daging dan jeroan, masak sampai bumbu meresap.",
+        "Sajikan dengan emping dan sambal."
+      ],
+      "tips": "Masak santan dan susu dengan api kecil dan aduk terus supaya kuahnya ga pecah."
+    }
+  },
+  {
+    "slug": "nasi-liwet-solo",
+    "nama": "Nasi Liwet Solo",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Tengah",
+    "pulau": "Jawa",
+    "harga": 18000,
+    "emoji": "🍚",
+    "deskripsi": "Nasi gurih santan disajikan dengan suwiran ayam, labu siam, dan telur pindang.",
+    "cerita": "Populer sebagai jajanan malam di Solo, biasa dijual pakai pincuk daun pisang dan disantap pakai tangan atau suru (sendok dari daun pisang).",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["gurih", "santan", "malam"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Ayam suwir", "Telur pindang", "Sambal goreng jipang"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1 jam",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g beras",
+        "400 ml santan",
+        "2 lembar daun salam, 2 batang serai",
+        "200 g ayam suwir",
+        "1 labu siam, potong dadu",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Masak beras dengan santan, daun salam, serai, dan garam seperti menanak nasi biasa sampai matang.",
+        "Masak labu siam dengan santan dan sedikit bumbu sampai empuk jadi jangan.",
+        "Suwir ayam yang sudah direbus dan bumbui ringan.",
+        "Sajikan nasi liwet dengan ayam suwir, jangan labu siam, dan telur pindang di atasnya."
+      ],
+      "tips": "Pakai santan kental supaya nasi tetap gurih meski ga pakai banyak lauk."
+    }
+  },
+  {
+    "slug": "sate-bandeng",
+    "nama": "Sate Bandeng",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Banten",
+    "pulau": "Jawa",
+    "harga": 22000,
+    "emoji": "🐟",
+    "deskripsi": "Daging ikan bandeng tanpa duri, dibumbui dan dipanggang di atas tusuk bambu.",
+    "cerita": "Dulu jadi santapan khusus para sultan Banten karena proses membuang durinya rumit dan makan waktu. Sekarang jadi oleh-oleh khas Serang yang terkenal.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["ikan", "panggang", "oleh-oleh"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["1 ekor", "2 ekor (+18k)"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "1.5 jam",
+      "sulit": "sulit",
+      "bahan": [
+        "1 ekor bandeng ukuran besar",
+        "100 ml santan kental",
+        "5 bawang merah, 3 bawang putih",
+        "3 cm kunyit, 2 cm kencur",
+        "2 butir telur, garam dan gula secukupnya"
+      ],
+      "langkah": [
+        "Pukul-pukul badan ikan supaya daging lepas dari kulit, keluarkan daging lewat insang tanpa merobek kulit.",
+        "Buang duri dari daging ikan, haluskan dagingnya.",
+        "Haluskan bawang merah, bawang putih, kunyit, kencur, campur ke daging ikan bersama santan dan telur.",
+        "Masukkan kembali adonan ke dalam kulit ikan, bentuk seperti semula, jepit dengan bambu.",
+        "Panggang di atas bara api sambil dibolak-balik sampai matang dan kecokelatan."
+      ],
+      "tips": "Sabar saat mengeluarkan daging lewat insang, jangan sampai kulit ikan robek."
+    }
+  },
+  {
+    "slug": "ayam-taliwang",
+    "nama": "Ayam Taliwang",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Nusa Tenggara Barat",
+    "pulau": "Nusa Tenggara",
+    "harga": 35000,
+    "emoji": "🍗",
+    "deskripsi": "Ayam kampung bakar bumbu sambal khas Lombok, pedas menggigit.",
+    "cerita": "Berasal dari kampung Karang Taliwang di Mataram. Sambalnya pakai cabai dalam jumlah besar, jadi ukuran level pedas orang Lombok yang terkenal kuat.",
+    "pedas": 4,
+    "halal": true,
+    "tags": ["ayam", "bakar", "pedas"],
+    "opsi": [
+      { "nama": "Bagian ayam", "pilihan": ["Dada", "Paha"] },
+      { "nama": "Level pedas", "pilihan": ["Sedang", "Pedas", "Kematian"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "1/2 ekor ayam kampung",
+        "10 cabai rawit, 6 cabai merah",
+        "6 bawang merah, 4 bawang putih",
+        "2 cm terasi bakar",
+        "Garam, gula merah, jeruk limau secukupnya"
+      ],
+      "langkah": [
+        "Bakar atau ungkep ayam sampai setengah matang.",
+        "Ulek cabai rawit, cabai merah, bawang merah, bawang putih, terasi.",
+        "Tumis bumbu ulek sampai harum dan matang, tambah garam dan gula merah.",
+        "Lumuri ayam dengan sebagian sambal, bakar lagi sampai matang sambil diolesi sisa sambal.",
+        "Sajikan dengan perasan jeruk limau."
+      ],
+      "tips": "Ungkep ayam dulu sebelum dibakar supaya bagian dalamnya matang sempurna."
+    }
+  },
+  {
+    "slug": "se-i-sapi",
+    "nama": "Se'i Sapi",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Nusa Tenggara Timur",
+    "pulau": "Nusa Tenggara",
+    "harga": 40000,
+    "emoji": "🥩",
+    "deskripsi": "Daging sapi asap khas Kupang, diiris tipis dan dimasak dengan asap kayu pilihan.",
+    "cerita": "Teknik pengasapan daging tradisional suku Rote dan Kupang, awalnya cara mengawetkan daging tanpa kulkas. Kayu kosambi jadi favorit karena aromanya khas.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["daging", "asap", "khas kota"],
+    "opsi": [
+      { "nama": "Sambal", "pilihan": ["Sambal luat", "Sambal ijo"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "2 jam",
+      "sulit": "sulit",
+      "bahan": [
+        "500 g daging sapi has dalam, iris tipis memanjang",
+        "Garam dan sedikit gula untuk marinasi",
+        "Kayu atau serpihan asap (bisa pakai smoker sederhana)",
+        "5 cabai rawit, 2 buah jeruk nipis, daun kemangi (untuk sambal luat)"
+      ],
+      "langkah": [
+        "Lumuri daging dengan garam dan gula, diamkan 30 menit.",
+        "Susun daging di rak pengasapan, asap dengan api kecil sampai matang dan berwarna kemerahan, sekitar 1.5 jam.",
+        "Untuk sambal luat, ulek cabai rawit kasar, campur perasan jeruk nipis dan kemangi cincang.",
+        "Iris tipis daging se'i, sajikan dengan sambal luat."
+      ],
+      "tips": "Jaga api tetap kecil dan stabil selama pengasapan supaya daging matang merata tanpa gosong."
+    }
+  },
+  {
+    "slug": "bubur-pedas-sambas",
+    "nama": "Bubur Pedas Sambas",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Kalimantan Barat",
+    "pulau": "Kalimantan",
+    "harga": 15000,
+    "emoji": "🥣",
+    "deskripsi": "Bubur beras sangrai dicampur banyak sayuran dan rempah, gurih meski namanya 'pedas'.",
+    "cerita": "Namanya 'pedas' bukan karena cabai, tapi dari kata 'padeh' Melayu Sambas yang berarti kaya rempah. Sering disajikan saat bulan puasa.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["bubur", "sayuran", "rempah"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["Biasa", "Jumbo (+5k)"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "150 g beras, sangrai sampai kecokelatan lalu tumbuk kasar",
+        "5 jenis sayuran (kangkung, pakis, jagung muda, wortel, daun kesum)",
+        "5 bawang merah, 3 bawang putih",
+        "2 cm kunyit, 2 cm lengkuas",
+        "Kelapa parut sangrai secukupnya, garam secukupnya"
+      ],
+      "langkah": [
+        "Haluskan bawang merah, bawang putih, kunyit, lengkuas.",
+        "Tumis bumbu halus sampai harum, tambah air, didihkan.",
+        "Masukkan beras sangrai tumbuk, masak sambil diaduk sampai mengental.",
+        "Masukkan semua sayuran, masak sampai layu dan matang.",
+        "Taburi kelapa parut sangrai sebelum disajikan."
+      ],
+      "tips": "Sangrai beras sampai benar-benar kecokelatan, itu yang bikin aroma khasnya keluar."
+    }
+  },
+  {
+    "slug": "juhu-singkah",
+    "nama": "Juhu Singkah",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Kalimantan Tengah",
+    "pulau": "Kalimantan",
+    "harga": 22000,
+    "emoji": "🥘",
+    "deskripsi": "Umbut rotan muda dimasak santan dengan ikan, sedikit pahit dan segar khas Dayak.",
+    "cerita": "Umbut rotan cuma bisa diambil dari batang rotan muda yang belum berduri, jadi bahan yang cukup langka. Rasa pahitnya dianggap menyegarkan oleh masyarakat Dayak.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["santan", "sayur", "khas suku"],
+    "opsi": [
+      { "nama": "Isi", "pilihan": ["Ikan baung", "Ikan patin"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "50 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "300 g umbut rotan muda, potong-potong",
+        "300 g ikan baung",
+        "400 ml santan",
+        "6 bawang merah, 4 bawang putih, 4 cabai merah",
+        "2 cm kunyit, garam secukupnya"
+      ],
+      "langkah": [
+        "Rebus umbut rotan sebentar untuk mengurangi getah, tiriskan.",
+        "Haluskan bawang merah, bawang putih, cabai merah, kunyit.",
+        "Tumis bumbu halus sampai harum, tuang santan, didihkan.",
+        "Masukkan umbut rotan dan ikan, masak sampai ikan matang dan bumbu meresap."
+      ],
+      "tips": "Rebus umbut sebentar dulu sebelum dimasak supaya rasa pahitnya ga terlalu dominan."
+    }
+  },
+  {
+    "slug": "soto-banjar",
+    "nama": "Soto Banjar",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Kalimantan Selatan",
+    "pulau": "Kalimantan",
+    "harga": 20000,
+    "emoji": "🍜",
+    "deskripsi": "Kuah bening rempah dengan suwiran ayam, telur, dan perkedel, disajikan dengan ketupat.",
+    "cerita": "Rempahnya dipengaruhi budaya perdagangan India dan Arab yang singgah di Banjarmasin lewat jalur sungai. Selalu pakai perkedel kentang sebagai pelengkap khas.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["berkuah", "ayam", "rempah"],
+    "opsi": [
+      { "nama": "Pelengkap", "pilihan": ["Ketupat", "Nasi"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1.5 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "1 ekor ayam kampung",
+        "2 liter air",
+        "6 bawang merah, 4 bawang putih",
+        "1 sdt merica bubuk, 3 cm jahe, 3 kapulaga, 2 kayu manis",
+        "Perkedel kentang, telur rebus untuk pelengkap"
+      ],
+      "langkah": [
+        "Rebus ayam dengan air sampai empuk, angkat, suwir dagingnya, saring kaldu.",
+        "Haluskan bawang merah, bawang putih, jahe, tumis dengan kapulaga dan kayu manis sampai harum.",
+        "Masukkan tumisan ke kaldu, tambahkan merica bubuk, didihkan sampai wangi rempah keluar.",
+        "Sajikan kuah dengan suwiran ayam, perkedel, telur rebus, dan ketupat."
+      ],
+      "tips": "Sangrai dulu kapulaga dan kayu manis sebentar sebelum ditumis biar aromanya lebih keluar."
+    }
+  },
+  {
+    "slug": "nasi-bekepor",
+    "nama": "Nasi Bekepor",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Kalimantan Timur",
+    "pulau": "Kalimantan",
+    "harga": 20000,
+    "emoji": "🍚",
+    "deskripsi": "Nasi dimasak bersama minyak sayur dan ikan asin, aromanya gurih khas Kutai.",
+    "cerita": "Dulu jadi hidangan istimewa keluarga Kesultanan Kutai Kartanegara, dimasak langsung di atas bara sampai membentuk kerak (kepor) di dasar periuk.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["gurih", "khas kota", "kesultanan"],
+    "opsi": [
+      { "nama": "Lauk", "pilihan": ["Ikan asin", "Ayam suwir"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g beras",
+        "3 sdm minyak sayur",
+        "50 g ikan asin, goreng, suwir",
+        "3 bawang merah, 2 tomat, potong",
+        "Sambal raja (cabai, tomat, terasi) secukupnya"
+      ],
+      "langkah": [
+        "Cuci beras, masukkan ke periuk bersama minyak sayur, bawang merah, tomat.",
+        "Tambahkan air secukupnya seperti menanak nasi biasa.",
+        "Masak dengan api kecil sampai air menyusut dan terbentuk kerak tipis di dasar.",
+        "Sajikan nasi dengan ikan asin suwir dan sambal raja di sampingnya."
+      ],
+      "tips": "Gunakan api kecil di akhir masak supaya kerak kepor terbentuk tanpa gosong."
+    }
+  },
+  {
+    "slug": "kepiting-soka-tarakan",
+    "nama": "Kepiting Soka Tarakan",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Kalimantan Utara",
+    "pulau": "Kalimantan",
+    "harga": 45000,
+    "emoji": "🦀",
+    "deskripsi": "Kepiting cangkang lunak digoreng tepung, bisa dimakan utuh sampai cangkangnya.",
+    "cerita": "Tarakan terkenal sebagai penghasil kepiting soka (soft shell crab) terbesar, hasil budidaya kepiting yang dipanen tepat setelah ganti kulit sebelum cangkang mengeras lagi.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["seafood", "gorengan", "khas kota"],
+    "opsi": [
+      { "nama": "Saus", "pilihan": ["Saus tiram", "Saus padang"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "40 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "4 ekor kepiting soka, bersihkan",
+        "100 g tepung terigu, 50 g tepung beras",
+        "3 bawang putih, 2 cm jahe",
+        "Saus tiram atau saus padang secukupnya",
+        "Garam dan merica secukupnya"
+      ],
+      "langkah": [
+        "Lumuri kepiting soka dengan garam dan merica.",
+        "Campur tepung terigu dan tepung beras, balurkan ke kepiting.",
+        "Goreng kepiting sampai renyah dan kecokelatan, tiriskan.",
+        "Tumis bawang putih dan jahe, tambahkan saus pilihan, masak sebentar.",
+        "Siram atau aduk kepiting goreng dengan saus, sajikan hangat."
+      ],
+      "tips": "Goreng dengan minyak banyak dan panas stabil supaya cangkang lunaknya renyah merata."
+    }
+  },
+  {
+    "slug": "tinutuan",
+    "nama": "Tinutuan",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Sulawesi Utara",
+    "pulau": "Sulawesi",
+    "harga": 15000,
+    "emoji": "🥣",
+    "deskripsi": "Bubur Manado penuh sayuran, labu kuning, jagung, dan kemangi.",
+    "cerita": "Dulu makanan sehari-hari petani Minahasa yang mengolah hasil kebun jadi satu mangkuk bubur bergizi. Sekarang jadi sarapan khas Manado yang dijual di mana-mana.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["bubur", "sayuran", "sarapan"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Ikan cakalang", "Tahu tempe goreng"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "45 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "150 g beras",
+        "200 g labu kuning, potong",
+        "100 g jagung pipil",
+        "1 ikat kangkung, 1 ikat bayam",
+        "Daun kemangi secukupnya, garam secukupnya"
+      ],
+      "langkah": [
+        "Rebus beras dengan banyak air sampai setengah lunak.",
+        "Masukkan labu kuning dan jagung pipil, masak sampai labu hancur.",
+        "Aduk sampai bubur mengental dan beras benar-benar lunak.",
+        "Masukkan kangkung dan bayam, masak sebentar sampai layu.",
+        "Taburi daun kemangi, sajikan dengan sambal dan ikan cakalang."
+      ],
+      "tips": "Hancurkan labu kuning selagi dimasak, itu yang bikin bubur creamy tanpa santan."
+    }
+  },
+  {
+    "slug": "kaledo",
+    "nama": "Kaledo",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Sulawesi Tengah",
+    "pulau": "Sulawesi",
+    "harga": 30000,
+    "emoji": "🍖",
+    "deskripsi": "Sup kaki sapi khas Palu, kuahnya asam pedas segar.",
+    "cerita": "Nama 'kaledo' singkatan dari 'kaki lembu Donggala', dulunya sup rakyat karena bagian kaki sapi dianggap murah, sekarang jadi kuliner kebanggaan Sulawesi Tengah.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["berkuah", "daging", "asam pedas"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["Sedang", "Besar (+12k)"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "2.5 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "1 kg kaki sapi, potong",
+        "6 cabai rawit, 6 bawang merah, 4 bawang putih",
+        "3 cm kunyit, 3 cm jahe",
+        "Air asam jawa secukupnya",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Rebus kaki sapi sampai empuk, buang buih yang muncul di awal rebusan.",
+        "Haluskan cabai rawit, bawang merah, bawang putih, kunyit, jahe.",
+        "Tumis bumbu halus sampai harum, masukkan ke rebusan kaki sapi.",
+        "Tambahkan air asam jawa, masak sampai kuah meresap dan sedikit mengental.",
+        "Sajikan panas dengan sambal terpisah."
+      ],
+      "tips": "Rebus kaki sapi cukup lama dengan api kecil supaya kolagennya keluar dan kuahnya kaya rasa."
+    }
+  },
+  {
+    "slug": "sinonggi",
+    "nama": "Sinonggi",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Sulawesi Tenggara",
+    "pulau": "Sulawesi",
+    "harga": 25000,
+    "emoji": "🥣",
+    "deskripsi": "Bubur sagu khas Kendari, mirip papeda, disantap bersama ikan kuah kuning dan sayur.",
+    "cerita": "Makanan pokok suku Tolaki, biasa disantap bersama-sama dalam satu wadah besar sebagai simbol kebersamaan keluarga.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["makanan pokok", "sagu", "ikan"],
+    "opsi": [
+      { "nama": "Pendamping", "pilihan": ["Ikan kuah kuning", "Sayur bening"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "30 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "200 g tepung sagu",
+        "1 liter air panas",
+        "Ikan kakap untuk kuah kuning",
+        "Kunyit, bawang merah, bawang putih untuk bumbu ikan"
+      ],
+      "langkah": [
+        "Larutkan tepung sagu dengan sedikit air dingin.",
+        "Tuang air panas sedikit-sedikit sambil diaduk cepat sampai bening dan kental.",
+        "Masak ikan terpisah dengan bumbu kuning sampai matang.",
+        "Sajikan sinonggi hangat bersama kuah ikan kuning dan sayur bening."
+      ],
+      "tips": "Sama seperti papeda, aduk sagu cepat dan searah begitu kena air panas."
+    }
+  },
+  {
+    "slug": "binte-biluhuta",
+    "nama": "Binte Biluhuta",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Gorontalo",
+    "pulau": "Sulawesi",
+    "harga": 18000,
+    "emoji": "🌽",
+    "deskripsi": "Sup jagung manis dengan ikan cakalang dan kelapa parut, sedikit pedas segar.",
+    "cerita": "Disebut juga 'milu siram', dulu makanan sederhana petani jagung Gorontalo yang dicampur hasil laut, sekarang jadi hidangan kebanggaan daerah.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["berkuah", "jagung", "ikan"],
+    "opsi": [
+      { "nama": "Ikan", "pilihan": ["Cakalang", "Tuna"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "40 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "2 buah jagung manis, pipil",
+        "200 g ikan cakalang, suwir",
+        "1/2 butir kelapa parut",
+        "5 cabai rawit, 4 bawang merah",
+        "Daun kemangi, jeruk nipis secukupnya"
+      ],
+      "langkah": [
+        "Rebus jagung pipil sampai empuk.",
+        "Ulek kasar cabai rawit dan bawang merah.",
+        "Masukkan ikan cakalang suwir dan bumbu ulek ke rebusan jagung, masak sebentar.",
+        "Tambahkan kelapa parut dan daun kemangi, masak sampai semua matang.",
+        "Beri perasan jeruk nipis sebelum disajikan."
+      ],
+      "tips": "Pakai jagung manis yang masih muda supaya rasa manis alaminya lebih terasa di kuah."
+    }
+  },
+  {
+    "slug": "kapurung",
+    "nama": "Kapurung",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Sulawesi Barat",
+    "pulau": "Sulawesi",
+    "harga": 22000,
+    "emoji": "🥣",
+    "deskripsi": "Bola-bola sagu dalam kuah sayur ikan asam pedas dengan kacang tanah.",
+    "cerita": "Berasal dari tradisi masyarakat Luwu dan Mamuju, dianggap makanan penambah tenaga karena kombinasi sagu, sayur, ikan, dan kacang dalam satu mangkuk.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["sagu", "berkuah", "sayuran"],
+    "opsi": [
+      { "nama": "Protein", "pilihan": ["Ikan", "Udang"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "50 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "150 g tepung sagu",
+        "200 g ikan atau udang",
+        "Sayuran (kacang panjang, jantung pisang, terong)",
+        "50 g kacang tanah, sangrai, haluskan kasar",
+        "Air asam jawa, cabai rawit secukupnya"
+      ],
+      "langkah": [
+        "Larutkan sagu dengan air, siram air panas sambil diaduk cepat sampai kental, bentuk bola-bola kecil.",
+        "Rebus ikan atau udang dengan air asam jawa dan cabai sampai matang.",
+        "Masukkan sayuran, masak sampai layu.",
+        "Tambahkan kacang tanah halus, aduk rata.",
+        "Masukkan bola-bola sagu ke kuah, sajikan hangat."
+      ],
+      "tips": "Bentuk bola sagu selagi masih panas, lebih gampang dipulung sebelum mengeras."
+    }
+  },
+  {
+    "slug": "ikan-kuah-kuning-maluku",
+    "nama": "Ikan Kuah Kuning",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Maluku",
+    "pulau": "Maluku",
+    "harga": 30000,
+    "emoji": "🐟",
+    "deskripsi": "Ikan segar dimasak kuah kunyit encer dengan tomat dan daun kemangi.",
+    "cerita": "Hidangan sehari-hari masyarakat pesisir Maluku yang kaya hasil laut segar, kuahnya sengaja dibuat encer supaya rasa ikan segarnya tetap dominan.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["berkuah", "ikan", "segar"],
+    "opsi": [
+      { "nama": "Ikan", "pilihan": ["Kakap", "Kerapu"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "35 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g ikan kakap, potong",
+        "5 bawang merah, 3 bawang putih, 4 cabai merah",
+        "3 cm kunyit, 2 cm jahe",
+        "2 buah tomat, potong",
+        "Daun kemangi, jeruk nipis secukupnya"
+      ],
+      "langkah": [
+        "Haluskan bawang merah, bawang putih, cabai merah, kunyit, jahe.",
+        "Rebus air dengan bumbu halus sampai mendidih dan wangi.",
+        "Masukkan tomat, masak sebentar.",
+        "Masukkan ikan, masak sampai matang, jangan diaduk kasar.",
+        "Tambahkan daun kemangi dan perasan jeruk nipis sebelum diangkat."
+      ],
+      "tips": "Pakai ikan sesegar mungkin, kuah encer bikin rasa amis lebih terasa kalau ikannya ga segar."
+    }
+  },
+  {
+    "slug": "gohu-ikan",
+    "nama": "Gohu Ikan",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Maluku Utara",
+    "pulau": "Maluku",
+    "harga": 32000,
+    "emoji": "🐟",
+    "deskripsi": "Ikan tuna mentah segar dibumbui jeruk nipis dan sambal, mirip ceviche khas Ternate.",
+    "cerita": "Disebut 'sashimi ala Ternate', sudah ada jauh sebelum tren makanan mentah populer di kota besar. Kesegaran ikan tuna lokal jadi kunci utamanya.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["ikan mentah", "segar", "khas kota"],
+    "opsi": [
+      { "nama": "Level pedas", "pilihan": ["Sedang", "Pedas"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "20 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "300 g daging tuna segar, potong dadu",
+        "5 buah jeruk nipis, peras",
+        "5 cabai rawit, iris",
+        "3 bawang merah, iris tipis",
+        "Kacang tanah goreng, kemangi secukupnya"
+      ],
+      "langkah": [
+        "Lumuri potongan tuna dengan perasan jeruk nipis, diamkan 10 menit sampai warnanya berubah.",
+        "Campur ikan dengan cabai rawit iris, bawang merah iris.",
+        "Taburi kacang tanah goreng dan kemangi.",
+        "Aduk rata dan sajikan segera selagi dingin."
+      ],
+      "tips": "Pakai ikan tuna paling segar yang bisa didapat, ini kunci utama hidangan mentah ini."
+    }
+  },
+  {
+    "slug": "ikan-bakar-manokwari",
+    "nama": "Ikan Bakar Manokwari",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Papua Barat",
+    "pulau": "Papua",
+    "harga": 35000,
+    "emoji": "🐟",
+    "deskripsi": "Ikan laut segar dibakar, disajikan dengan sambal mangga muda yang segar pedas.",
+    "cerita": "Sambal mangga mudanya jadi pembeda utama dari ikan bakar daerah lain, memanfaatkan mangga muda hutan yang banyak tumbuh di Papua Barat.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["ikan", "bakar", "sambal"],
+    "opsi": [
+      { "nama": "Ikan", "pilihan": ["Kakap merah", "Tongkol"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "45 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "1 ekor ikan kakap merah",
+        "1 buah mangga muda, parut kasar",
+        "8 cabai rawit, 4 bawang merah",
+        "Garam, jeruk nipis secukupnya"
+      ],
+      "langkah": [
+        "Bersihkan ikan, lumuri jeruk nipis dan garam, diamkan 15 menit.",
+        "Bakar ikan di atas bara api sampai matang, bolak-balik supaya tidak gosong.",
+        "Ulek cabai rawit dan bawang merah kasar, campur dengan mangga muda parut dan sedikit garam.",
+        "Sajikan ikan bakar dengan sambal mangga muda di atasnya atau sebagai cocolan."
+      ],
+      "tips": "Pilih mangga muda yang masih keras dan asam, itu yang bikin sambalnya segar."
+    }
+  },
+  {
+    "slug": "bakso",
+    "nama": "Bakso",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Malang",
+    "pulau": "Jawa",
+    "harga": 15000,
+    "emoji": "🍲",
+    "deskripsi": "Bola daging sapi kenyal dalam kuah kaldu bening, dengan mie dan pangsit.",
+    "cerita": "Dipengaruhi kuliner Tionghoa peranakan lalu menyebar jadi jajanan rakyat paling merata di seluruh Indonesia, dari gerobak dorong sampai restoran.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["berkuah", "daging", "kaki lima"],
+    "opsi": [
+      { "nama": "Isi", "pilihan": ["Bakso halus", "Bakso urat", "Bakso telur"], "multi": true },
+      { "nama": "Tambahan", "pilihan": ["Mie", "Pangsit goreng"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1.5 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g daging sapi giling",
+        "100 g tepung sagu",
+        "4 siung bawang putih, haluskan",
+        "1 butir putih telur, es batu secukupnya",
+        "Garam, merica secukupnya",
+        "Tulang sapi untuk kaldu"
+      ],
+      "langkah": [
+        "Rebus tulang sapi lama untuk kaldu bening, saring.",
+        "Campur daging giling, bawang putih, tepung sagu, putih telur, es batu, garam, merica, uleni sampai lengket.",
+        "Bulatkan adonan, rebus di air mendidih sampai mengapung.",
+        "Didihkan kaldu, sajikan bakso dengan kuah, mie, dan taburan seledri."
+      ],
+      "tips": "Masukkan es batu ke adonan supaya teksturnya tetap kenyal dan ga cepat matang di luar."
+    }
+  },
+  {
+    "slug": "ayam-geprek",
+    "nama": "Ayam Geprek",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Yogyakarta",
+    "pulau": "Jawa",
+    "harga": 18000,
+    "emoji": "🍗",
+    "deskripsi": "Ayam goreng tepung digeprek dengan sambal bawang pedas.",
+    "cerita": "Muncul sekitar 2003 dari warung kecil di Yogyakarta, sekarang jadi salah satu makanan paling dicari anak muda Indonesia karena kombinasi renyah dan level pedasnya bisa disesuaikan.",
+    "pedas": 4,
+    "halal": true,
+    "tags": ["ayam", "gorengan", "pedas"],
+    "opsi": [
+      { "nama": "Level pedas", "pilihan": ["Sedang", "Pedas", "Kematian"] },
+      { "nama": "Tambahan", "pilihan": ["Nasi", "Keju parut"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "40 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "2 potong dada ayam fillet",
+        "100 g tepung bumbu serbaguna",
+        "15 cabai rawit, 4 bawang putih",
+        "Garam, kaldu bubuk secukupnya",
+        "Minyak untuk menggoreng"
+      ],
+      "langkah": [
+        "Baluri ayam dengan tepung bumbu, goreng sampai kering dan renyah.",
+        "Goreng cabai rawit dan bawang putih sebentar.",
+        "Ulek cabai dan bawang putih goreng dengan garam dan kaldu bubuk.",
+        "Geprek ayam goreng di atas sambal langsung di cobek sampai agak hancur dan bumbu menempel.",
+        "Sajikan dengan nasi hangat."
+      ],
+      "tips": "Geprek ayam selagi masih panas supaya minyaknya keluar dan sambal lebih menempel."
+    }
+  },
+  {
+    "slug": "gado-gado",
+    "nama": "Gado-Gado",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 16000,
+    "emoji": "🥗",
+    "deskripsi": "Sayuran rebus dan lontong disiram bumbu kacang kental.",
+    "cerita": "Nama 'gado-gado' artinya campur aduk, mencerminkan filosofi masakan ini yang menyatukan berbagai sayur jadi satu hidangan bergizi lengkap.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["sayuran", "bumbu kacang", "vegetarian ramah"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Telur rebus", "Tahu tempe", "Kerupuk"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "40 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "200 g tauge, kol, kacang panjang, direbus",
+        "2 buah kentang rebus, potong",
+        "200 g kacang tanah goreng, haluskan",
+        "3 cabai merah, 2 bawang putih",
+        "2 sdm gula merah, air asam jawa secukupnya"
+      ],
+      "langkah": [
+        "Ulek kacang tanah goreng dengan cabai merah dan bawang putih sampai halus.",
+        "Tambahkan gula merah, garam, dan air asam jawa, ulek rata jadi bumbu kacang kental.",
+        "Encerkan bumbu kacang dengan sedikit air matang sesuai selera kekentalan.",
+        "Tata sayuran rebus, kentang, dan lontong di piring.",
+        "Siram dengan bumbu kacang, taburi bawang goreng dan kerupuk."
+      ],
+      "tips": "Sangrai ulang kacang tanah goreng sebentar sebelum diulek supaya bumbu lebih wangi."
+    }
+  },
+  {
+    "slug": "ketoprak",
+    "nama": "Ketoprak",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 14000,
+    "emoji": "🥗",
+    "deskripsi": "Bihun, tahu, taoge, dan lontong disiram bumbu kacang, dengan kerupuk mi.",
+    "cerita": "Jajanan kaki lima Betawi yang lebih ringan dari gado-gado karena ga pakai banyak sayur rebus, lebih fokus ke tahu, bihun, dan bumbu kacangnya.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["kaki lima", "bumbu kacang", "praktis"],
+    "opsi": [
+      { "nama": "Level pedas", "pilihan": ["Ga pedas", "Sedang", "Pedas"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "25 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "100 g bihun, seduh",
+        "2 potong tahu, goreng",
+        "100 g taoge, seduh sebentar",
+        "150 g kacang tanah goreng, haluskan",
+        "2 cabai merah, gula merah, kecap manis secukupnya"
+      ],
+      "langkah": [
+        "Ulek kacang tanah goreng dengan cabai merah, gula merah, dan sedikit garam.",
+        "Encerkan bumbu kacang dengan air matang dan kecap manis sampai kental pas.",
+        "Tata bihun, tahu goreng, taoge, dan lontong di piring.",
+        "Siram bumbu kacang, taburi bawang goreng dan kerupuk mi."
+      ],
+      "tips": "Seduh taoge sebentar saja, jangan direbus lama biar teksturnya tetap renyah."
+    }
+  },
+  {
+    "slug": "pecel-lele",
+    "nama": "Pecel Lele",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 16000,
+    "emoji": "🐟",
+    "deskripsi": "Lele goreng renyah dengan sambal tomat pedas dan lalapan segar.",
+    "cerita": "Warung tenda pecel lele jadi pemandangan malam paling umum di seluruh Indonesia, murah meriah dan mengenyangkan untuk semua kalangan.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["ikan", "gorengan", "kaki lima"],
+    "opsi": [
+      { "nama": "Level pedas sambal", "pilihan": ["Sedang", "Pedas", "Kematian"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "30 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "2 ekor lele, bersihkan",
+        "8 cabai rawit, 3 tomat",
+        "3 bawang merah, 2 bawang putih",
+        "Garam, kemangi dan mentimun untuk lalapan"
+      ],
+      "langkah": [
+        "Goreng lele sampai kering dan renyah.",
+        "Goreng sebentar cabai rawit, tomat, bawang merah, bawang putih.",
+        "Ulek semua bahan goreng dengan garam sampai jadi sambal kasar.",
+        "Sajikan lele goreng dengan sambal dan lalapan kemangi, mentimun."
+      ],
+      "tips": "Goreng lele dengan minyak yang benar-benar panas supaya kulitnya renyah dan ga menyerap minyak."
+    }
+  },
+  {
+    "slug": "rawon",
+    "nama": "Rawon",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Jawa Timur",
+    "pulau": "Jawa",
+    "harga": 22000,
+    "emoji": "🍲",
+    "deskripsi": "Sup daging sapi berkuah hitam pekat dari kluwek, gurih dan sedikit pahit khas.",
+    "cerita": "Warna hitamnya dari kluwek, buah yang harus diolah khusus karena beracun kalau mentah. Sudah tercatat sebagai hidangan istana Jawa sejak abad ke-10.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["berkuah", "daging", "khas kota"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Tauge pendek", "Telur asin", "Kerupuk udang"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "2 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g daging sapi sandung lamur, potong",
+        "5 buah kluwek, ambil dagingnya",
+        "6 bawang merah, 4 bawang putih, 3 cabai merah",
+        "3 cm kunyit, 2 cm lengkuas, 2 batang serai",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Rebus daging sampai empuk, saring kaldunya.",
+        "Haluskan kluwek, bawang merah, bawang putih, cabai merah, kunyit.",
+        "Tumis bumbu halus dengan lengkuas dan serai sampai harum dan matang.",
+        "Masukkan tumisan bumbu ke kaldu bersama daging, masak sampai bumbu meresap.",
+        "Sajikan dengan tauge pendek mentah, telur asin, dan kerupuk udang."
+      ],
+      "tips": "Pastikan kluwek yang dipakai sudah hitam matang sempurna, kalau masih cokelat rasanya pahit getir."
+    }
+  },
+  {
+    "slug": "nasi-padang",
+    "nama": "Nasi Padang",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Sumatera Barat",
+    "pulau": "Sumatera",
+    "harga": 25000,
+    "emoji": "🍛",
+    "deskripsi": "Nasi dengan aneka lauk Minang: rendang, gulai, sambal ijo, disajikan cara dihidang.",
+    "cerita": "Sistem 'hidang' di mana banyak piring lauk diletakkan sekaligus di meja lalu dibayar sesuai yang dimakan adalah tradisi dagang Minang yang unik dan menyebar ke seluruh Indonesia.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["nasi", "warung padang", "lauk banyak"],
+    "opsi": [
+      { "nama": "Lauk utama", "pilihan": ["Rendang", "Ayam pop", "Gulai tunjang"] },
+      { "nama": "Tambahan", "pilihan": ["Sambal ijo", "Daun singkong"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 1,
+      "waktu": "15 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "1 piring nasi putih hangat",
+        "1 potong rendang atau lauk pilihan",
+        "1 sdm sambal ijo",
+        "Sayur daun singkong rebus",
+        "Kuah gulai secukupnya"
+      ],
+      "langkah": [
+        "Siapkan nasi putih hangat di piring.",
+        "Tata lauk pilihan (rendang, ayam pop, atau gulai tunjang) di sampingnya.",
+        "Tambahkan sayur daun singkong dan sambal ijo.",
+        "Siram sedikit kuah gulai di atas nasi sebelum disantap."
+      ],
+      "tips": "Kalau masak sendiri, siapkan beberapa lauk sekaligus di awal minggu, cara masak Padang memang ditujukan untuk lauk yang tahan lama."
+    }
+  },
+  {
+    "slug": "sate-ayam-madura",
+    "nama": "Sate Ayam Madura",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Jawa Timur",
+    "pulau": "Jawa",
+    "harga": 20000,
+    "emoji": "🍢",
+    "deskripsi": "Sate ayam bakar bumbu kacang manis gurih, khas Madura.",
+    "cerita": "Pedagang sate Madura merantau ke hampir semua kota besar Indonesia sambil memikul gerobak, jadi salah satu kuliner kaki lima paling merata di Nusantara.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["bakar", "ayam", "bumbu kacang"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["10 tusuk", "20 tusuk (+15k)"] },
+      { "nama": "Bumbu", "pilihan": ["Kacang", "Kecap"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "1 jam",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g daging ayam, potong dadu, tusuk",
+        "150 g kacang tanah goreng, haluskan",
+        "3 bawang merah, 2 bawang putih",
+        "Kecap manis, gula merah secukupnya",
+        "Kecap manis dan bawang goreng untuk bumbu kecap"
+      ],
+      "langkah": [
+        "Tusuk daging ayam ke tusukan sate, bakar sambil diolesi kecap manis.",
+        "Ulek kacang tanah goreng dengan bawang merah, bawang putih, gula merah, dan sedikit air jadi bumbu kacang kental.",
+        "Bakar sate sampai matang dan sedikit gosong di pinggir.",
+        "Sajikan sate dengan siraman bumbu kacang atau bumbu kecap sesuai selera."
+      ],
+      "tips": "Olesi sate dengan sedikit minyak sebelum dibakar supaya ga lengket dan gosong merata."
+    }
+  },
+  {
+    "slug": "nasi-uduk",
+    "nama": "Nasi Uduk",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 15000,
+    "emoji": "🍚",
+    "deskripsi": "Nasi gurih santan khas Betawi, disajikan dengan ayam goreng, telur, dan bihun.",
+    "cerita": "Jadi menu sarapan wajib warga Jakarta, biasa dijual pakai daun pisang dari pagi buta di pinggir jalan sebelum orang berangkat kerja.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["gurih", "santan", "sarapan"],
+    "opsi": [
+      { "nama": "Lauk", "pilihan": ["Ayam goreng", "Telur balado", "Bihun goreng"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "45 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g beras",
+        "400 ml santan",
+        "2 lembar daun salam, 2 batang serai",
+        "1 lembar daun pandan",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Cuci beras, masak dengan santan, daun salam, serai, daun pandan, dan garam.",
+        "Kukus atau masak seperti menanak nasi biasa sampai matang dan pulen.",
+        "Sajikan nasi uduk hangat dengan ayam goreng, telur balado, bihun goreng, dan kerupuk.",
+        "Taburi bawang goreng di atasnya."
+      ],
+      "tips": "Pakai santan kental dan jangan terlalu banyak air supaya nasi ga lembek."
+    }
+  },
+  {
+    "slug": "nasi-kuning",
+    "nama": "Nasi Kuning",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Sulawesi",
+    "harga": 15000,
+    "emoji": "🍚",
+    "deskripsi": "Nasi santan berwarna kuning kunyit, biasa disajikan untuk perayaan.",
+    "cerita": "Warna kuning dianggap melambangkan kemakmuran dan emas dalam banyak budaya Nusantara, jadi nasi ini selalu hadir di acara syukuran dan ulang tahun.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["gurih", "santan", "perayaan"],
+    "opsi": [
+      { "nama": "Lauk", "pilihan": ["Ayam suwir", "Telur dadar iris", "Kering tempe"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "45 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g beras",
+        "400 ml santan",
+        "3 cm kunyit, parut, peras airnya",
+        "2 lembar daun salam, 2 batang serai",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Cuci beras, campur dengan santan, air kunyit, daun salam, serai, garam.",
+        "Masak seperti menanak nasi biasa sampai matang dan berwarna kuning merata.",
+        "Sajikan dengan ayam suwir, telur dadar iris, kering tempe, dan kerupuk.",
+        "Bisa dibentuk kerucut (tumpeng) untuk acara perayaan."
+      ],
+      "tips": "Peras air kunyit langsung dari parutan segar, warnanya lebih cerah dibanding bubuk kunyit."
+    }
+  },
+  {
+    "slug": "capcay",
+    "nama": "Capcay",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 18000,
+    "emoji": "🥦",
+    "deskripsi": "Tumisan aneka sayuran dan bakso atau seafood, kuahnya kental gurih.",
+    "cerita": "Diadaptasi dari masakan Tionghoa peranakan, jadi menu 'sehat' andalan rumah makan Chinese food dan warung tenda seluruh Indonesia.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["sayuran", "tumisan", "chinese-indo"],
+    "opsi": [
+      { "nama": "Protein", "pilihan": ["Bakso", "Udang", "Ayam"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "25 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "Wortel, kol, sawi, brokoli, buncis secukupnya",
+        "100 g bakso ikan atau udang",
+        "3 siung bawang putih, cincang",
+        "1 sdm saus tiram, 1 sdt maizena",
+        "Garam, merica secukupnya"
+      ],
+      "langkah": [
+        "Tumis bawang putih sampai harum.",
+        "Masukkan sayuran yang lebih keras dulu (wortel, buncis), tumis sebentar.",
+        "Masukkan bakso atau udang, tambah sedikit air.",
+        "Masukkan sisa sayuran, saus tiram, garam, merica.",
+        "Kentalkan dengan larutan maizena, aduk sampai kuah mengental."
+      ],
+      "tips": "Masukkan sayuran sesuai tingkat kekerasannya, yang paling lunak (sawi) masuk paling akhir biar ga terlalu layu."
+    }
+  },
+  {
+    "slug": "tongseng",
+    "nama": "Tongseng",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Jawa Tengah",
+    "pulau": "Jawa",
+    "harga": 25000,
+    "emoji": "🍲",
+    "deskripsi": "Daging kambing berkuah kecap manis pedas dengan kol dan tomat.",
+    "cerita": "Dulu dianggap cara cerdas mengolah sisa daging kambing dari sate supaya ga terbuang, sekarang jadi hidangan sendiri yang justru lebih populer dari asalnya.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["berkuah", "kambing", "pedas manis"],
+    "opsi": [
+      { "nama": "Daging", "pilihan": ["Kambing", "Sapi"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "400 g daging kambing, potong",
+        "6 bawang merah, 4 bawang putih",
+        "1 sdt merica, 2 cm jahe",
+        "1/4 kol, 2 tomat, potong",
+        "Kecap manis, cabai rawit secukupnya"
+      ],
+      "langkah": [
+        "Haluskan bawang merah, bawang putih, jahe, merica.",
+        "Tumis bumbu halus sampai harum, masukkan daging kambing, masak sampai berubah warna.",
+        "Tambahkan sedikit air, masak sampai daging empuk.",
+        "Masukkan kol, tomat, cabai rawit, dan kecap manis, masak sebentar sampai kol layu.",
+        "Sajikan panas dengan nasi."
+      ],
+      "tips": "Rebus daging kambing dengan daun salam dan sereh dulu sebelum ditumis untuk mengurangi bau prengus."
+    }
+  },
+  {
+    "slug": "semur-jengkol",
+    "nama": "Semur Jengkol",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 20000,
+    "emoji": "🍲",
+    "deskripsi": "Jengkol dimasak kecap manis rempah sampai empuk dan bumbu meresap.",
+    "cerita": "Hidangan khas Betawi yang jadi bukti kreativitas mengolah bahan beraroma kuat jadi lezat lewat perendaman dan bumbu yang tepat.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["kecap", "khas betawi"],
+    "opsi": [
+      { "nama": "Level pedas", "pilihan": ["Sedang", "Pedas"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "2 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g jengkol, rebus, memarkan",
+        "6 bawang merah, 4 bawang putih, 5 cabai merah",
+        "3 cm lengkuas, 2 lembar daun salam",
+        "Kecap manis secukupnya",
+        "Garam, gula merah secukupnya"
+      ],
+      "langkah": [
+        "Rebus jengkol dengan sedikit garam sampai empuk, tiriskan, memarkan sedikit.",
+        "Haluskan bawang merah, bawang putih, cabai merah.",
+        "Tumis bumbu halus dengan lengkuas dan daun salam sampai harum.",
+        "Masukkan jengkol, aduk rata dengan bumbu.",
+        "Tambahkan kecap manis dan sedikit air, masak sampai bumbu meresap dan kuah menyusut."
+      ],
+      "tips": "Rebus jengkol dengan daun jambu biji atau air kapur sirih dulu untuk mengurangi bau menyengat."
+    }
+  },
+  {
+    "slug": "empal-gepuk",
+    "nama": "Empal Gepuk",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Jawa Barat",
+    "pulau": "Jawa",
+    "harga": 25000,
+    "emoji": "🥩",
+    "deskripsi": "Daging sapi direbus bumbu manis lalu dipipihkan dan digoreng kering.",
+    "cerita": "Khas kuliner Sunda, teknik memukul (menggepuk) daging setelah direbus bikin serat dagingnya terbuka dan menyerap bumbu manis lebih dalam.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["daging", "manis", "gorengan"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["Sedang", "Besar (+10k)"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "2 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g daging sapi, potong searah serat",
+        "6 bawang merah, 4 bawang putih",
+        "2 cm lengkuas, 2 lembar daun salam",
+        "100 g gula merah, air asam jawa secukupnya",
+        "Garam secukupnya"
+      ],
+      "langkah": [
+        "Haluskan bawang merah, bawang putih.",
+        "Rebus daging bersama bumbu halus, lengkuas, daun salam, gula merah, garam, dan air asam jawa sampai empuk dan air menyusut.",
+        "Angkat daging, pipihkan (gepuk) dengan ulekan sampai serat terbuka.",
+        "Goreng daging yang sudah dipipihkan sampai kering dan kecokelatan.",
+        "Sajikan dengan sambal dan lalapan."
+      ],
+      "tips": "Gepuk daging selagi masih hangat supaya lebih gampang dipipihkan tanpa hancur."
+    }
+  },
+  {
+    "slug": "lontong-sayur",
+    "nama": "Lontong Sayur",
+    "kategori": "makanan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 16000,
+    "emoji": "🍲",
+    "deskripsi": "Lontong disiram kuah santan sayur labu dan telur, sarapan klasik.",
+    "cerita": "Variasinya ada di hampir tiap daerah, dari lontong sayur Padang sampai Betawi, tapi intinya sama: santan gurih dan lontong sebagai menu sarapan yang mengenyangkan.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["sarapan", "santan", "lontong"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Telur", "Kerupuk", "Sambal"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "40 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "4 buah lontong, potong",
+        "300 g labu siam, potong dadu",
+        "400 ml santan",
+        "5 bawang merah, 3 bawang putih, 3 cabai merah",
+        "2 cm kunyit, garam secukupnya"
+      ],
+      "langkah": [
+        "Haluskan bawang merah, bawang putih, cabai merah, kunyit.",
+        "Tumis bumbu halus sampai harum, tuang santan.",
+        "Masukkan labu siam, masak sampai empuk dan kuah mengental.",
+        "Sajikan lontong dengan siraman kuah sayur, telur rebus, dan kerupuk."
+      ],
+      "tips": "Potong lontong agak tebal supaya ga hancur pas disiram kuah panas."
+    }
+  },
+  {
+    "slug": "es-teler",
+    "nama": "Es Teler",
+    "kategori": "minuman",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 15000,
+    "emoji": "🍧",
+    "deskripsi": "Campuran alpukat, kelapa muda, nangka, dan susu kental manis dalam es serut.",
+    "cerita": "Juara lomba cipta menu tahun 1982 di Jakarta, dari situ namanya menyebar dan jadi salah satu es campur paling ikonik di Indonesia.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["dingin", "manis", "buah"],
+    "opsi": [
+      { "nama": "Level manis", "pilihan": ["Standar", "Extra susu"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "15 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "1 buah alpukat, keruk",
+        "100 g daging kelapa muda",
+        "100 g nangka, potong",
+        "Susu kental manis, sirup gula secukupnya",
+        "Es serut secukupnya"
+      ],
+      "langkah": [
+        "Siapkan gelas saji, masukkan alpukat, kelapa muda, dan nangka.",
+        "Tambahkan es serut secukupnya.",
+        "Siram dengan susu kental manis dan sirup gula sesuai selera.",
+        "Aduk sedikit sebelum disantap."
+      ],
+      "tips": "Pakai alpukat yang matang sempurna supaya teksturnya creamy tanpa perlu banyak susu."
+    }
+  },
+  {
+    "slug": "wedang-ronde",
+    "nama": "Wedang Ronde",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Jawa Tengah",
+    "pulau": "Jawa",
+    "harga": 12000,
+    "emoji": "🍵",
+    "deskripsi": "Bola ketan isi kacang dalam air jahe hangat, dengan kacang dan roti tawar.",
+    "cerita": "Dipengaruhi kuliner Tionghoa (tangyuan) yang diadaptasi jadi versi jahe hangat khas dataran tinggi Jawa Tengah seperti Solo dan Salatiga yang dingin.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "jahe", "manis"],
+    "opsi": [
+      { "nama": "Level jahe", "pilihan": ["Sedang", "Extra jahe"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "45 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "150 g tepung ketan",
+        "50 g kacang tanah sangrai, tumbuk, campur gula merah untuk isian",
+        "100 g jahe, memarkan",
+        "150 g gula pasir atau gula merah",
+        "Kacang tanah goreng dan potongan roti tawar untuk pelengkap"
+      ],
+      "langkah": [
+        "Uleni tepung ketan dengan air hangat sampai kalis, bentuk bulat kecil, isi dengan kacang tumbuk.",
+        "Rebus bola-bola ronde di air mendidih sampai mengapung, tiriskan.",
+        "Rebus jahe memarkan dengan gula sampai mendidih dan wangi.",
+        "Susun ronde di mangkuk, tuang air jahe panas, tambah kacang goreng dan roti tawar."
+      ],
+      "tips": "Geprek jahe dulu sebelum direbus supaya sarinya lebih keluar dan wangi lebih kuat."
+    }
+  },
+  {
+    "slug": "bandrek",
+    "nama": "Bandrek",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Jawa Barat",
+    "pulau": "Jawa",
+    "harga": 10000,
+    "emoji": "☕",
+    "deskripsi": "Minuman jahe gula aren hangat khas Sunda, penghangat badan di dataran tinggi.",
+    "cerita": "Minuman wajib masyarakat pegunungan Jawa Barat yang udaranya dingin, biasa dijual di warung-warung sepanjang jalur wisata gunung.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "jahe", "gula aren"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Susu", "Telur"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "20 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "50 g jahe, bakar sebentar, memarkan",
+        "100 g gula aren, sisir",
+        "2 lembar daun pandan",
+        "2 batang serai, memarkan",
+        "500 ml air"
+      ],
+      "langkah": [
+        "Rebus air dengan jahe, serai, dan daun pandan sampai mendidih dan wangi.",
+        "Masukkan gula aren, aduk sampai larut.",
+        "Saring, sajikan hangat.",
+        "Bisa ditambah susu kental manis untuk versi bandrek susu."
+      ],
+      "tips": "Bakar jahe sebentar sebelum direbus, aromanya jadi lebih kuat dan hangat di tenggorokan."
+    }
+  },
+  {
+    "slug": "bajigur",
+    "nama": "Bajigur",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Jawa Barat",
+    "pulau": "Jawa",
+    "harga": 10000,
+    "emoji": "☕",
+    "deskripsi": "Minuman santan gula aren hangat dengan sedikit jahe dan kolang-kaling.",
+    "cerita": "Beda dari bandrek yang berbasis air, bajigur pakai santan jadi lebih creamy dan mengenyangkan, biasa dijual berdampingan di warung yang sama.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "santan", "gula aren"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Kolang-kaling"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "20 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "400 ml santan",
+        "100 g gula aren, sisir",
+        "2 cm jahe, memarkan",
+        "1 lembar daun pandan",
+        "Sedikit garam, kolang-kaling rebus secukupnya"
+      ],
+      "langkah": [
+        "Rebus santan dengan jahe dan daun pandan sambil terus diaduk supaya tidak pecah.",
+        "Masukkan gula aren dan sedikit garam, aduk sampai larut.",
+        "Masak dengan api kecil sampai mendidih dan harum.",
+        "Sajikan hangat dengan tambahan kolang-kaling."
+      ],
+      "tips": "Aduk terus santan selama direbus, jangan ditinggal supaya ga pecah."
+    }
+  },
+  {
+    "slug": "es-doger",
+    "nama": "Es Doger",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Jawa Barat",
+    "pulau": "Jawa",
+    "harga": 12000,
+    "emoji": "🍧",
+    "deskripsi": "Es serut warna-warni dengan tape, ketan hitam, dan santan.",
+    "cerita": "Nama 'doger' konon dari kata 'dorongan gerobak', jajanan keliling khas kota-kota Jawa Barat yang ramai dijajakan sore hari.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["dingin", "manis", "santan"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Tape singkong", "Ketan hitam"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "15 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "100 g tape singkong",
+        "100 g ketan hitam rebus",
+        "200 ml santan",
+        "Sirup merah gula secukupnya",
+        "Es serut secukupnya"
+      ],
+      "langkah": [
+        "Siapkan gelas saji, masukkan tape singkong dan ketan hitam.",
+        "Tambahkan es serut secukupnya.",
+        "Siram dengan santan dan sirup merah gula.",
+        "Aduk sedikit sebelum disantap."
+      ],
+      "tips": "Pakai santan yang sudah direbus matang dan didinginkan supaya lebih awet dan aman diminum dingin."
+    }
+  },
+  {
+    "slug": "wedang-uwuh",
+    "nama": "Wedang Uwuh",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Yogyakarta",
+    "pulau": "Jawa",
+    "harga": 10000,
+    "emoji": "🍵",
+    "deskripsi": "Minuman rempah hangat dari campuran daun kayu manis, cengkeh, dan secang.",
+    "cerita": "Namanya artinya 'minuman sampah' karena tampilan daun-daun keringnya yang berserakan di gelas, tapi rasanya justru kaya dan menyehatkan, khas Imogiri Yogyakarta.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "rempah", "herbal"],
+    "opsi": [
+      { "nama": "Level manis", "pilihan": ["Standar", "Ga terlalu manis"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "20 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "3 cm kayu secang kering",
+        "3 butir cengkeh, 1 batang kayu manis",
+        "3 lembar daun cengkeh kering, 3 lembar daun pala kering",
+        "3 cm jahe, memarkan",
+        "Gula batu secukupnya"
+      ],
+      "langkah": [
+        "Rebus semua bahan rempah dengan air sampai mendidih.",
+        "Masak dengan api kecil sekitar 10 menit sampai air berubah warna merah dari secang.",
+        "Tambahkan gula batu, masak sampai larut.",
+        "Saring atau sajikan langsung dengan rempahnya di gelas."
+      ],
+      "tips": "Rebus dengan api kecil lebih lama untuk warna merah secang yang lebih pekat dan aroma lebih keluar."
+    }
+  },
+  {
+    "slug": "kopi-tubruk",
+    "nama": "Kopi Tubruk",
+    "kategori": "minuman",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "☕",
+    "deskripsi": "Kopi bubuk kasar diseduh langsung dengan air panas dan gula, tanpa disaring.",
+    "cerita": "Cara paling tua dan sederhana minum kopi di Indonesia, disebut 'tubruk' karena bubuk kopi dan air panas 'ditubrukkan' begitu saja dalam satu gelas.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "kopi", "sederhana"],
+    "opsi": [
+      { "nama": "Gula", "pilihan": ["Manis", "Pahit"] }
+    ],
+    "resep": {
+      "porsi": 1,
+      "waktu": "5 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "2 sdm kopi bubuk kasar",
+        "1-2 sdm gula pasir sesuai selera",
+        "200 ml air panas mendidih"
+      ],
+      "langkah": [
+        "Masukkan kopi bubuk dan gula ke dalam gelas.",
+        "Tuang air panas mendidih langsung ke gelas.",
+        "Aduk sebentar, diamkan 1-2 menit sampai ampas kopi mengendap di dasar.",
+        "Nikmati selagi hangat, sisakan ampasnya di dasar gelas."
+      ],
+      "tips": "Pakai air yang benar-benar mendidih supaya aroma kopinya keluar maksimal."
+    }
+  },
+  {
+    "slug": "es-kelapa-muda",
+    "nama": "Es Kelapa Muda",
+    "kategori": "minuman",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Sumatera",
+    "harga": 12000,
+    "emoji": "🥥",
+    "deskripsi": "Air dan daging kelapa muda segar dengan sirup dan es batu.",
+    "cerita": "Minuman pelepas dahaga paling merata di seluruh pesisir Indonesia, dijual langsung dari kelapa yang dibelah di tempat.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["dingin", "segar", "kelapa"],
+    "opsi": [
+      { "nama": "Sirup", "pilihan": ["Gula putih", "Sirup melon", "Sirup cocopandan"] }
+    ],
+    "resep": {
+      "porsi": 1,
+      "waktu": "10 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "1 buah kelapa muda, keruk daging dan air kelapanya",
+        "Sirup gula atau sirup rasa sesuai selera",
+        "Es batu secukupnya"
+      ],
+      "langkah": [
+        "Keruk daging kelapa muda, sisihkan bersama air kelapanya.",
+        "Masukkan ke gelas saji.",
+        "Tambahkan sirup sesuai selera dan es batu.",
+        "Aduk sebentar sebelum diminum."
+      ],
+      "tips": "Pilih kelapa yang airnya masih banyak dan dagingnya tipis lunak, tandanya masih muda dan segar."
+    }
+  },
+  {
+    "slug": "sekoteng",
+    "nama": "Sekoteng",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Jawa Tengah",
+    "pulau": "Jawa",
+    "harga": 12000,
+    "emoji": "🍵",
+    "deskripsi": "Minuman jahe hangat dengan kacang hijau, kacang tanah, roti, dan pacar cina.",
+    "cerita": "Dipengaruhi kuliner Tionghoa lalu berkembang jadi minuman malam khas kota-kota Jawa Tengah, biasa dijual pakai kentongan yang dipukul sebagai penanda pedagang lewat.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "jahe", "kacang"],
+    "opsi": [
+      { "nama": "Level jahe", "pilihan": ["Sedang", "Extra jahe"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "40 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "50 g kacang hijau, rebus sampai empuk",
+        "50 g kacang tanah goreng",
+        "50 g pacar cina, rebus",
+        "100 g jahe, memarkan",
+        "150 g gula pasir, potongan roti tawar untuk pelengkap"
+      ],
+      "langkah": [
+        "Rebus jahe dengan air dan gula sampai mendidih dan wangi.",
+        "Siapkan mangkuk saji, isi kacang hijau, kacang tanah, pacar cina, dan roti tawar.",
+        "Tuang air jahe panas ke mangkuk.",
+        "Sajikan selagi hangat."
+      ],
+      "tips": "Rebus kacang hijau sampai empuk tapi ga hancur, biar teksturnya masih terasa saat digigit."
+    }
+  },
+  {
+    "slug": "es-pisang-ijo",
+    "nama": "Es Pisang Ijo",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Sulawesi Selatan",
+    "pulau": "Sulawesi",
+    "harga": 15000,
+    "emoji": "🍧",
+    "deskripsi": "Pisang dibalut adonan tepung hijau, disajikan dengan bubur sumsum dan sirup.",
+    "cerita": "Khas Makassar, warna hijaunya dari daun pandan atau suji alami. Jadi menu buka puasa favorit di bulan Ramadan di Sulawesi Selatan.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["dingin", "manis", "pisang"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Susu kental manis", "Sirup cocopandan"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "3 buah pisang raja, kukus",
+        "150 g tepung beras, 50 g tepung sagu",
+        "Air daun pandan/suji secukupnya untuk warna hijau",
+        "50 g tepung beras untuk bubur sumsum, santan",
+        "Sirup cocopandan, susu kental manis secukupnya"
+      ],
+      "langkah": [
+        "Campur tepung beras, tepung sagu, dan air daun pandan jadi adonan kental.",
+        "Bungkus pisang kukus dengan adonan hijau, kukus sampai matang.",
+        "Masak tepung beras dengan santan dan sedikit garam jadi bubur sumsum kental.",
+        "Potong pisang ijo, sajikan dengan bubur sumsum, es serut, sirup cocopandan, dan susu kental manis."
+      ],
+      "tips": "Kukus pisang yang sudah dibalut adonan sampai benar-benar matang supaya kulit hijaunya ga lengket saat dipotong."
+    }
+  },
+  {
+    "slug": "teh-talua",
+    "nama": "Teh Talua",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Sumatera Barat",
+    "pulau": "Sumatera",
+    "harga": 12000,
+    "emoji": "🍵",
+    "deskripsi": "Teh kocok telur kental berbusa, khas kedai kopi Minang.",
+    "cerita": "Dulu jadi minuman penambah stamina para pedagang dan sopir travel Sumatera Barat yang harus begadang, teksturnya berbusa dari telur yang dikocok cepat.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "telur", "kedai kopi"],
+    "opsi": [
+      { "nama": "Level manis", "pilihan": ["Standar", "Extra manis"] }
+    ],
+    "resep": {
+      "porsi": 1,
+      "waktu": "10 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "1 butir kuning telur ayam kampung",
+        "2 sdm gula pasir",
+        "200 ml air teh pekat panas",
+        "Sedikit perasan jeruk nipis"
+      ],
+      "langkah": [
+        "Kocok kuning telur dengan gula pasir sampai mengembang, pucat, dan berbusa banyak.",
+        "Tuang air teh panas sedikit-sedikit sambil terus dikocok cepat.",
+        "Tambahkan sedikit perasan jeruk nipis untuk mengurangi bau amis telur.",
+        "Sajikan selagi masih berbusa dan hangat."
+      ],
+      "tips": "Kocok kuning telur sampai benar-benar pucat dan mengembang dulu sebelum dicampur teh, itu kunci busanya."
+    }
+  },
+  {
+    "slug": "es-timun-serut",
+    "nama": "Es Timun Serut",
+    "kategori": "minuman",
+    "tipe": "umum",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 10000,
+    "emoji": "🥒",
+    "deskripsi": "Timun serut dengan sirup gula dan perasan jeruk nipis, segar untuk buka puasa.",
+    "cerita": "Populer sebagai minuman buka puasa Betawi karena timun dipercaya menyejukkan perut setelah seharian berpuasa.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["dingin", "segar", "buka puasa"],
+    "opsi": [
+      { "nama": "Sirup", "pilihan": ["Gula putih", "Sirup melon"] }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "10 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "1 buah timun besar, serut memanjang",
+        "3 sdm sirup gula atau sirup melon",
+        "1 buah jeruk nipis, peras",
+        "Es batu secukupnya"
+      ],
+      "langkah": [
+        "Serut timun memanjang tipis-tipis.",
+        "Masukkan timun serut ke gelas saji.",
+        "Tambahkan sirup, perasan jeruk nipis, dan es batu.",
+        "Aduk rata sebelum disajikan."
+      ],
+      "tips": "Buang bagian tengah timun yang berbiji dulu sebelum diserut supaya teksturnya lebih renyah."
+    }
+  },
+  {
+    "slug": "air-guraka",
+    "nama": "Air Guraka",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Maluku Utara",
+    "pulau": "Maluku",
+    "harga": 12000,
+    "emoji": "🍵",
+    "deskripsi": "Minuman jahe gula aren khas Ternate, disajikan dengan kacang kenari dan roti.",
+    "cerita": "Selalu ada di acara adat dan penyambutan tamu di Ternate, kacang kenari yang jadi ciri khasnya cuma banyak tumbuh di Maluku Utara.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "jahe", "kenari"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Kacang kenari", "Roti"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "20 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "100 g jahe, bakar sebentar, memarkan",
+        "150 g gula aren, sisir",
+        "500 ml air",
+        "Kacang kenari sangrai secukupnya"
+      ],
+      "langkah": [
+        "Rebus air dengan jahe yang sudah dibakar dan dimemarkan sampai mendidih dan wangi.",
+        "Masukkan gula aren, aduk sampai larut.",
+        "Saring, tuang ke gelas saji.",
+        "Taburi kacang kenari sangrai, sajikan hangat dengan potongan roti."
+      ],
+      "tips": "Bakar jahe sebentar di atas api sebelum direbus, bikin rasa hangatnya lebih kuat."
+    }
+  },
+  {
+    "slug": "sarabba",
+    "nama": "Sarabba",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Sulawesi Selatan",
+    "pulau": "Sulawesi",
+    "harga": 12000,
+    "emoji": "🍵",
+    "deskripsi": "Minuman jahe gula aren dicampur susu dan kuning telur, hangat dan mengenyangkan.",
+    "cerita": "Khas Makassar, dipercaya turun-temurun sebagai minuman penambah stamina terutama buat yang kerja fisik berat atau lagi masuk angin.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "jahe", "susu"],
+    "opsi": [
+      { "nama": "Tambahan", "pilihan": ["Kuning telur"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 2,
+      "waktu": "20 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "80 g jahe, memarkan",
+        "100 g gula aren, sisir",
+        "200 ml susu cair",
+        "1 butir kuning telur (opsional)",
+        "500 ml air"
+      ],
+      "langkah": [
+        "Rebus air dengan jahe memarkan sampai mendidih dan wangi.",
+        "Masukkan gula aren, aduk sampai larut, saring.",
+        "Tambahkan susu cair, panaskan lagi sebentar sambil diaduk.",
+        "Untuk versi lengkap, kocok kuning telur lalu tuang campuran jahe susu panas sambil diaduk cepat."
+      ],
+      "tips": "Kalau pakai kuning telur, tuang cairan panas ke telur sedikit-sedikit sambil dikocok supaya telur ga menggumpal."
+    }
+  },
+  {
+    "slug": "getuk",
+    "nama": "Getuk",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Tengah",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🍠",
+    "deskripsi": "Singkong kukus dihaluskan dan dibentuk, manis dengan taburan kelapa parut.",
+    "cerita": "Muncul di masa penjajahan Jepang ketika beras langka, singkong jadi pengganti karbohidrat utama dan diolah jadi camilan manis khas Magelang.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "singkong", "manis"],
+    "opsi": [
+      { "nama": "Warna", "pilihan": ["Original", "Warna-warni"] }
+    ],
+    "resep": {
+      "porsi": 6,
+      "waktu": "40 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "500 g singkong, kukus sampai empuk",
+        "150 g gula pasir",
+        "1/2 butir kelapa parut, kukus dengan sedikit garam",
+        "Pewarna makanan secukupnya (opsional)"
+      ],
+      "langkah": [
+        "Haluskan singkong kukus selagi panas dengan gula pasir sampai rata dan lembut.",
+        "Bagi adonan, beri pewarna kalau mau versi warna-warni.",
+        "Cetak atau bentuk adonan sesuai selera.",
+        "Gulingkan atau taburi dengan kelapa parut kukus sebelum disajikan."
+      ],
+      "tips": "Haluskan singkong selagi masih panas, lebih gampang lembut dan menyatu dengan gula."
+    }
+  },
+  {
+    "slug": "onde-onde",
+    "nama": "Onde-Onde",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Timur",
+    "pulau": "Jawa",
+    "harga": 10000,
+    "emoji": "🟡",
+    "deskripsi": "Bola ketan isi kacang hijau, berbalut wijen, digoreng renyah.",
+    "cerita": "Dibawa dari Tiongkok lewat jalur dagang, tapi Mojokerto justru jadi kota yang paling terkenal dengan onde-onde-nya sampai dijuluki 'Kota Onde-Onde'.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "ketan", "gorengan"],
+    "opsi": [
+      { "nama": "Isi", "pilihan": ["Kacang hijau", "Cokelat"] }
+    ],
+    "resep": {
+      "porsi": 10,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "250 g tepung ketan",
+        "50 g tepung terigu",
+        "150 g kacang hijau kupas, kukus, haluskan, campur gula untuk isian",
+        "100 g wijen",
+        "Minyak untuk menggoreng"
+      ],
+      "langkah": [
+        "Campur tepung ketan dan terigu dengan air hangat sampai kalis.",
+        "Ambil sedikit adonan, isi dengan kacang hijau manis, bulatkan rapat.",
+        "Basahi permukaan bola dengan air, gulingkan di wijen sampai menempel rata.",
+        "Goreng dengan api kecil sambil sesekali ditekan lembut supaya mengembang, sampai kecokelatan dan renyah."
+      ],
+      "tips": "Goreng dengan api kecil dari awal supaya onde-onde mengembang sempurna tanpa gosong di luar."
+    }
+  },
+  {
+    "slug": "serabi",
+    "nama": "Serabi",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Barat",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🥞",
+    "deskripsi": "Kue dadar tepung beras santan, dimasak di atas tungku tanah liat, disajikan dengan kuah gula merah.",
+    "cerita": "Dimasak pakai wajan kecil dari tanah liat di atas bara arang, cara tradisional ini bikin aroma serabi khas Bandung beda dari kue dadar lainnya.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "santan", "manis"],
+    "opsi": [
+      { "nama": "Topping", "pilihan": ["Kuah gula merah", "Oncom pedas"] }
+    ],
+    "resep": {
+      "porsi": 8,
+      "waktu": "45 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "250 g tepung beras",
+        "500 ml santan",
+        "1/2 sdt ragi instan",
+        "100 g gula merah, 100 ml air (untuk kuah)",
+        "Sedikit garam"
+      ],
+      "langkah": [
+        "Campur tepung beras dengan sebagian santan hangat dan ragi, diamkan 30 menit sampai berbuih.",
+        "Tambahkan sisa santan dan sedikit garam, aduk rata.",
+        "Panaskan wajan kecil, tuang adonan, masak dengan api kecil sampai berlubang-lubang dan matang.",
+        "Rebus gula merah dengan air sampai kental jadi kuah.",
+        "Sajikan serabi dengan siraman kuah gula merah."
+      ],
+      "tips": "Biarkan adonan berbuih dulu karena ragi, itu yang bikin tekstur serabi berlubang-lubang khas."
+    }
+  },
+  {
+    "slug": "cenil",
+    "nama": "Cenil",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🔴",
+    "deskripsi": "Kenyal warna-warni dari tepung kanji, ditaburi kelapa parut dan gula.",
+    "cerita": "Jajanan pasar tradisional yang selalu dijual bareng klepon dan getuk dalam satu wadah, sering disebut jajanan 'tiga sekawan' pasar Jawa.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "kenyal", "manis"],
+    "opsi": [
+      { "nama": "Warna", "pilihan": ["Merah muda", "Hijau", "Kuning"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 8,
+      "waktu": "30 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "200 g tepung kanji/tapioka",
+        "150 ml air panas",
+        "Pewarna makanan secukupnya",
+        "1/2 butir kelapa parut, kukus dengan sedikit garam",
+        "Gula pasir untuk taburan"
+      ],
+      "langkah": [
+        "Seduh tepung kanji dengan air panas sedikit-sedikit sambil diaduk sampai bisa dipulung.",
+        "Bagi adonan, beri warna berbeda tiap bagian, uleni rata.",
+        "Bentuk bulat-bulat kecil atau lonjong.",
+        "Rebus di air mendidih sampai mengapung, angkat, tiriskan.",
+        "Gulingkan cenil di kelapa parut kukus dan taburi gula pasir."
+      ],
+      "tips": "Seduh tepung kanji dengan air benar-benar panas supaya adonan gampang dibentuk dan ga lengket berlebihan."
+    }
+  },
+  {
+    "slug": "kue-putu",
+    "nama": "Kue Putu",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🟢",
+    "deskripsi": "Tepung beras kukus dalam cetakan bambu, isi gula merah, ditaburi kelapa parut.",
+    "cerita": "Dijual keliling dengan gerobak yang bunyi 'suit' khas dari uap keluar cetakan bambunya, suara itu jadi penanda pedagang lewat sejak dulu.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "kukus", "manis"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["5 potong", "10 potong (+6k)"] }
+    ],
+    "resep": {
+      "porsi": 8,
+      "waktu": "40 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "250 g tepung beras",
+        "1/2 sdt pasta pandan",
+        "100 g gula merah, sisir halus",
+        "1/2 butir kelapa parut, kukus dengan sedikit garam",
+        "Sedikit air"
+      ],
+      "langkah": [
+        "Campur tepung beras dengan pasta pandan dan sedikit air sampai jadi butiran lembab (bukan adonan cair).",
+        "Ayak butiran tepung supaya halus merata.",
+        "Isi cetakan bambu dengan tepung, selipkan gula merah di tengah, tutup dengan tepung lagi.",
+        "Kukus cetakan di atas panci beruap sampai matang, sekitar 5-8 menit.",
+        "Keluarkan dari cetakan, gulingkan di kelapa parut kukus."
+      ],
+      "tips": "Jangan bikin adonan terlalu basah, cukup lembab seperti pasir supaya bisa dicetak rapi di bambu."
+    }
+  },
+  {
+    "slug": "pisang-molen",
+    "nama": "Pisang Molen",
+    "kategori": "jajanan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 10000,
+    "emoji": "🍌",
+    "deskripsi": "Pisang dibalut adonan kulit pastry tipis lalu digoreng garing.",
+    "cerita": "Adaptasi kue pastry gulung yang dipopulerkan toko oleh-oleh Bandung, sekarang jadi camilan gorengan populer di seluruh Indonesia.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["gorengan", "pisang", "manis"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["5 buah", "10 buah (+8k)"] }
+    ],
+    "resep": {
+      "porsi": 10,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "10 buah pisang kepok, potong dua",
+        "250 g tepung terigu",
+        "50 g margarin",
+        "1 sdm gula pasir",
+        "Minyak untuk menggoreng"
+      ],
+      "langkah": [
+        "Campur tepung terigu, margarin, gula, dan air jadi adonan kulit yang elastis, uleni sampai kalis.",
+        "Giling tipis adonan, potong memanjang.",
+        "Lilitkan potongan adonan mengelilingi pisang sampai tertutup rapi.",
+        "Goreng dengan api sedang sampai kecokelatan dan renyah merata."
+      ],
+      "tips": "Giling adonan setipis mungkin supaya hasil gorengnya renyah, ga tebal dan alot."
+    }
+  },
+  {
+    "slug": "kue-cubit",
+    "nama": "Kue Cubit",
+    "kategori": "jajanan",
+    "tipe": "umum",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🧁",
+    "deskripsi": "Kue kecil mirip pancake mini, dimasak di cetakan bulat, topping meses atau keju.",
+    "cerita": "Jajanan sekolah legendaris Jakarta yang namanya dari cara mengambilnya dulu pakai jepitan seperti mencubit dari cetakan panas.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan sekolah", "manis", "kaki lima"],
+    "opsi": [
+      { "nama": "Topping", "pilihan": ["Meses", "Keju", "Green tea"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 15,
+      "waktu": "30 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "150 g tepung terigu",
+        "2 butir telur",
+        "80 g gula pasir",
+        "1/2 sdt baking powder",
+        "100 ml susu cair, meses dan keju untuk topping"
+      ],
+      "langkah": [
+        "Kocok telur dan gula sampai mengembang dan pucat.",
+        "Masukkan tepung terigu dan baking powder bergantian dengan susu cair, aduk rata.",
+        "Panaskan cetakan kue cubit, tuang adonan sampai 3/4 penuh.",
+        "Taburi meses atau keju di atasnya selagi masih setengah matang.",
+        "Masak sampai bagian bawah kecokelatan dan bagian atas set."
+      ],
+      "tips": "Jangan tutup cetakan saat memasak, biarkan bagian atas kue cubit tetap agak basah dan lembut."
+    }
+  },
+  {
+    "slug": "lumpia-semarang",
+    "nama": "Lumpia Semarang",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Tengah",
+    "pulau": "Jawa",
+    "harga": 12000,
+    "emoji": "🥟",
+    "deskripsi": "Kulit tipis digoreng renyah isi rebung, telur, dan udang atau ayam.",
+    "cerita": "Hasil akulturasi pernikahan pedagang Tionghoa dan perempuan Jawa di Semarang abad ke-19, jadi simbol percampuran budaya lewat makanan.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["gorengan", "rebung", "khas kota"],
+    "opsi": [
+      { "nama": "Isi", "pilihan": ["Ayam", "Udang"] },
+      { "nama": "Cara masak", "pilihan": ["Goreng", "Basah (ga digoreng)"] }
+    ],
+    "resep": {
+      "porsi": 8,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "8 lembar kulit lumpia",
+        "300 g rebung, iris halus, rebus",
+        "150 g udang atau ayam cincang",
+        "2 butir telur",
+        "3 siung bawang putih, kecap manis secukupnya"
+      ],
+      "langkah": [
+        "Tumis bawang putih sampai harum, masukkan udang atau ayam, masak sampai matang.",
+        "Masukkan rebung, kecap manis, dan sedikit air, masak sampai bumbu meresap dan agak kering.",
+        "Kocok telur, tuang ke tumisan sambil diaduk sampai tercampur rata dan matang.",
+        "Ambil selembar kulit lumpia, isi dengan tumisan, gulung rapat.",
+        "Goreng sampai kecokelatan dan renyah, atau sajikan basah tanpa digoreng."
+      ],
+      "tips": "Tiriskan rebung sampai benar-benar kering dulu supaya isian lumpia ga becek dan kulitnya tetap renyah."
+    }
+  },
+  {
+    "slug": "kue-lapis",
+    "nama": "Kue Lapis",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🍰",
+    "deskripsi": "Kue kukus berlapis warna-warni dari tepung beras dan santan, kenyal dan manis.",
+    "cerita": "Proses mengukusnya berlapis-lapis satu per satu jadi simbol kesabaran, sering dihubungkan dengan filosofi hidup yang harus dijalani tahap demi tahap.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "kukus", "kenyal"],
+    "opsi": [
+      { "nama": "Warna", "pilihan": ["Merah putih", "Pelangi"] }
+    ],
+    "resep": {
+      "porsi": 10,
+      "waktu": "1.5 jam",
+      "sulit": "sulit",
+      "bahan": [
+        "300 g tepung beras, 100 g tepung sagu",
+        "800 ml santan",
+        "200 g gula pasir",
+        "Pewarna makanan beberapa warna",
+        "Sedikit garam"
+      ],
+      "langkah": [
+        "Campur tepung beras, tepung sagu, santan, gula, dan garam, aduk sampai rata dan gula larut.",
+        "Bagi adonan sesuai jumlah warna yang diinginkan, beri pewarna masing-masing.",
+        "Kukus loyang kosong sebentar, tuang satu warna tipis, kukus sampai set.",
+        "Tuang warna berikutnya di atasnya, kukus lagi, ulangi sampai adonan habis.",
+        "Kukus lapisan terakhir lebih lama, dinginkan sebelum dipotong."
+      ],
+      "tips": "Kukus tiap lapisan sampai benar-benar set sebelum menuang lapisan berikutnya supaya warnanya ga campur."
+    }
+  },
+  {
+    "slug": "martabak-manis",
+    "nama": "Martabak Manis",
+    "kategori": "jajanan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 25000,
+    "emoji": "🥞",
+    "deskripsi": "Kue tebal berpori dengan topping cokelat, keju, dan kacang, dilipat dan diolesi mentega.",
+    "cerita": "Dipengaruhi kuliner India-Arab lewat jalur dagang di Bangka, lalu berkembang jadi versi manis yang beda total dari martabak telur asalnya.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["manis", "malam", "kaki lima"],
+    "opsi": [
+      { "nama": "Topping", "pilihan": ["Cokelat keju", "Kacang", "Green tea"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 6,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "250 g tepung terigu",
+        "1 butir telur, 1 sdt ragi instan",
+        "50 g gula pasir, 300 ml air",
+        "Mentega, susu kental manis, meses, keju parut untuk topping"
+      ],
+      "langkah": [
+        "Campur tepung terigu, telur, gula, ragi, dan air, aduk sampai licin, diamkan 30-45 menit sampai berbuih.",
+        "Panaskan wajan khusus martabak atau wajan datar tebal, tuang adonan, ratakan.",
+        "Masak dengan api kecil sampai muncul lubang-lubang pori di permukaan dan bagian bawah matang.",
+        "Taburi topping sesuai selera saat masih di wajan.",
+        "Angkat, olesi mentega, lipat jadi dua, potong-potong."
+      ],
+      "tips": "Diamkan adonan cukup lama sampai berbuih banyak, itu kunci martabak berpori lembut."
+    }
+  },
+  {
+    "slug": "dadar-gulung",
+    "nama": "Dadar Gulung",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🥞",
+    "deskripsi": "Kulit dadar hijau pandan digulung isi kelapa parut manis.",
+    "cerita": "Warna hijaunya dari daun pandan atau suji alami, jadi salah satu jajanan pasar paling dikenali dari warnanya bahkan sebelum dicicipi.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "pandan", "manis"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["3 buah", "6 buah (+6k)"] }
+    ],
+    "resep": {
+      "porsi": 6,
+      "waktu": "45 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "150 g tepung terigu",
+        "250 ml santan",
+        "1 butir telur",
+        "Air daun pandan/suji secukupnya untuk warna",
+        "1/2 butir kelapa parut, 100 g gula merah untuk isian"
+      ],
+      "langkah": [
+        "Campur tepung terigu, santan, telur, dan air pandan, saring sampai licin tanpa gumpalan.",
+        "Masak kelapa parut dengan gula merah sisir sampai lengket jadi isian (unti).",
+        "Panaskan wajan datar anti lengket, tuang adonan tipis, masak sampai matang.",
+        "Isi kulit dadar dengan unti kelapa, gulung dan lipat kedua ujungnya."
+      ],
+      "tips": "Saring adonan sebelum dimasak supaya kulit dadarnya halus tanpa gumpalan tepung."
+    }
+  },
+  {
+    "slug": "bika-ambon",
+    "nama": "Bika Ambon",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Sumatera Utara",
+    "pulau": "Sumatera",
+    "harga": 15000,
+    "emoji": "🍯",
+    "deskripsi": "Kue berpori kenyal rasa pandan, permukaannya bersarang khas.",
+    "cerita": "Meski namanya 'Ambon', kue ini justru dari Medan. Nama itu konon dari nama jalan tempat pertama kali dijual di Medan, bukan dari Kepulauan Ambon.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["oleh-oleh", "pandan", "manis"],
+    "opsi": [
+      { "nama": "Rasa", "pilihan": ["Pandan", "Original"] }
+    ],
+    "resep": {
+      "porsi": 10,
+      "waktu": "3 jam",
+      "sulit": "sulit",
+      "bahan": [
+        "150 g tepung sagu",
+        "200 ml santan hangat, 1 sdt ragi instan",
+        "6 butir kuning telur, 100 g gula pasir",
+        "3 lembar daun jeruk, air pandan secukupnya"
+      ],
+      "langkah": [
+        "Campur santan hangat dengan ragi, diamkan 10 menit sampai berbuih.",
+        "Kocok kuning telur dan gula sampai pucat, campur dengan tepung sagu dan campuran ragi.",
+        "Tambahkan air pandan dan daun jeruk, aduk rata, diamkan adonan 2 jam sampai berbusa banyak.",
+        "Tuang adonan ke loyang yang sudah dipanaskan, panggang dengan api bawah dulu sampai berlubang-lubang, baru nyalakan api atas sampai matang."
+      ],
+      "tips": "Diamkan adonan cukup lama sampai benar-benar berbusa, itu yang bikin tekstur bersarang khasnya keluar."
+    }
+  },
+  {
+    "slug": "kue-rangi",
+    "nama": "Kue Rangi",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🥞",
+    "deskripsi": "Kue tepung sagu dan kelapa parut dipanggang di cetakan khusus, disiram gula merah.",
+    "cerita": "Jajanan Betawi lawas yang mulai jarang ditemukan, dulu dijual pakai gerobak dengan cetakan besi berbentuk setengah lingkaran di atas arang.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan lawas", "kelapa", "panggang"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["3 potong", "6 potong (+5k)"] }
+    ],
+    "resep": {
+      "porsi": 6,
+      "waktu": "30 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "150 g tepung sagu",
+        "1/2 butir kelapa parut",
+        "Sedikit garam",
+        "100 g gula merah, 50 ml air (untuk kuah)"
+      ],
+      "langkah": [
+        "Campur tepung sagu dengan kelapa parut dan sedikit garam sampai rata.",
+        "Panaskan cetakan kue rangi atau wajan datar kecil, olesi sedikit minyak.",
+        "Tuang adonan tipis ke cetakan, panggang sampai kering dan renyah di pinggirnya.",
+        "Rebus gula merah dengan air sampai kental jadi kuah.",
+        "Sajikan kue rangi dengan siraman kuah gula merah."
+      ],
+      "tips": "Panggang dengan api kecil supaya bagian dalam matang sebelum bagian luar gosong."
+    }
+  },
+  {
+    "slug": "otak-otak",
+    "nama": "Otak-Otak",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "Kepulauan Riau",
+    "pulau": "Sumatera",
+    "harga": 15000,
+    "emoji": "🐟",
+    "deskripsi": "Adonan ikan dibumbui, dibungkus daun pisang, dipanggang sampai harum.",
+    "cerita": "Khas kawasan pesisir Melayu seperti Batam dan Bintan, disebut 'otak-otak' bukan karena isinya otak, tapi karena teksturnya yang lembut kenyal seperti otak.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["ikan", "panggang", "dibungkus daun"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["5 buah", "10 buah (+10k)"] }
+    ],
+    "resep": {
+      "porsi": 5,
+      "waktu": "50 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "300 g daging ikan tenggiri giling",
+        "100 ml santan kental",
+        "1 butir telur",
+        "4 bawang merah, 2 bawang putih, 3 cabai merah",
+        "Daun pisang untuk membungkus"
+      ],
+      "langkah": [
+        "Haluskan bawang merah, bawang putih, cabai merah.",
+        "Campur ikan giling dengan bumbu halus, santan, telur, dan sedikit garam, aduk rata sampai lengket.",
+        "Ambil selembar daun pisang, beri adonan, bungkus memanjang, sematkan dengan lidi di kedua ujung.",
+        "Panggang di atas bara api atau teflon sampai daun pisang layu dan wangi, matang merata."
+      ],
+      "tips": "Panggang dengan api sedang dan bolak-balik teratur supaya matang merata tanpa gosong di satu sisi."
+    }
   }
 ]
