@@ -8,37 +8,37 @@ Definition of Done tiap task: jalan di mobile (375px) **dan** desktop (1440px), 
 ## M0 — Fondasi
 
 ### Setup
-- [ ] `npx create-next-app@latest` — TypeScript, Tailwind, App Router, `src/` off, ESLint on
-- [ ] Set `output: 'export'` di `next.config.js`
-- [ ] Buat struktur folder: `app/`, `data/`, `lib/`, `components/`
-- [ ] `.gitignore`, `README.md` singkat, git init + commit awal
+- [x] `npx create-next-app@latest` — TypeScript, Tailwind, App Router, `src/` off, ESLint on
+- [x] Set `output: 'export'` di `next.config.js`
+- [x] Buat struktur folder: `app/`, `data/`, `lib/`, `components/`
+- [x] `.gitignore`, `README.md` singkat, git init + commit awal
 - [ ] Deploy kosong ke Vercel/Cloudflare Pages, pastikan pipeline hidup sejak hari pertama
 
 ### Token desain
-- [ ] `app/globals.css`: CSS variables warna (kunyit, sambal, pandan, gula aren, krem, tinta), radius, shadow
-- [ ] Blok `@media (prefers-color-scheme: dark)` untuk semua token warna
-- [ ] Pilih + pasang 2 font (display + sans) via `next/font`
-- [ ] Extend `tailwind.config` agar token warna terpakai sebagai class
-- [ ] Cek kontras teks utama vs latar ≥ 4.5:1 di terang & gelap
+- [x] `app/globals.css`: CSS variables warna (kunyit, sambal, pandan, gula aren, krem, tinta), radius, shadow
+- [x] Blok `@media (prefers-color-scheme: dark)` untuk semua token warna
+- [x] Pilih + pasang 2 font (display + sans) via `next/font`
+- [x] ~~Extend `tailwind.config`~~ — skip, Tailwind v4 CSS-first: token didefinisikan langsung di `@theme inline` dalam `globals.css`
+- [x] Cek kontras teks utama vs latar ≥ 4.5:1 di terang & gelap
 
 ### Layout shell
-- [ ] `components/BottomNav.tsx` — mobile only (`md:hidden`), 4 tab, ikon + label, tinggi ≥ 56px
-- [ ] `components/TopNav.tsx` — desktop only (`hidden md:flex`), logo, link, badge keranjang
-- [ ] `app/layout.tsx` — pasang kedua nav + `<main>` dengan padding bawah aman untuk bottom nav
-- [ ] `components/Footer.tsx` — disclaimer parodi + link tentang
-- [ ] Halaman `app/tentang/page.tsx` (statis, isi menyusul)
+- [x] `components/BottomNav.tsx` — mobile only (`md:hidden`), 4 tab, ikon + label, tinggi ≥ 56px
+- [x] `components/TopNav.tsx` — desktop only (`hidden md:flex`), logo, link, badge keranjang
+- [x] `app/layout.tsx` — pasang kedua nav + `<main>` dengan padding bawah aman untuk bottom nav
+- [x] `components/Footer.tsx` — disclaimer parodi + link tentang
+- [x] Halaman `app/tentang/page.tsx` (statis, isi menyusul)
 
 ### Data awal
-- [ ] Tulis tipe `types.ts` sesuai skema di plan.md §2
-- [ ] `data/items.json` — 10 item contoh lengkap (termasuk resep + cerita), campur umum & tradisional
-- [ ] `lib/items.ts` — loader + helper `getItem(slug)`, `allItems()`, `byPulau()`
-- [ ] Validator build-time: script cek tiap item punya slug unik, resep, cerita, daerah — gagal build kalau tidak
-- [ ] Satu self-check runnable untuk validator (assert-based, tanpa framework)
+- [x] Tulis tipe `types.ts` sesuai skema di plan.md §2
+- [x] `data/items.json` — 10 item contoh lengkap (termasuk resep + cerita), campur umum & tradisional
+- [x] `lib/items.ts` — loader + helper `getItem(slug)`, `allItems()`, `byPulau()`
+- [x] Validator build-time: script cek tiap item punya slug unik, resep, cerita, daerah — gagal build kalau tidak
+- [x] Satu self-check runnable untuk validator (assert-based, tanpa framework)
 
 ### Katalog v0
-- [ ] `app/menu/page.tsx` — grid kartu; 1 kolom mobile, 3-4 kolom desktop
-- [ ] `components/ItemCard.tsx` — emoji, nama, daerah, harga, chip pedas
-- [ ] Buka di 375px dan 1440px, perbaiki yang jebol
+- [x] `app/menu/page.tsx` — grid kartu; 1 kolom mobile, 3-4 kolom desktop
+- [x] `components/ItemCard.tsx` — emoji, nama, daerah, harga, chip pedas
+- [x] Buka di 375px dan 1440px, perbaiki yang jebol
 
 **M0 selesai bila**: katalog 10 item tampil rapi di dua ukuran, sudah live di URL preview.
 
