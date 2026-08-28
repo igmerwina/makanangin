@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "validate": "bun run scripts/validate-items.ts",
+    "prebuild": "bun run validate",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
