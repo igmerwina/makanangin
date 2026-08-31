@@ -84,7 +84,8 @@ const OVERRIDES: Record<string, string> = {
   "ikan-kuah-kuning-maluku": "Ikan kuah kuning",
   "gohu-ikan": "Gohu ikan",
   "se-i-sapi": "Se'i",
-  "gonggong-rebus": "Gonggong",
+  // "gonggong-rebus": sengaja TANPA override — judul "Gonggong" nyasar ke artikel pemberontakan
+  // Tiongkok (dapet gambar ukiran perang, bukan makanan). Biarin fallback emoji.
   "bubur-pedas-sambas": "Bubur pedas",
   "nasi-liwet-solo": "Nasi liwet",
   "sate-ayam-madura": "Sate ayam",

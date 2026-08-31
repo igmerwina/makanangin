@@ -59,3 +59,9 @@ h1, h2, h3, .font-display {
   outline: 2px solid var(--color-kunyit);
   outline-offset: 2px;
 }
+
+/* Marquee foto "kebawa angin" — dua salinan list, geser tepat satu salinan (50% + setengah gap). */
+@keyframes drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-50% - 0.5rem)); }
+}

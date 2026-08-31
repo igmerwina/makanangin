@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Hero from "./Hero";
-import { getIndexItem } from "@/lib/items";
+import { getIndexItem, indexItems } from "@/lib/items";
 import ItemCard from "@/components/ItemCard";
+import FotoMarquee from "@/components/FotoMarquee";
 
 const POPULER = [
   "nasi-goreng",
@@ -16,12 +17,19 @@ const POPULER = [
 
 export default function Home() {
   const items = POPULER.map((slug) => getIndexItem(slug)).filter((i) => i !== undefined);
+  // deretan "kebawa angin": item di luar grid populer biar ga dobel muncul
+  const marqueeItems = indexItems()
+    .filter((i) => !POPULER.includes(i.slug))
+    .slice(0, 14)
+    .map(({ slug, nama }) => ({ slug, nama }));
 
   return (
     <div>
       <Hero />
 
-      <div className="max-w-6xl mx-auto px-4 pb-16">
+      <FotoMarquee items={marqueeItems} />
+
+      <div className="max-w-6xl mx-auto px-4 pt-12 pb-16">
         <div className="flex items-end justify-between mb-4">
           <h2 className="font-display text-2xl md:text-3xl">Pilih, langsung pesan</h2>
           <Link href="/menu" className="text-sm text-sambal underline">

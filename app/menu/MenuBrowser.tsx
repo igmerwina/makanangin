@@ -26,7 +26,7 @@ export default function MenuBrowser({ items }: { items: ItemIndex[] }) {
         value={cari}
         onChange={(e) => setCari(e.target.value)}
         placeholder="Cari nama, daerah, atau tag…"
-        className="w-full mb-3 px-4 py-2 min-h-11 rounded-full border border-border bg-card"
+        className="w-full mb-3 px-5 py-2 min-h-12 rounded-full bg-krem border border-transparent focus:border-sambal/40 placeholder:text-muted transition-colors"
       />
 
       <div className="flex gap-2 overflow-x-auto pb-1 mb-4 md:flex-wrap">
@@ -36,8 +36,8 @@ export default function MenuBrowser({ items }: { items: ItemIndex[] }) {
             type="button"
             aria-pressed={kategori === k.value}
             onClick={() => setKategori(k.value)}
-            className={`shrink-0 px-4 py-2 min-h-11 rounded-full border text-sm transition-all active:scale-95 ${
-              kategori === k.value ? "bg-sambal text-white border-sambal scale-105" : "border-border bg-card"
+            className={`shrink-0 px-4 py-2 min-h-11 rounded-full text-sm font-medium transition-all active:scale-95 ${
+              kategori === k.value ? "bg-sambal text-white scale-105" : "bg-krem text-tinta hover:bg-beige"
             }`}
           >
             {k.label}

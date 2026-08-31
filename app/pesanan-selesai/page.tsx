@@ -6,6 +6,7 @@ import { readStorage } from "@/lib/storage";
 import { ORDER_AKTIF_KEY, type Order } from "@/lib/order";
 import { formatRupiah } from "@/lib/harga";
 import { gambarUntuk } from "@/lib/gambar";
+import Gust from "@/components/Gust";
 
 export default function PesananSelesaiPage() {
   const [order, setOrder] = useState<Order | null | undefined>(undefined);
@@ -30,7 +31,10 @@ export default function PesananSelesaiPage() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10 lg:py-16">
       <div className="text-center mb-10">
-        <p className="text-7xl mb-4">🍃</p>
+        <p className="text-7xl mb-4">
+          <Gust className="inline-block w-12 mr-2 -mb-3 text-kunyit" />
+          🍃
+        </p>
         <h1 className="font-display text-4xl sm:text-5xl text-tinta mb-3">Makanannya ga dateng.</h1>
         <p className="text-lg text-muted">
           Tapi resepnya buat kamu. Kamu hemat{" "}

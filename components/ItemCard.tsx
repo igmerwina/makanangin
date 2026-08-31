@@ -33,9 +33,9 @@ export default function ItemCard({ item, delay = 0 }: { item: ItemIndex; delay?:
       >
         <Link
           href={`/menu/${item.slug}`}
-          className="flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-[0_1px_0_theme(colors.border)] hover:border-sambal hover:shadow-lg hover:shadow-sambal/10 transition-colors"
+          className="flex flex-col overflow-hidden rounded-2xl bg-krem hover:ring-2 hover:ring-sambal/30 hover:shadow-lg hover:shadow-sambal/10 transition-all"
         >
-          <div className="relative aspect-[4/3] bg-krem/50 flex items-center justify-center">
+          <div className="relative aspect-[4/3] bg-beige flex items-center justify-center">
             {foto ? (
               <img
                 src={foto}
