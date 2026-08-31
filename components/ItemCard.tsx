@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { animated, useSpring } from "@react-spring/web";
 import type { Item } from "@/lib/types";
+import { gambarUntuk } from "@/lib/gambar";
 
 export default function ItemCard({ item, delay = 0 }: { item: Item; delay?: number }) {
   const [hoverStyle, hoverApi] = useSpring(() => ({
@@ -19,6 +20,8 @@ export default function ItemCard({ item, delay = 0 }: { item: Item; delay?: numb
     config: { tension: 280, friction: 24 },
   }));
 
+  const foto = gambarUntuk(item.slug, "card");
+
   return (
     <animated.div style={entranceStyle}>
       <animated.div
@@ -30,16 +33,30 @@ export default function ItemCard({ item, delay = 0 }: { item: Item; delay?: numb
       >
         <Link
           href={`/menu/${item.slug}`}
-          className="flex flex-col gap-1 rounded-2xl border border-border bg-card p-4 shadow-[0_1px_0_theme(colors.border)] hover:border-sambal hover:shadow-lg hover:shadow-sambal/10 transition-colors"
+          className="flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-[0_1px_0_theme(colors.border)] hover:border-sambal hover:shadow-lg hover:shadow-sambal/10 transition-colors"
         >
-          <span className="text-4xl" aria-hidden>
-            {item.emoji}
-          </span>
-          <span className="font-display text-lg leading-tight">{item.nama}</span>
-          <span className="text-sm text-muted">{item.daerah}</span>
-          <div className="flex items-center justify-between mt-1">
-            <span className="font-medium">Rp{item.harga.toLocaleString("id-ID")}</span>
-            {item.pedas > 0 && <span aria-label={`Level pedas ${item.pedas}`}>{"🌶️".repeat(item.pedas)}</span>}
+          <div className="relative aspect-[4/3] bg-krem/50 flex items-center justify-center">
+            {foto ? (
+              <img
+                src={foto}
+                alt={item.nama}
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            ) : (
+              <span className="text-5xl" aria-hidden>
+                {item.emoji}
+              </span>
+            )}
+          </div>
+          <div className="flex flex-col gap-1 p-4">
+            <span className="font-display text-lg leading-tight">{item.nama}</span>
+            <span className="text-sm text-muted">{item.daerah}</span>
+            <div className="flex items-center justify-between mt-1">
+              <span className="font-medium">Rp{item.harga.toLocaleString("id-ID")}</span>
+              {item.pedas > 0 && <span aria-label={`Level pedas ${item.pedas}`}>{"🌶️".repeat(item.pedas)}</span>}
+            </div>
           </div>
         </Link>
       </animated.div>
