@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCart } from "@/lib/CartProvider";
 import { formatRupiah } from "@/lib/harga";
+import { gambarUntuk } from "@/lib/gambar";
 
 const ONGKIR = 5000;
 const BIAYA_RINDU = 2000;
@@ -30,11 +31,25 @@ export default function KeranjangPage() {
       <div className="md:col-span-2">
         <h1 className="font-display text-2xl mb-4">Keranjang</h1>
         <ul className="space-y-3">
-          {cart.map((line) => (
+          {cart.map((line) => {
+            const foto = gambarUntuk(line.slug, "card");
+            return (
             <li key={line.id} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-3">
-              <span className="text-3xl" aria-hidden>
-                {line.emoji}
-              </span>
+              <div className="relative w-16 h-16 shrink-0 rounded-xl overflow-hidden bg-krem flex items-center justify-center">
+                {foto ? (
+                  <img
+                    src={foto}
+                    alt={line.nama}
+                    loading="lazy"
+                    decoding="async"
+                    className="absolute inset-0 h-full w-full object-cover"
+                  />
+                ) : (
+                  <span className="text-3xl" aria-hidden>
+                    {line.emoji}
+                  </span>
+                )}
+              </div>
               <div className="flex-1 min-w-0">
                 <p className="font-medium">{line.nama}</p>
                 {line.opsiTerpilih.length > 0 && (
@@ -70,7 +85,8 @@ export default function KeranjangPage() {
                 ✕
               </button>
             </li>
-          ))}
+            );
+          })}
         </ul>
       </div>
 
