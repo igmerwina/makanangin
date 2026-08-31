@@ -1,18 +1,21 @@
 @import "tailwindcss";
 
+/* Always bright — food apps read best on white/light, so we don't follow prefers-color-scheme.
+   McD-style palette: bold red for action, gold yellow for accents, pure white background. */
 :root {
-  --color-kunyit: #f5a524;
-  --color-sambal: #ea4f24;
-  --color-pandan: #43a047;
-  --color-gula-aren: #9a5b30;
-  --color-krem: #fff6e3;
-  --color-tinta: #2b1d0e;
+  color-scheme: light;
+  --color-kunyit: #ffc72c;
+  --color-sambal: #da291c;
+  --color-pandan: #2e7d32;
+  --color-gula-aren: #7b3f1d;
+  --color-krem: #ffffff;
+  --color-tinta: #1a1a1a;
 
-  --background: var(--color-krem);
+  --background: #ffffff;
   --foreground: var(--color-tinta);
-  --card: #ffffff;
-  --border: #f4e2b8;
-  --muted: #9c7b4f;
+  --card: #fffaf0;
+  --border: #ffe29a;
+  --muted: #6b6b6b;
   --accent: var(--color-sambal);
 }
 
@@ -31,20 +34,6 @@
   --color-accent: var(--accent);
   --font-display: var(--font-display);
   --font-sans: var(--font-sans);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-kunyit: #ffb63d;
-    --color-sambal: #ff6b3d;
-    --color-pandan: #5cc164;
-
-    --background: #2b1e10;
-    --foreground: #fff3dc;
-    --card: #402c17;
-    --border: #5c4425;
-    --muted: #c7a878;
-  }
 }
 
 body {

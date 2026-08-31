@@ -25,18 +25,18 @@ export default function TopNav() {
   }, [jumlahItem, api]);
 
   return (
-    <header className="hidden md:flex items-center justify-between px-8 h-16 border-b border-border bg-card">
-      <Link href="/" className="font-display text-xl text-sambal">
+    <header className="hidden md:flex items-center justify-between px-8 h-16 bg-sambal shadow-md">
+      <Link href="/" className="font-display text-xl text-white">
         Makan Angin
       </Link>
       <nav className="flex items-center gap-6">
         {LINKS.map((link) => (
-          <Link key={link.href} href={link.href} className="text-sm text-foreground/80 hover:text-foreground">
+          <Link key={link.href} href={link.href} className="text-sm text-white/85 hover:text-white">
             {link.label}
           </Link>
         ))}
         <animated.div style={{ scale: style.scale }}>
-          <Link href="/keranjang" className="text-sm px-3 py-1.5 rounded-full bg-sambal text-white inline-block">
+          <Link href="/keranjang" className="text-sm px-3 py-1.5 rounded-full bg-kunyit text-tinta font-medium inline-block">
             🛒 Keranjang{jumlahItem > 0 ? ` (${jumlahItem})` : ""}
           </Link>
         </animated.div>
