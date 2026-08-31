@@ -42,7 +42,7 @@ export default function CartItemCard({
       onMouseLeave={() => api.start({ y: 0 })}
       className="flex gap-4 rounded-2xl bg-krem/60 hover:bg-krem p-3 sm:p-4 transition-colors"
     >
-      <div className="relative w-24 h-24 sm:w-28 sm:h-28 shrink-0 rounded-2xl overflow-hidden bg-white flex items-center justify-center">
+      <div className="relative w-20 h-20 sm:w-28 sm:h-28 shrink-0 rounded-2xl overflow-hidden bg-white flex items-center justify-center">
         {foto ? (
           <img
             src={foto}
@@ -84,7 +84,7 @@ export default function CartItemCard({
           </div>
         )}
 
-        <div className="mt-auto pt-2 flex items-end justify-between gap-2">
+        <div className="mt-auto pt-2 flex flex-wrap items-center justify-between gap-2">
           <p className="font-semibold text-tinta">{formatRupiah(line.hargaSatuan)}</p>
           <div className="flex items-center gap-1 bg-white rounded-full border border-border px-1 py-1">
             <QtyButton label={`Kurangi ${line.nama}`} onClick={() => onUbah(line.qty - 1)}>

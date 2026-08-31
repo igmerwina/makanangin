@@ -122,34 +122,34 @@ Definition of Done tiap task: jalan di mobile (375px) **dan** desktop (1440px), 
 ## M3 — Poles
 
 ### Riwayat & share
-- [ ] `app/riwayat/page.tsx` — daftar order lalu, total hemat, tombol hapus riwayat
+- [x] `app/riwayat/page.tsx` — daftar order lalu, total hemat, tombol hapus riwayat (+ foto per item, redesign)
 - [ ] `lib/share.ts` — encode isi keranjang ke URL (base64/compact), decode di load
 - [ ] Halaman share: buka URL → keranjang terisi, banner "Ini pesanan dari temanmu"
 - [ ] Batasi panjang URL; kalau kepanjangan, potong + beri tahu
 
 ### SEO
-- [ ] Metadata default + per-rute
-- [ ] JSON-LD `Recipe` di tiap halaman resep
-- [ ] `sitemap.xml` + `robots.txt` di build
-- [ ] OG image (statis dulu, satu desain; per-item kalau sempat)
+- [x] Metadata default + per-rute — `metadataBase` di layout, tiap rute item override title/description/OG sendiri
+- [x] JSON-LD `Recipe` di tiap halaman resep
+- [x] `sitemap.xml` + `robots.txt` di build — `app/sitemap.ts`/`app/robots.ts`, 172 URL
+- [x] OG image (statis dulu, satu desain; per-item kalau sempat) — `app/opengraph-image.tsx` default + per-item udah ada duluan di menu/resep
 
 ### Aksesibilitas
-- [ ] Navigasi keyboard penuh: katalog, opsi, keranjang, panggilan
-- [ ] Focus ring terlihat di semua kontrol
-- [ ] `aria-label` pada tombol ikon; `aria-live` untuk perubahan keranjang
-- [ ] Dialog/drawer: focus trap + tutup pakai Esc
+- [ ] Navigasi keyboard penuh: katalog, opsi, keranjang, panggilan — belum diuji sistematis
+- [x] Focus ring terlihat di semua kontrol — kunyit, kontras jauh lebih baik di atas tombol merah
+- [x] `aria-label` pada tombol ikon; `aria-live` untuk perubahan keranjang — aria-live di `CartProvider`, aria-label sudah ada di titik yang butuh (yang punya teks visible ga perlu duplikat)
+- [ ] Dialog/drawer: focus trap + tutup pakai Esc — `PanggilanMasuk` full-screen belum ada focus trap
 - [ ] Cek dengan screen reader sekali, perbaiki yang kacau
 
 ### Performa
-- [ ] Pecah data: index katalog ringan, resep dimuat per rute
+- [x] Pecah data: index katalog ringan, resep dimuat per rute — `ItemIndex`, `out/menu.html` 196KB→112KB (43%)
 - [ ] Audit bundle; buang dependency yang tidak terpakai
 - [ ] Lighthouse mobile & desktop ≥ 90 semua kategori
 - [ ] Uji di jaringan lambat (throttle 4G)
 
 ### Uji lintas perangkat
-- [ ] Safari iOS, Chrome Android, Chrome/Safari/Firefox desktop
-- [ ] Cek safe-area iPhone (bottom nav vs home indicator)
-- [ ] Cek 320px (layar tersempit) tidak jebol
+- [ ] Safari iOS, Chrome Android, Chrome/Safari/Firefox desktop — cuma Chromium browser-pane
+- [x] Cek safe-area iPhone (bottom nav vs home indicator) — `env(safe-area-inset-bottom)` di nav + main + sticky CTA
+- [x] Cek 320px (layar tersempit) tidak jebol — ketemu 1 bug nyata (qty stepper kepotong di keranjang), udah difix
 
 **M3 selesai bila**: Lighthouse ≥ 90, keyboard-only bisa selesaikan loop.
 
@@ -157,7 +157,7 @@ Definition of Done tiap task: jalan di mobile (375px) **dan** desktop (1440px), 
 
 ## M4 — Rilis
 
-- [ ] Isi halaman Tentang: premis, disclaimer, kredit, kontak
+- [x] Isi halaman Tentang: premis, disclaimer, kredit, kontak — skip "kredit/kontak" formal, situs ga punya tim/kontak resmi buat ditampilin
 - [ ] Review teks legal: tidak ada klaim menyesatkan
 - [ ] Pasang domain makanangin.com + HTTPS
 - [ ] Cek 404 punya halaman sendiri

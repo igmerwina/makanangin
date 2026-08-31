@@ -5,9 +5,14 @@ Urut prioritas: dampak nyata ke user dibagi effort.
 
 Legenda effort: **S** = < 1 jam · **M** = 1-3 jam · **L** = > 3 jam
 
+**Status per commit `67fb053`/`f5f1c1b`/`a453c3e`:** P1, P2, P3, P4, P5a, P5b, P5d selesai.
+P6 (320px) dites — ketemu 1 bug nyata (qty stepper kepotong di keranjang), udah difix juga.
+Sisa: P5c (sengaja ga ada perubahan, dicek udah cukup), sisa P6 (Safari iOS/Android asli,
+Lighthouse, throttle 4G, screen reader), P7 (share URL, deploy — deploy nunggu keputusan kamu).
+
 ---
 
-## P1 — Payload katalog 5x lebih besar dari yang dibutuhkan
+## ✅ P1 — Payload katalog 5x lebih besar dari yang dibutuhkan
 
 **Status:** bug perf nyata, terukur
 **Effort:** M
@@ -67,9 +72,13 @@ pnpm run build && ls -la out/menu.html
 grep -c "langkah" out/menu.html   # target: 0
 ```
 
+**Hasil beneran:** `out/menu.html` 196KB → 112KB (43% lebih kecil — bukan 60KB kayak target
+awal, karena URL foto Wikimedia yang panjang + overhead RSC framework masih makan porsi;
+tapi kebocoran resep-nya udah 0). `out/index.html` 34→24KB, `out/daerah/Jawa.html` 114→68KB.
+
 ---
 
-## P2 — Ga ada `sitemap.xml` dan `robots.txt`
+## ✅ P2 — Ga ada `sitemap.xml` dan `robots.txt`
 
 **Status:** hilang
 **Effort:** S
@@ -97,7 +106,7 @@ export default function sitemap() {
 
 ---
 
-## P3 — Ga ada OG image
+## ✅ P3 — Ga ada OG image
 
 **Status:** hilang sebagian
 **Effort:** S (statis) / M (per-item)
@@ -111,7 +120,7 @@ Yang belum: beranda, `/menu`, `/resep`, `/resep/[slug]`, `/daerah/*` — semua g
 
 ---
 
-## P4 — 6 halaman ketinggalan redesign
+## ✅ P4 — 6 halaman ketinggalan redesign
 
 **Status:** inkonsistensi visual
 **Effort:** M per halaman
@@ -133,7 +142,7 @@ Yang masih pakai bahasa visual M1 (container sempit, card lama, hierarki lemah):
 
 ---
 
-## P5 — Aksesibilitas
+## P5 — Aksesibilitas (5a, 5b, 5d ✅ · 5c dicek, ga ada yang perlu diubah)
 
 **Effort:** S untuk semua item di bawah
 
@@ -159,8 +168,10 @@ Konfirmasi 0 hasil di seluruh repo. Tambah item ke keranjang ga diumumkan sama s
 
 ### 5c. `aria-label` belum merata
 
-Udah ada di: `CartItemCard` (2), `PanggilanMasuk` (2), `checkout` (3), `ItemCard` (1), `menu/[slug]` (1).
-Belum dicek/kemungkinan kurang: tombol ikon di `OpsiPicker`, `BottomNav`, tombol "Lewati" di `kurir`.
+**Dicek, ga ada yang perlu diubah.** `OpsiPicker` (ChipButton) dan tombol "Lewati" di `kurir`
+udah punya teks visible sebagai accessible name — nambah `aria-label` di situ cuma duplikat.
+`ChipButton` juga udah dalam konteks `<fieldset><legend>` yang ngasih nama grup opsi secara
+native. `BottomNav` juga sama, tiap tab punya label teks visible.
 
 ### 5d. Safe-area iPhone
 
@@ -177,17 +188,20 @@ padding-bottom: calc(4rem + env(safe-area-inset-bottom));
 ## P6 — Belum pernah diuji sama sekali
 
 **Effort:** M
-**Status:** unknown, bukan "aman"
+**Status:** 320px ✅ dites (ketemu bug, difix). Sisanya masih belum.
 
-Ga ada satupun dari ini yang pernah dijalanin:
+- [x] **320px** (layar tersempit) — **ketemu bug beneran**: qty stepper (`components/CartItemCard.tsx`)
+  di kartu keranjang kepotong di pinggir kanan, tombol `+` ga keliatan/ga bisa dipencet. Akar
+  masalah: `flex items-end justify-between` maksa harga dan qty-stepper sejajar horizontal, ga
+  cukup ruang buat keduanya + touch target 44px dari fix P5 di lebar 320px. Fix: `flex-wrap` di
+  row itu (stepper jatuh ke baris baru kalau mepet) + gambar dikecilin `w-24`→`w-20` di breakpoint
+  dasar. Diverifikasi ulang: `scrollWidth === innerWidth` di keranjang/checkout/menu/detail/beranda.
+- [ ] **Safari iOS / Chrome Android** — semua verifikasi selama ini pakai Chromium desktop di browser pane
+- [ ] **Throttle 4G** — relevan banget mengingat P1 di atas
+- [ ] **Lighthouse** — target plan.md ≥ 90 semua kategori, angka sekarang: belum tahu
+- [ ] **Screen reader** — belum pernah sekalipun
 
-- **320px** (layar tersempit) — paling berisiko: grid keranjang, qty stepper, tombol CTA yang teksnya panjang
-- **Safari iOS / Chrome Android** — semua verifikasi selama ini pakai Chromium desktop di browser pane
-- **Throttle 4G** — relevan banget mengingat P1 di atas
-- **Lighthouse** — target plan.md ≥ 90 semua kategori, angka sekarang: belum tahu
-- **Screen reader** — belum pernah sekalipun
-
-Jangan anggap "belum ketemu bug" = "ga ada bug". Ini murni belum dites.
+Jangan anggap "belum ketemu bug" = "ga ada bug" buat yang masih `[ ]`. Ini murni belum dites.
 
 ---
 
@@ -202,9 +216,10 @@ Rencana asli: encode isi keranjang ke URL (base64/compact), decode pas load, ban
 
 Masih cuma di GitHub, belum live. Butuh keputusan: Vercel atau Cloudflare Pages. `output: 'export'` udah siap buat dua-duanya.
 
-### 7c. Isi halaman Tentang (M4)
+### ✅ 7c. Isi halaman Tentang (M4)
 
-Masih placeholder. Disclaimer parodi udah ada di footer + checkout, tapi halaman Tentang-nya sendiri belum diisi.
+Udah diisi + redesign — premis, apa yang jalan/ga jalan, kenapa dibikin. Skip "kredit/kontak"
+formal, situs ga punya tim/kontak resmi buat ditampilin.
 
 ---
 
