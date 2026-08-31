@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/CartProvider";
 import { formatRupiah } from "@/lib/harga";
+import { gambarUntuk } from "@/lib/gambar";
 import { readStorage, writeStorage } from "@/lib/storage";
 import { RIWAYAT_KEY, ORDER_AKTIF_KEY, type Order } from "@/lib/order";
 
@@ -38,67 +39,120 @@ export default function CheckoutPage() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-6 md:grid md:grid-cols-2 md:gap-10">
-      <div>
-        <h1 className="font-display text-2xl mb-4">Checkout</h1>
+    <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-10 py-6 lg:py-10">
+      <p className="text-xs font-semibold tracking-[0.2em] uppercase text-sambal mb-2">Langkah Terakhir</p>
+      <h1 className="font-display text-3xl sm:text-4xl text-tinta mb-8">Checkout</h1>
 
-        <label className="block text-sm font-medium mb-1" htmlFor="alamat">
-          Alamat pengantaran
-        </label>
-        <input
-          id="alamat"
-          defaultValue="Depan warung, sebelah yang lagi tutup"
-          className="w-full mb-4 px-4 py-2 min-h-11 rounded-xl border border-border bg-card"
-        />
-
-        <div className="rounded-2xl border border-border bg-card p-4">
-          <p className="text-xs font-medium mb-2 inline-block px-2 py-0.5 rounded-full bg-kunyit/30">
-            KARTU DEMO
-          </p>
-          <div className="space-y-3">
+      <div className="lg:grid lg:grid-cols-3 lg:gap-10 lg:items-start">
+        <div className="lg:col-span-2 space-y-6">
+          <div>
+            <label className="block text-sm font-semibold text-tinta mb-2" htmlFor="alamat">
+              Alamat pengantaran
+            </label>
             <input
-              disabled
-              value="4242 4242 4242 4242"
-              aria-label="Nomor kartu (demo, tidak bisa diisi)"
-              className="w-full px-4 py-2 rounded-xl border border-border bg-background text-muted"
+              id="alamat"
+              defaultValue="Depan warung, sebelah yang lagi tutup"
+              className="w-full px-4 py-3 min-h-12 rounded-2xl border border-border bg-krem"
             />
-            <div className="flex gap-3">
-              <input
-                disabled
-                value="12/29"
-                aria-label="Masa berlaku (demo)"
-                className="w-1/2 px-4 py-2 rounded-xl border border-border bg-background text-muted"
-              />
-              <input
-                disabled
-                value="123"
-                aria-label="CVV (demo)"
-                className="w-1/2 px-4 py-2 rounded-xl border border-border bg-background text-muted"
-              />
+          </div>
+
+          <div>
+            <p className="text-sm font-semibold text-tinta mb-2">Pembayaran</p>
+            <div className="rounded-2xl bg-krem p-5">
+              <p className="text-xs font-semibold mb-3 inline-block px-2.5 py-1 rounded-full bg-kunyit text-tinta">
+                KARTU DEMO
+              </p>
+              <div className="space-y-3">
+                <input
+                  disabled
+                  value="4242 4242 4242 4242"
+                  aria-label="Nomor kartu (demo, tidak bisa diisi)"
+                  className="w-full px-4 py-3 rounded-xl border border-border bg-white text-muted"
+                />
+                <div className="flex gap-3">
+                  <input
+                    disabled
+                    value="12/29"
+                    aria-label="Masa berlaku (demo)"
+                    className="w-1/2 px-4 py-3 rounded-xl border border-border bg-white text-muted"
+                  />
+                  <input
+                    disabled
+                    value="123"
+                    aria-label="CVV (demo)"
+                    className="w-1/2 px-4 py-3 rounded-xl border border-border bg-white text-muted"
+                  />
+                </div>
+              </div>
+            </div>
+            <p className="text-xs text-muted mt-3">
+              Ini bukan pembayaran asli. Ga ada kartu yang diproses, ga ada uang yang keluar. Situs
+              parodi — baca <a href="/tentang" className="underline">selengkapnya</a>.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-8 lg:mt-0 rounded-3xl bg-krem p-6 lg:sticky lg:top-24">
+          <h2 className="font-display text-lg text-tinta mb-4">Pesananmu</h2>
+
+          <ul className="space-y-3 mb-4">
+            {cart.map((line) => {
+              const foto = gambarUntuk(line.slug, "card");
+              return (
+                <li key={line.id} className="flex items-center gap-3">
+                  <div className="relative w-12 h-12 shrink-0 rounded-xl overflow-hidden bg-white flex items-center justify-center">
+                    {foto ? (
+                      <img
+                        src={foto}
+                        alt={line.nama}
+                        loading="lazy"
+                        decoding="async"
+                        className="absolute inset-0 h-full w-full object-cover"
+                      />
+                    ) : (
+                      <span className="text-xl" aria-hidden>
+                        {line.emoji}
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium truncate">{line.nama}</p>
+                    <p className="text-xs text-muted">{line.qty}x</p>
+                  </div>
+                  <p className="text-sm font-medium shrink-0">{formatRupiah(line.hargaSatuan * line.qty)}</p>
+                </li>
+              );
+            })}
+          </ul>
+
+          <div className="space-y-2 text-sm mb-4 border-t border-beige pt-4">
+            <div className="flex justify-between">
+              <span className="text-muted">Subtotal</span>
+              <span className="font-medium text-tinta">{formatRupiah(subtotal)}</span>
+            </div>
+            <div className="flex justify-between">
+              <span className="text-muted">Ongkir</span>
+              <span className="font-medium text-tinta">{formatRupiah(ONGKIR)}</span>
+            </div>
+            <div className="flex justify-between">
+              <span className="text-muted">Biaya rindu kampung</span>
+              <span className="font-medium text-tinta">{formatRupiah(BIAYA_RINDU)}</span>
             </div>
           </div>
-        </div>
 
-        <p className="text-xs text-muted mt-3">
-          Ini bukan pembayaran asli. Ga ada kartu yang diproses, ga ada uang yang keluar. Situs
-          parodi — baca <a href="/tentang" className="underline">selengkapnya</a>.
-        </p>
-      </div>
-
-      <div className="mt-6 md:mt-0">
-        <div className="rounded-2xl border border-border bg-card p-4 mb-4">
-          <div className="flex justify-between font-medium">
-            <span>Total bayar</span>
-            <span>{formatRupiah(total)}</span>
+          <div className="flex justify-between items-baseline border-t border-beige pt-4 mb-5">
+            <span className="font-medium text-tinta">Total bayar</span>
+            <span className="font-display text-2xl text-tinta">{formatRupiah(total)}</span>
           </div>
+
+          <button
+            type="button"
+            onClick={bayar}
+            className="w-full px-6 py-4 min-h-[52px] rounded-full bg-sambal text-white text-base font-semibold shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all"
+          >
+            Bayar {formatRupiah(total)}
+          </button>
         </div>
-        <button
-          type="button"
-          onClick={bayar}
-          className="w-full px-6 py-3 min-h-11 rounded-full bg-sambal text-white font-medium"
-        >
-          Bayar {formatRupiah(total)}
-        </button>
       </div>
     </div>
   );
