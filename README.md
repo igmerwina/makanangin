@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Makan Angin 🍛
 
-## Getting Started
+Situs parodi pesan-makanan Indonesia. Kamu pesan, bayar demo, kurir jalan — terus dia telepon bilang makanannya **ga bakal dateng**. Yang beneran kamu dapet cuma resep asli dan cerita asal daerahnya.
 
-First, run the development server:
+80 hidangan dari 34 provinsi. Ga ada pembayaran asli, ga ada data kartu yang diminta atau disimpan, di mana pun.
+
+## Screenshot
+
+> Taruh file PNG di `docs/screenshots/` lalu isi tabel di bawah — belum ada gambar tersimpan di repo.
+
+| Beranda | Menu | Detail item |
+|---|---|---|
+| `docs/screenshots/beranda.png` | `docs/screenshots/menu.png` | `docs/screenshots/detail.png` |
+
+| Keranjang | Kurir & panggilan | Resep |
+|---|---|---|
+| `docs/screenshots/keranjang.png` | `docs/screenshots/kurir.png` | `docs/screenshots/resep.png` |
+
+## Alur
+
+Beranda → Menu → Detail item (pilih opsi) → Keranjang → Checkout (kartu demo, disabled) → Kurir jalan → Panggilan masuk ("maaf, ga bisa dianter") → Layar konsolasi + resep asli
+
+## Fitur
+
+- Katalog 80 item — makanan, minuman, jajanan, kudapan — dari 34 provinsi
+- Foto asli tiap item (Wikimedia Commons, dikompres ke thumbnail kecil)
+- Filter kategori + pencarian
+- Keranjang, opsi/varian per item, harga dinamis
+- Checkout dengan kartu demo (input `disabled`, ga pernah nerima data kartu asli)
+- Animasi kurir + panggilan masuk gaya telepon HP, alasan gagal antar acak
+- Resep lengkap tiap item (bahan, langkah, tips) + `Recipe` JSON-LD buat SEO
+- Riwayat pesanan + total "uang hemat", tersimpan di `localStorage`
+- Mobile-first, bottom nav di HP, top nav di desktop
+- Motion pakai `@react-spring/web` — otomatis mati kalau `prefers-reduced-motion`
+
+## Stack
+
+- [Next.js](https://nextjs.org) (App Router) + TypeScript, static export (`output: 'export'`)
+- Tailwind CSS v4 (token warna di `app/globals.css`)
+- `@react-spring/web` buat animasi
+- Data konten di `data/items.json` (JSON statis, bukan database)
+- Package manager: **pnpm** (bun cuma dipakai buat jalanin script TS `scripts/validate-items.ts` — pnpm ga bisa eksekusi `.ts` langsung tanpa loader tambahan)
+
+## Jalanin lokal
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm run build   # validasi data + build statis ke out/
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Struktur
 
-## Learn More
+```
+app/            rute (App Router)
+components/     komponen UI
+lib/            logic murni — cart, filter, harga, gambar, warung
+data/           items.json (80 item), warung.json, kurir.json, alasan.json, gambar.json
+scripts/        validator data + self-check (jalan otomatis sebelum build)
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Legal
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Situs parodi. Ga ada makanan asli, ga ada pembayaran asli, ga ada data kartu yang disimpan. Lihat halaman [Tentang](app/tentang/page.tsx) di situs untuk disclaimer lengkap.
