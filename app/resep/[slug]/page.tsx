@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { allItems, getItem } from "@/lib/items";
+import { youtubeSearchUrl } from "@/lib/video";
 
 export function generateStaticParams() {
   return allItems().map((item) => ({ slug: item.slug }));
@@ -82,6 +83,21 @@ export default async function ResepDetailPage({ params }: { params: Promise<{ sl
             <strong>Tips:</strong> {resep.tips}
           </p>
         )}
+
+        <a
+          href={youtubeSearchUrl(item.nama, item.daerah)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 flex items-center gap-3 rounded-2xl border border-border bg-card p-4 hover:border-sambal transition-colors"
+        >
+          <span className="shrink-0 w-11 h-11 rounded-full bg-sambal text-white flex items-center justify-center text-lg" aria-hidden>
+            ▶
+          </span>
+          <span>
+            <span className="block font-medium">Cari tutorial video {item.nama}</span>
+            <span className="block text-xs text-muted">Buka pencarian YouTube di tab baru</span>
+          </span>
+        </a>
       </div>
     </div>
   );

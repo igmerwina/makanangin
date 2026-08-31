@@ -76,28 +76,24 @@ export default async function ItemDetailPage({ params }: { params: Promise<{ slu
 
           <p className="text-base text-foreground/70 leading-relaxed max-w-md mb-5">{item.deskripsi}</p>
 
-          {(item.halal || item.pedas > 0) && (
-            <div className="flex flex-wrap items-center gap-2 mb-6">
-              {item.halal && (
-                <span className="inline-flex items-center gap-1 rounded-full bg-pandan/10 text-pandan text-xs font-medium px-2.5 py-1.5">
-                  ✓ Halal
-                </span>
-              )}
-              {item.pedas > 0 && (
-                <span
-                  className="inline-flex items-center gap-1 rounded-full bg-sambal/10 text-sambal text-xs font-medium px-2.5 py-1.5"
-                  aria-label={`Level pedas ${item.pedas} dari 5`}
-                >
-                  {"🌶️".repeat(item.pedas)}
-                </span>
-              )}
+          {item.halal && (
+            <div className="mb-6">
+              <span className="inline-flex items-center gap-1 rounded-full bg-pandan/10 text-pandan text-xs font-medium px-2.5 py-1.5">
+                ✓ Halal
+              </span>
             </div>
           )}
 
-          <div className="flex items-baseline gap-2 mb-6">
+          <div className={`flex items-baseline gap-2 ${item.pedas > 0 ? "mb-2" : "mb-6"}`}>
             <span className="font-display text-4xl text-tinta">{formatRupiah(item.harga)}</span>
             <span className="text-sm text-muted">{unitLabel(item.kategori)}</span>
           </div>
+
+          {item.pedas > 0 && (
+            <p className="text-sm text-sambal mb-6" aria-label={`Level pedas ${item.pedas} dari 5`}>
+              {"🌶️".repeat(item.pedas)} <span className="text-muted">level pedas</span>
+            </p>
+          )}
 
           <OpsiPicker item={item} />
 
