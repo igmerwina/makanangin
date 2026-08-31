@@ -101,7 +101,7 @@ export default function OpsiPicker({ item }: { item: Item }) {
         </fieldset>
       ))}
 
-      <div className="sticky bottom-16 md:bottom-0 md:static bg-background md:bg-transparent border-t md:border-0 border-border pt-3 md:pt-1 -mx-4 px-4 md:mx-0 md:px-0">
+      <div className="sticky bottom-[calc(4rem+env(safe-area-inset-bottom))] md:bottom-0 md:static bg-background md:bg-transparent border-t md:border-0 border-border pt-3 md:pt-1 -mx-4 px-4 md:mx-0 md:px-0">
         <animated.button
           type="button"
           onClick={tambahKeKeranjang}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { Item, Kategori } from "@/lib/types";
+import type { ItemIndex, Kategori } from "@/lib/types";
 import { terapkanFilter } from "@/lib/filter";
 import ItemCard from "@/components/ItemCard";
 
@@ -13,7 +13,7 @@ const KATEGORI: { value: Kategori | ""; label: string }[] = [
   { value: "kudapan", label: "Kudapan" },
 ];
 
-export default function MenuBrowser({ items }: { items: Item[] }) {
+export default function MenuBrowser({ items }: { items: ItemIndex[] }) {
   const [kategori, setKategori] = useState<Kategori | "">("");
   const [cari, setCari] = useState("");
 

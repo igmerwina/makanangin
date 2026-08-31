@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Hero from "./Hero";
-import { getItem } from "@/lib/items";
+import { getIndexItem } from "@/lib/items";
 import ItemCard from "@/components/ItemCard";
 
 const POPULER = [
@@ -15,7 +15,7 @@ const POPULER = [
 ];
 
 export default function Home() {
-  const items = POPULER.map((slug) => getItem(slug)).filter((i) => i !== undefined);
+  const items = POPULER.map((slug) => getIndexItem(slug)).filter((i) => i !== undefined);
 
   return (
     <div>

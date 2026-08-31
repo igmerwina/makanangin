@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { allItems, byPulau } from "@/lib/items";
+import { allItems, indexByPulau } from "@/lib/items";
 import ItemCard from "@/components/ItemCard";
 
 const NARASI: Record<string, string> = {
@@ -20,7 +20,7 @@ export function generateStaticParams() {
 
 export default async function DaerahPage({ params }: { params: Promise<{ pulau: string }> }) {
   const { pulau } = await params;
-  const items = byPulau(pulau);
+  const items = indexByPulau(pulau);
   if (items.length === 0) notFound();
 
   return (

@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { animated, useSpring } from "@react-spring/web";
-import type { Item } from "@/lib/types";
+import type { ItemIndex } from "@/lib/types";
 import { gambarUntuk } from "@/lib/gambar";
 
-export default function ItemCard({ item, delay = 0 }: { item: Item; delay?: number }) {
+export default function ItemCard({ item, delay = 0 }: { item: ItemIndex; delay?: number }) {
   const [hoverStyle, hoverApi] = useSpring(() => ({
     y: 0,
     scale: 1,

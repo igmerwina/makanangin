@@ -27,7 +27,7 @@ export default function BottomNav() {
   }, [jumlahItem, badgeApi]);
 
   return (
-    <nav className="md:hidden fixed bottom-0 inset-x-0 z-40 flex border-t border-border bg-white">
+    <nav className="md:hidden fixed bottom-0 inset-x-0 z-40 flex border-t border-border bg-white pb-[env(safe-area-inset-bottom)]">
       {TABS.map((tab) => {
         const active = pathname === tab.href || pathname.startsWith(`${tab.href}/`);
         return (

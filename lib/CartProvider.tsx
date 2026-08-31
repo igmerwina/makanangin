@@ -25,6 +25,7 @@ const CartContext = createContext<CartContextValue | null>(null);
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [cart, setCart] = useState<CartLine[]>([]);
   const [loaded, setLoaded] = useState(false);
+  const [pengumuman, setPengumuman] = useState("");
 
   useEffect(() => {
     setCart(readStorage(CART_KEY, []));
@@ -37,15 +38,33 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   const value: CartContextValue = {
     cart,
-    tambah: (item, opsi, qty = 1) => setCart((c) => tambahKeCart(c, item, opsi, qty)),
-    ubah: (id, qty) => setCart((c) => ubahQty(c, id, qty)),
-    hapus: (id) => setCart((c) => hapusDariCart(c, id)),
+    tambah: (item, opsi, qty = 1) => {
+      setCart((c) => tambahKeCart(c, item, opsi, qty));
+      setPengumuman(`${item.nama} masuk keranjang`);
+    },
+    ubah: (id, qty) => {
+      const nama = cart.find((l) => l.id === id)?.nama ?? "Item";
+      setCart((c) => ubahQty(c, id, qty));
+      setPengumuman(qty <= 0 ? `${nama} dihapus dari keranjang` : `${nama} jadi ${qty}`);
+    },
+    hapus: (id) => {
+      const nama = cart.find((l) => l.id === id)?.nama ?? "Item";
+      setCart((c) => hapusDariCart(c, id));
+      setPengumuman(`${nama} dihapus dari keranjang`);
+    },
     kosongkan: () => setCart([]),
     subtotal: subtotalCart(cart),
     jumlahItem: cart.reduce((n, l) => n + l.qty, 0),
   };
 
-  return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
+  return (
+    <CartContext.Provider value={value}>
+      {children}
+      <p aria-live="polite" className="sr-only">
+        {pengumuman}
+      </p>
+    </CartContext.Provider>
+  );
 }
 
 export function useCart(): CartContextValue {

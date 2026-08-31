@@ -53,3 +53,9 @@ h1, h2, h3, .font-display {
   background-image: radial-gradient(var(--color-kunyit) 1.5px, transparent 1.5px);
   background-size: 14px 14px;
 }
+
+/* Kunyit lebih kontras di atas tombol merah/gelap daripada ring biru bawaan browser. */
+:focus-visible {
+  outline: 2px solid var(--color-kunyit);
+  outline-offset: 2px;
+}

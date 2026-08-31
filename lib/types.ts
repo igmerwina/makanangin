@@ -33,3 +33,13 @@ export interface Item {
   opsi: Opsi[];
   resep: Resep;
 }
+
+/**
+ * Subset buat kartu katalog (ItemCard, MenuBrowser, daftar per-pulau, populer di beranda).
+ * Sengaja ga bawa resep/cerita/deskripsi/opsi — komponennya "use client", jadi apa pun
+ * yang ikut di sini kekirim ke browser di RSC payload walau ga pernah dirender.
+ */
+export type ItemIndex = Pick<
+  Item,
+  "slug" | "nama" | "emoji" | "daerah" | "pulau" | "harga" | "pedas" | "kategori" | "halal" | "tags"
+>;

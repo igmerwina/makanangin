@@ -1,4 +1,4 @@
-import type { Item, Kategori } from "./types";
+import type { ItemIndex, Kategori } from "./types";
 
 export interface Filters {
   kategori?: Kategori;
@@ -7,7 +7,7 @@ export interface Filters {
   cari?: string;
 }
 
-export function terapkanFilter(items: Item[], f: Filters): Item[] {
+export function terapkanFilter<T extends ItemIndex>(items: T[], f: Filters): T[] {
   return items.filter((item) => {
     if (f.kategori && item.kategori !== f.kategori) return false;
     if (f.pulau && item.pulau !== f.pulau) return false;
