@@ -36,6 +36,18 @@ export default function Footer() {
           </Link>
           .
         </p>
+        <p className="text-xs text-muted mt-4">
+          Created with ❤ by{" "}
+          <a
+            href="https://github.com/igmerwina"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-sambal"
+          >
+            @igmerwina
+          </a>{" "}
+          © 2026
+        </p>
       </div>
     </footer>
   );
