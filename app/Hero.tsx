@@ -57,7 +57,7 @@ export default function Hero() {
   const [ctaHover, ctaHoverApi] = useSpring(() => ({ scale: 1, config: { tension: 400, friction: 20 } }));
 
   return (
-    <div className="relative overflow-hidden px-4 py-20 md:py-28 text-center">
+    <div className="relative overflow-hidden px-4 py-12 md:py-16 text-center">
       {FLOATERS.map((f, i) => (
         <Floater key={i} {...f} />
       ))}
@@ -66,7 +66,7 @@ export default function Hero() {
         80 hidangan · 34 provinsi · Rp0 yang bener-bener dibayar
       </p>
 
-      <h1 className="font-display text-6xl sm:text-7xl md:text-8xl leading-[0.95] tracking-tight mb-6">
+      <h1 className="font-display text-5xl sm:text-6xl md:text-7xl leading-[0.95] tracking-tight mb-4">
         {trail.map((s, i) => (
           <animated.span key={i} style={s} className={`block ${i === 1 ? "text-sambal" : ""}`}>
             {WORDS[i]}
