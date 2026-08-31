@@ -6,6 +6,7 @@ import { formatRupiah } from "@/lib/harga";
 import { gambarUntuk } from "@/lib/gambar";
 import { readStorage, writeStorage } from "@/lib/storage";
 import { RIWAYAT_KEY, ORDER_AKTIF_KEY, type Order } from "@/lib/order";
+import PaymentMethod from "@/components/PaymentMethod";
 
 const ONGKIR = 5000;
 const BIAYA_RINDU = 2000;
@@ -58,37 +59,7 @@ export default function CheckoutPage() {
 
           <div>
             <p className="text-sm font-semibold text-tinta mb-2">Pembayaran</p>
-            <div className="rounded-2xl bg-krem p-5">
-              <p className="text-xs font-semibold mb-3 inline-block px-2.5 py-1 rounded-full bg-kunyit text-tinta">
-                KARTU DEMO
-              </p>
-              <div className="space-y-3">
-                <input
-                  disabled
-                  value="4242 4242 4242 4242"
-                  aria-label="Nomor kartu (demo, tidak bisa diisi)"
-                  className="w-full px-4 py-3 rounded-xl border border-border bg-white text-muted"
-                />
-                <div className="flex gap-3">
-                  <input
-                    disabled
-                    value="12/29"
-                    aria-label="Masa berlaku (demo)"
-                    className="w-1/2 px-4 py-3 rounded-xl border border-border bg-white text-muted"
-                  />
-                  <input
-                    disabled
-                    value="123"
-                    aria-label="CVV (demo)"
-                    className="w-1/2 px-4 py-3 rounded-xl border border-border bg-white text-muted"
-                  />
-                </div>
-              </div>
-            </div>
-            <p className="text-xs text-muted mt-3">
-              Ini bukan pembayaran asli. Ga ada kartu yang diproses, ga ada uang yang keluar. Situs
-              parodi — baca <a href="/tentang" className="underline">selengkapnya</a>.
-            </p>
+            <PaymentMethod total={total} />
           </div>
         </div>
 
