@@ -18,6 +18,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://makanangin.com"),
   title: "Makan Angin",
   description: "Pesan makanan Indonesia. Makanannya ga bakal dateng. Resepnya iya.",
 };
