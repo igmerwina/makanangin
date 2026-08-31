@@ -8,7 +8,11 @@ const CART_KEY = "makanangin:keranjang:v1";
 
 interface CartContextValue {
   cart: CartLine[];
-  tambah: (item: { slug: string; nama: string; emoji: string; harga: number }, opsi: string[], qty?: number) => void;
+  tambah: (
+    item: { slug: string; nama: string; emoji: string; daerah: string; harga: number },
+    opsi: string[],
+    qty?: number
+  ) => void;
   ubah: (id: string, qty: number) => void;
   hapus: (id: string) => void;
   kosongkan: () => void;

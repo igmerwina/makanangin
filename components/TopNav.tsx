@@ -49,7 +49,10 @@ export default function TopNav() {
         <animated.div style={{ scale: style.scale }}>
           <Link
             href="/keranjang"
-            className="text-sm px-4 py-2 rounded-full bg-kunyit text-tinta font-semibold inline-flex items-center gap-1.5 shadow-sm hover:brightness-105 transition"
+            aria-current={pathname === "/keranjang" ? "page" : undefined}
+            className={`text-sm px-4 py-2 rounded-full bg-kunyit text-tinta font-semibold inline-flex items-center gap-1.5 shadow-sm hover:brightness-105 transition ${
+              pathname === "/keranjang" ? "ring-2 ring-white" : ""
+            }`}
           >
             🛒 Keranjang{jumlahItem > 0 ? ` (${jumlahItem})` : ""}
           </Link>

@@ -2,7 +2,7 @@ import assert from "node:assert";
 import { tambahKeCart, ubahQty, hapusDariCart, subtotalCart } from "../lib/cart";
 import { deltaHarga, hitungTotal } from "../lib/harga";
 
-const nasgor = { slug: "nasi-goreng", nama: "Nasi Goreng", emoji: "🍚", harga: 20000 };
+const nasgor = { slug: "nasi-goreng", nama: "Nasi Goreng", emoji: "🍚", daerah: "Nasional", harga: 20000 };
 
 // harga.ts
 assert.strictEqual(deltaHarga("Jumbo (+8k)"), 8000);

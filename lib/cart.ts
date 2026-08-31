@@ -5,6 +5,7 @@ export interface CartLine {
   slug: string;
   nama: string;
   emoji: string;
+  daerah: string;
   hargaSatuan: number; // sudah termasuk delta opsi
   opsiTerpilih: string[];
   qty: number;
@@ -16,7 +17,7 @@ export function lineId(slug: string, opsiTerpilih: string[]): string {
 
 export function tambahKeCart(
   cart: CartLine[],
-  item: { slug: string; nama: string; emoji: string; harga: number },
+  item: { slug: string; nama: string; emoji: string; daerah: string; harga: number },
   opsiTerpilih: string[],
   qty = 1
 ): CartLine[] {
@@ -32,6 +33,7 @@ export function tambahKeCart(
       slug: item.slug,
       nama: item.nama,
       emoji: item.emoji,
+      daerah: item.daerah,
       hargaSatuan: hitungTotal(item.harga, opsiTerpilih),
       opsiTerpilih,
       qty,
