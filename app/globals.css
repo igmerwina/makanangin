@@ -4,17 +4,18 @@
    McD-style palette: bold red for action, gold yellow for accents, pure white background. */
 :root {
   color-scheme: light;
-  --color-kunyit: #ffc72c;
-  --color-sambal: #da291c;
+  --color-kunyit: #ffc83d;
+  --color-sambal: #e62b20;
   --color-pandan: #2e7d32;
   --color-gula-aren: #7b3f1d;
-  --color-krem: #ffffff;
-  --color-tinta: #1a1a1a;
+  --color-krem: #fff8ed;
+  --color-beige: #f4ebdd;
+  --color-tinta: #171717;
 
   --background: #ffffff;
   --foreground: var(--color-tinta);
-  --card: #fffaf0;
-  --border: #ffe29a;
+  --card: var(--color-krem);
+  --border: var(--color-beige);
   --muted: #6b6b6b;
   --accent: var(--color-sambal);
 }
@@ -25,6 +26,7 @@
   --color-pandan: var(--color-pandan);
   --color-gula-aren: var(--color-gula-aren);
   --color-krem: var(--color-krem);
+  --color-beige: var(--color-beige);
   --color-tinta: var(--color-tinta);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -44,4 +46,10 @@ body {
 
 h1, h2, h3, .font-display {
   font-family: var(--font-display), system-ui, sans-serif;
+}
+
+/* Minimal decorative motif — a loose dot grid, used sparingly behind hero imagery. */
+.dot-pattern {
+  background-image: radial-gradient(var(--color-kunyit) 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
 }

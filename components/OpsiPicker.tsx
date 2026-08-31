@@ -22,12 +22,14 @@ function ChipButton({
       type="button"
       aria-pressed={aktif}
       onClick={onClick}
-      onPointerDown={() => api.start({ scale: 0.92 })}
+      onPointerDown={() => api.start({ scale: 0.94 })}
       onPointerUp={() => api.start({ scale: 1 })}
       onPointerLeave={() => api.start({ scale: 1 })}
       style={style}
-      className={`px-4 py-2 min-h-11 rounded-full border text-sm transition-colors ${
-        aktif ? "bg-sambal text-white border-sambal" : "border-border bg-card"
+      className={`px-5 py-3 min-h-12 rounded-full border text-sm font-medium transition-colors duration-150 ${
+        aktif
+          ? "bg-sambal text-white border-sambal"
+          : "border-border bg-krem text-tinta hover:border-sambal/40"
       }`}
     >
       {children}
@@ -51,7 +53,7 @@ export default function OpsiPicker({ item }: { item: Item }) {
   const semuaTerpilih = Object.values(dipilih).flat();
   const total = hitungTotal(item.harga, semuaTerpilih);
 
-  const [ctaStyle, ctaApi] = useSpring(() => ({ scale: 1, config: { tension: 400, friction: 20 } }));
+  const [ctaStyle, ctaApi] = useSpring(() => ({ scale: 1, y: 0, config: { tension: 400, friction: 20 } }));
 
   function pilihTunggal(namaOpsi: string, pilihan: string) {
     setDipilih((d) => ({ ...d, [namaOpsi]: [pilihan] }));
@@ -69,7 +71,7 @@ export default function OpsiPicker({ item }: { item: Item }) {
     tambah(item, semuaTerpilih);
     setDitambahkan(true);
     ctaApi.start({
-      to: [{ scale: 1.08 }, { scale: 1 }],
+      to: [{ scale: 1.06 }, { scale: 1 }],
       config: { tension: 500, friction: 12 },
     });
     setTimeout(() => setDitambahkan(false), 1500);
@@ -79,8 +81,10 @@ export default function OpsiPicker({ item }: { item: Item }) {
     <div>
       {item.opsi.map((opsi) => (
         <fieldset key={opsi.nama} className="mb-5">
-          <legend className="font-medium mb-2">{opsi.nama}</legend>
-          <div className="flex flex-wrap gap-2">
+          <legend className="text-xs font-semibold uppercase tracking-wider text-tinta/60 mb-2.5">
+            {opsi.nama}
+          </legend>
+          <div className="flex flex-wrap gap-2.5">
             {opsi.pilihan.map((p) => {
               const aktif = (dipilih[opsi.nama] ?? []).includes(p);
               return (
@@ -97,16 +101,26 @@ export default function OpsiPicker({ item }: { item: Item }) {
         </fieldset>
       ))}
 
-      <div className="sticky bottom-16 md:bottom-0 md:static bg-background md:bg-transparent border-t md:border-0 border-border pt-3 md:pt-0 -mx-4 px-4 md:mx-0 md:px-0">
+      <div className="sticky bottom-16 md:bottom-0 md:static bg-background md:bg-transparent border-t md:border-0 border-border pt-3 md:pt-1 -mx-4 px-4 md:mx-0 md:px-0">
         <animated.button
           type="button"
           onClick={tambahKeKeranjang}
-          style={{ scale: ctaStyle.scale }}
-          className="w-full md:w-auto px-6 py-3 min-h-11 rounded-full bg-sambal text-white font-medium"
+          style={{ scale: ctaStyle.scale, y: ctaStyle.y }}
+          onMouseEnter={() => ctaApi.start({ y: -3 })}
+          onMouseLeave={() => ctaApi.start({ y: 0 })}
+          className="w-full flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5 px-6 py-4 min-h-14 rounded-full bg-sambal text-white text-sm sm:text-base lg:text-lg font-semibold shadow-md hover:shadow-lg transition-shadow duration-200 text-center"
         >
-          {ditambahkan ? "Masuk keranjang ✓" : (
+          {ditambahkan ? (
+            "Masuk keranjang ✓"
+          ) : (
             <>
-              Tambah ke keranjang · <HargaAnimasi value={total} />
+              <span className="inline-flex items-center gap-1.5">
+                <span aria-hidden>🛒</span>
+                Tambah ke Keranjang
+              </span>
+              <span className="opacity-90">
+                · <HargaAnimasi value={total} />
+              </span>
             </>
           )}
         </animated.button>
@@ -114,7 +128,7 @@ export default function OpsiPicker({ item }: { item: Item }) {
           <button
             type="button"
             onClick={() => router.push("/keranjang")}
-            className="ml-0 mt-2 md:mt-0 md:ml-3 text-sm underline block md:inline"
+            className="w-full mt-2 text-sm text-center underline text-muted"
           >
             Lihat keranjang
           </button>
