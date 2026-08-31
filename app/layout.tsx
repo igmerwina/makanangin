@@ -5,6 +5,7 @@ import TopNav from "@/components/TopNav";
 import BottomNav from "@/components/BottomNav";
 import Footer from "@/components/Footer";
 import { CartProvider } from "@/lib/CartProvider";
+import MotionSetup from "@/components/MotionSetup";
 
 const fredoka = Fredoka({
   variable: "--font-display",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${fredoka.variable} ${jakarta.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <MotionSetup />
         <CartProvider>
           <TopNav />
           <main className="flex-1 pb-16 md:pb-0">{children}</main>

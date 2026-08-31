@@ -36,8 +36,8 @@ export default function MenuBrowser({ items }: { items: Item[] }) {
             type="button"
             aria-pressed={kategori === k.value}
             onClick={() => setKategori(k.value)}
-            className={`shrink-0 px-4 py-2 min-h-11 rounded-full border text-sm ${
-              kategori === k.value ? "bg-sambal text-white border-sambal" : "border-border bg-card"
+            className={`shrink-0 px-4 py-2 min-h-11 rounded-full border text-sm transition-all active:scale-95 ${
+              kategori === k.value ? "bg-sambal text-white border-sambal scale-105" : "border-border bg-card"
             }`}
           >
             {k.label}
@@ -49,8 +49,8 @@ export default function MenuBrowser({ items }: { items: Item[] }) {
         <p className="text-muted text-center py-10">Ga ada. Coba kata lain.</p>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {hasil.map((item) => (
-            <ItemCard key={item.slug} item={item} />
+          {hasil.map((item, i) => (
+            <ItemCard key={item.slug} item={item} delay={Math.min(i, 12) * 35} />
           ))}
         </div>
       )}
