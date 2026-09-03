@@ -44,8 +44,8 @@ export default function Hero() {
       </h1>
 
       <animated.p style={sub} className="text-lg md:text-xl max-w-xl mx-auto mb-8 text-foreground/80">
-        Pesan makanan Indonesia. Bayar demo. Kurir jalan. Makanannya{" "}
-        <span className="font-medium">ga bakal dateng</span> — resepnya iya.
+        Pesan makanan khas Indonesia. Kurir pasti jalan tapi makanannya{" "}
+        <span className="font-medium">ga bakal dateng</span> — resepnya yang sampai.
       </animated.p>
 
       <animated.div style={cta} className="flex flex-wrap items-center justify-center gap-3 whitespace-nowrap">
