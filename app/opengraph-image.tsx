@@ -13,15 +13,24 @@ export default function OpengraphImage() {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          alignItems: "center",
           justifyContent: "center",
-          background: "#fff8ed",
+          padding: "0 96px",
+          background: "#fbf8f5",
           fontFamily: "sans-serif",
         }}
       >
-        <div style={{ fontSize: 130, marginBottom: 16, display: "flex" }}>🍚</div>
-        <div style={{ fontSize: 96, fontWeight: 700, color: "#171717", display: "flex" }}>Makan Angin</div>
-        <div style={{ fontSize: 36, color: "#e62b20", marginTop: 12, display: "flex" }}>
+        <div style={{ display: "flex", fontSize: 128, fontWeight: 700, color: "#211a16", lineHeight: 1 }}>
+          Makan
+        </div>
+        <div style={{ display: "flex", alignItems: "center", gap: 28 }}>
+          <span style={{ fontSize: 128, fontWeight: 700, color: "#bf3222", lineHeight: 1 }}>Angin</span>
+          <svg width="120" height="60" viewBox="0 0 64 32" fill="none">
+            <path d="M2 8 H38 a6 6 0 1 0 -6 -6" stroke="#d9931b" strokeWidth="3" strokeLinecap="round" />
+            <path d="M10 16 H54" stroke="#d9931b" strokeWidth="3" strokeLinecap="round" />
+            <path d="M4 24 H44 a5 5 0 1 1 -5 5" stroke="#d9931b" strokeWidth="3" strokeLinecap="round" />
+          </svg>
+        </div>
+        <div style={{ display: "flex", fontSize: 38, color: "#6d5f55", marginTop: 28 }}>
           Pesan makanan Indonesia. Ga bakal dateng. Resepnya iya.
         </div>
       </div>

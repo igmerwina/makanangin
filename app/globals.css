@@ -1,67 +1,179 @@
 @import "tailwindcss";
 
-/* Always bright — food apps read best on white/light, so we don't follow prefers-color-scheme.
-   McD-style palette: bold red for action, gold yellow for accents, pure white background. */
-:root {
-  color-scheme: light;
-  --color-kunyit: #ffc83d;
-  --color-sambal: #e62b20;
-  --color-pandan: #2e7d32;
-  --color-gula-aren: #7b3f1d;
-  --color-krem: #fff8ed;
-  --color-beige: #f4ebdd;
-  --color-tinta: #171717;
+/* ------------------------------------------------------------------
+   Makan Angin design tokens.
 
-  --background: #ffffff;
-  --foreground: var(--color-tinta);
-  --card: var(--color-krem);
-  --border: var(--color-beige);
-  --muted: #6b6b6b;
-  --accent: var(--color-sambal);
+   One accent: sambal. Kunyit and pandan are never interactive fills.
+   Kunyit only tints the gust mark and the focus ring; pandan only
+   carries the halal flag.
+
+   Radius system, applied everywhere without exception:
+     pill    -> anything clickable (buttons, chips, inputs, tabs)
+     card    -> surfaces that hold content
+     inner   -> thumbnails and tiles nested inside a surface
+   ------------------------------------------------------------------ */
+:root {
+  color-scheme: light dark;
+
+  --bg: #fbf8f5;
+  --surface: #f4ede7;
+  --surface-2: #ebe1d8;
+  --line: #e4d9cf;
+  --ink: #211a16;
+  --ink-2: #6d5f55;
+  --accent: #bf3222;
+  --accent-soft: #f7e2dd;
+  --on-accent: #fffaf8;
+  --kunyit: #d9931b;
+  --pandan: #2f6b46;
+
+  --radius-card: 20px;
+  --radius-inner: 12px;
+
+  /* the only three stacking contexts on the site */
+  --z-nav: 30;
+  --z-overlay: 50;
+  --z-grain: 60;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17120f;
+    --surface: #201a16;
+    --surface-2: #2b231d;
+    --line: #372e26;
+    --ink: #f4ece5;
+    --ink-2: #a3948a;
+    /* lifted so it still reads as chili against near-black; on dark the
+       accent carries dark text instead of white, which keeps AA. */
+    --accent: #ff6a4d;
+    --accent-soft: #33170f;
+    --on-accent: #2b0f08;
+    --kunyit: #f5b942;
+    --pandan: #7fc39a;
+  }
 }
 
 @theme inline {
-  --color-kunyit: var(--color-kunyit);
-  --color-sambal: var(--color-sambal);
-  --color-pandan: var(--color-pandan);
-  --color-gula-aren: var(--color-gula-aren);
-  --color-krem: var(--color-krem);
-  --color-beige: var(--color-beige);
-  --color-tinta: var(--color-tinta);
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-border: var(--border);
-  --color-muted: var(--muted);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
   --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-on-accent: var(--on-accent);
+  --color-kunyit: var(--kunyit);
+  --color-pandan: var(--pandan);
+
+  --radius-card: var(--radius-card);
+  --radius-inner: var(--radius-inner);
+
   --font-display: var(--font-display);
   --font-sans: var(--font-sans);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--bg);
+  color: var(--ink);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
-h1, h2, h3, .font-display {
+h1,
+h2,
+h3,
+.font-display {
   font-family: var(--font-display), system-ui, sans-serif;
+  font-variation-settings: "opsz" 40;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 
-/* Minimal decorative motif — a loose dot grid, used sparingly behind hero imagery. */
-.dot-pattern {
-  background-image: radial-gradient(var(--color-kunyit) 1.5px, transparent 1.5px);
-  background-size: 14px 14px;
+p {
+  text-wrap: pretty;
 }
 
-/* Kunyit lebih kontras di atas tombol merah/gelap daripada ring biru bawaan browser. */
+/* Prices and quantities line up column-wise instead of jittering. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Kunyit stays more legible over red and near-black than the browser ring. */
 :focus-visible {
-  outline: 2px solid var(--color-kunyit);
+  outline: 2px solid var(--kunyit);
   outline-offset: 2px;
 }
 
-/* Marquee foto "kebawa angin" — dua salinan list, geser tepat satu salinan (50% + setengah gap). */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Paper grain. Fixed and pointer-events-none so it never repaints on scroll. */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-grain);
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-color-scheme: dark) {
+  body::after {
+    opacity: 0.07;
+  }
+}
+
+/* Marquee "kebawa angin": two copies of the list, shift exactly one copy
+   (50% plus half the gap). Pure CSS, dies under reduced motion. */
 @keyframes drift {
-  from { transform: translateX(0); }
-  to { transform: translateX(calc(-50% - 0.5rem)); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 0.5rem));
+  }
+}
+
+/* Courier crossing the road on /kurir. The animated element is a full-width
+   track, so 100% of its own width equals the road; transform, never `left`. */
+@keyframes jalan {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(100% - 3rem));
+  }
+}
+
+/* Scroll-reveal for sections below the fold. Native scroll-driven animation,
+   so there is no scroll listener and no JS on the main thread. Browsers
+   without `animation-timeline` simply get the content already visible. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+  }
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

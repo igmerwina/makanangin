@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import { ArrowLeft, Lightbulb, Play } from "@phosphor-icons/react/ssr";
 import { allItems, getItem } from "@/lib/items";
 import { gambarUntuk } from "@/lib/gambar";
 import { youtubeSearchUrl } from "@/lib/video";
@@ -13,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!item) return {};
   const foto = gambarUntuk(slug, "hero");
   return {
-    title: `Resep ${item.nama} — Makan Angin`,
+    title: `Resep ${item.nama}`,
     description: `Cara masak ${item.nama} khas ${item.daerah}. ${item.resep.bahan.length} bahan, ${item.resep.waktu}.`,
     openGraph: { images: foto ? [{ url: foto }] : undefined },
   };
@@ -38,15 +40,23 @@ export default async function ResepDetailPage({ params }: { params: Promise<{ sl
   };
 
   return (
-    <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-10 py-6">
+    <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <div className="relative aspect-[21/9] sm:aspect-[3/1] rounded-2xl overflow-hidden bg-krem flex items-center justify-center mb-6">
+      <Link
+        href="/resep"
+        className="inline-flex items-center gap-2 py-5 text-sm font-medium text-ink-2 transition-colors hover:text-accent"
+      >
+        <ArrowLeft size={16} weight="bold" aria-hidden />
+        Semua resep
+      </Link>
+
+      <div className="relative mb-8 flex aspect-[21/9] items-center justify-center overflow-hidden rounded-card bg-surface sm:aspect-[3/1]">
         {foto ? (
           <img
             src={foto}
             alt={item.nama}
-            loading="eager"
+            fetchPriority="high"
             decoding="async"
             className="absolute inset-0 h-full w-full object-cover"
           />
@@ -57,50 +67,65 @@ export default async function ResepDetailPage({ params }: { params: Promise<{ sl
         )}
       </div>
 
-      <p className="text-xs font-semibold tracking-[0.2em] uppercase text-sambal mb-1">{item.daerah}</p>
-      <h1 className="font-display text-3xl sm:text-4xl text-tinta mb-6">Resep {item.nama}</h1>
+      <h1 className="font-display text-4xl font-semibold leading-[1.05] sm:text-5xl">
+        Resep {item.nama}
+      </h1>
+      <p className="mt-2 text-ink-2">
+        Khas {item.daerah}.{" "}
+        <Link href={`/menu/${item.slug}`} className="underline underline-offset-2 hover:text-accent">
+          Lihat halaman menunya
+        </Link>
+        .
+      </p>
 
-      <div className="md:grid md:grid-cols-[300px_1fr] md:gap-10">
+      <div className="mb-16 mt-10 md:grid md:grid-cols-[300px_1fr] md:gap-14">
         <div>
-          <div className="md:sticky md:top-24 rounded-2xl bg-krem p-5">
-            <dl className="grid grid-cols-3 gap-2 text-sm mb-4">
+          <div className="rounded-card bg-surface p-6 md:sticky md:top-[92px]">
+            <dl className="mb-6 grid grid-cols-3 gap-2 text-sm">
               <div>
-                <dt className="text-muted">Porsi</dt>
-                <dd className="font-medium">{resep.porsi}</dd>
+                <dt className="text-ink-2">Porsi</dt>
+                <dd className="tnum font-medium text-ink">{resep.porsi}</dd>
               </div>
               <div>
-                <dt className="text-muted">Waktu</dt>
-                <dd className="font-medium">{resep.waktu}</dd>
+                <dt className="text-ink-2">Waktu</dt>
+                <dd className="font-medium text-ink">{resep.waktu}</dd>
               </div>
               <div>
-                <dt className="text-muted">Sulit</dt>
-                <dd className="font-medium capitalize">{resep.sulit}</dd>
+                <dt className="text-ink-2">Sulit</dt>
+                <dd className="font-medium capitalize text-ink">{resep.sulit}</dd>
               </div>
             </dl>
-            <h2 className="font-display text-lg mb-2">Bahan</h2>
-            <ul className="list-disc list-inside space-y-1 text-sm">
+            <h2 className="mb-3 font-display text-lg font-semibold">Bahan</h2>
+            <ul className="space-y-2 text-sm text-ink-2">
               {resep.bahan.map((b, i) => (
-                <li key={i}>{b}</li>
+                <li key={i} className="flex gap-2.5">
+                  <span aria-hidden className="mt-2 h-px w-2.5 shrink-0 bg-line" />
+                  {b}
+                </li>
               ))}
             </ul>
           </div>
         </div>
 
-        <div className="mt-6 md:mt-0">
-          <h2 className="font-display text-lg mb-2">Langkah</h2>
-          <ol className="space-y-3">
+        <div className="mt-10 md:mt-0">
+          <h2 className="mb-5 font-display text-lg font-semibold">Langkah</h2>
+          <ol className="space-y-5">
             {resep.langkah.map((step, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-sambal text-white text-sm flex items-center justify-center">
+              <li key={i} className="flex gap-4">
+                <span className="tnum flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent-soft text-sm font-semibold text-accent">
                   {i + 1}
                 </span>
-                <p className="pt-0.5">{step}</p>
+                <p className="max-w-[65ch] pt-1 leading-relaxed text-ink-2">{step}</p>
               </li>
             ))}
           </ol>
+
           {resep.tips && (
-            <p className="mt-4 text-sm rounded-xl bg-kunyit/20 p-3">
-              <strong>Tips:</strong> {resep.tips}
+            <p className="mt-8 flex max-w-[65ch] gap-3 rounded-card bg-surface p-5 text-sm leading-relaxed text-ink-2">
+              <Lightbulb size={18} weight="fill" aria-hidden className="mt-0.5 shrink-0 text-kunyit" />
+              <span>
+                <strong className="font-semibold text-ink">Tips:</strong> {resep.tips}
+              </span>
             </p>
           )}
 
@@ -108,14 +133,14 @@ export default async function ResepDetailPage({ params }: { params: Promise<{ sl
             href={youtubeSearchUrl(item.nama, item.daerah)}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 flex items-center gap-3 rounded-2xl border border-border bg-card p-4 hover:border-sambal transition-colors"
+            className="group mt-6 flex max-w-[65ch] items-center gap-4 rounded-card border border-line p-4 transition-colors hover:border-accent"
           >
-            <span className="shrink-0 w-11 h-11 rounded-full bg-sambal text-white flex items-center justify-center text-lg" aria-hidden>
-              ▶
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-accent text-on-accent">
+              <Play size={18} weight="fill" aria-hidden />
             </span>
             <span>
-              <span className="block font-medium">Cari tutorial video {item.nama}</span>
-              <span className="block text-xs text-muted">Buka pencarian YouTube di tab baru</span>
+              <span className="block font-medium text-ink">Cari tutorial video {item.nama}</span>
+              <span className="block text-xs text-ink-2">Buka pencarian YouTube di tab baru</span>
             </span>
           </a>
         </div>
