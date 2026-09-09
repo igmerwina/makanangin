@@ -7,6 +7,7 @@ import { animated, useSpring } from "@react-spring/web";
 import { BagSimple } from "@phosphor-icons/react";
 import { useCart } from "@/lib/CartProvider";
 import Gust from "@/components/Gust";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const LINKS = [
   { href: "/menu", label: "Menu" },
@@ -57,7 +58,9 @@ export default function TopNav() {
             );
           })}
 
-          <animated.div style={{ scale: style.scale }} className="ml-3">
+          <ThemeToggle className="ml-2" />
+
+          <animated.div style={{ scale: style.scale }} className="ml-2">
             <Link
               href="/keranjang"
               aria-current={pathname === "/keranjang" ? "page" : undefined}

@@ -3,8 +3,12 @@
 /* ------------------------------------------------------------------
    Makan Angin design tokens.
 
-   One accent: sambal. Kunyit and pandan are never interactive fills.
-   Kunyit only tints the gust mark and the focus ring; pandan only
+   Two themes, switched by `data-theme` on <html>. Light is the default
+   and is the original bright palette: white ground, kunyit yellow, and
+   the loud sambal red. Dark is the warm near-black variant.
+
+   One accent per theme: sambal. Kunyit and pandan are never interactive
+   fills; kunyit tints the gust mark and the focus ring, pandan only
    carries the halal flag.
 
    Radius system, applied everywhere without exception:
@@ -12,20 +16,24 @@
      card    -> surfaces that hold content
      inner   -> thumbnails and tiles nested inside a surface
    ------------------------------------------------------------------ */
-:root {
-  color-scheme: light dark;
+:root,
+[data-theme="light"] {
+  color-scheme: light;
 
-  --bg: #fbf8f5;
-  --surface: #f4ede7;
-  --surface-2: #ebe1d8;
-  --line: #e4d9cf;
-  --ink: #211a16;
-  --ink-2: #6d5f55;
-  --accent: #bf3222;
-  --accent-soft: #f7e2dd;
-  --on-accent: #fffaf8;
-  --kunyit: #d9931b;
-  --pandan: #2f6b46;
+  --bg: #ffffff;
+  --surface: #fff8ed;
+  --surface-2: #f4ebdd;
+  --line: #ecdcc2;
+  --ink: #171717;
+  --ink-2: #6b6b6b;
+  /* The original was #e62b20, which lands at 4.44:1 against white label
+     text and misses WCAG AA by a hair. Three percent darker clears 4.9:1
+     and is indistinguishable side by side. */
+  --accent: #d9261b;
+  --accent-soft: #ffe8e5;
+  --on-accent: #ffffff;
+  --kunyit: #ffc83d;
+  --pandan: #2e7d32;
 
   --radius-card: 20px;
   --radius-inner: 12px;
@@ -36,22 +44,22 @@
   --z-grain: 60;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #17120f;
-    --surface: #201a16;
-    --surface-2: #2b231d;
-    --line: #372e26;
-    --ink: #f4ece5;
-    --ink-2: #a3948a;
-    /* lifted so it still reads as chili against near-black; on dark the
-       accent carries dark text instead of white, which keeps AA. */
-    --accent: #ff6a4d;
-    --accent-soft: #33170f;
-    --on-accent: #2b0f08;
-    --kunyit: #f5b942;
-    --pandan: #7fc39a;
-  }
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #17120f;
+  --surface: #201a16;
+  --surface-2: #2b231d;
+  --line: #372e26;
+  --ink: #f4ece5;
+  --ink-2: #a3948a;
+  /* lifted so it still reads as chili against near-black; on dark the
+     accent carries dark text instead of white, which keeps AA. */
+  --accent: #ff6a4d;
+  --accent-soft: #33170f;
+  --on-accent: #2b0f08;
+  --kunyit: #f5b942;
+  --pandan: #7fc39a;
 }
 
 @theme inline {
@@ -126,10 +134,8 @@ body::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-@media (prefers-color-scheme: dark) {
-  body::after {
-    opacity: 0.07;
-  }
+[data-theme="dark"] body::after {
+  opacity: 0.07;
 }
 
 /* Marquee "kebawa angin": two copies of the list, shift exactly one copy
@@ -176,4 +182,22 @@ body::after {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Theme-conditional bits that must not depend on React state: the theme
+   toggle's icon and label. `data-theme` on <html> is the source of truth. */
+.only-light {
+  display: inline-block;
+}
+
+.only-dark {
+  display: none;
+}
+
+[data-theme="dark"] .only-light {
+  display: none;
+}
+
+[data-theme="dark"] .only-dark {
+  display: inline-block;
 }

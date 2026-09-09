@@ -45,8 +45,21 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="id"
+      data-theme="light"
+      suppressHydrationWarning
       className={`${display.variable} ${jakarta.variable} h-full antialiased`}
     >
+      <head>
+        {/* Applies the remembered theme before first paint, otherwise a dark
+            reader gets a white flash on every navigation. Light stays the
+            default when nothing is stored. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{if(localStorage.getItem('makanangin:tema')==='dark'){document.documentElement.dataset.theme='dark'}}catch(e){}",
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <MotionSetup />
         <a

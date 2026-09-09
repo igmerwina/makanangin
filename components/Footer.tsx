@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Heart } from "@phosphor-icons/react/ssr";
 import Gust from "@/components/Gust";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const LINKS = [
   { href: "/menu", label: "Menu" },
@@ -21,13 +22,17 @@ export default function Footer() {
             </p>
             <p className="mt-1 text-sm text-ink-2">Kuliner Nusantara, dianter angin.</p>
           </div>
-          <nav className="flex flex-wrap gap-x-6 gap-y-2">
-            {LINKS.map((link) => (
-              <Link key={link.href} href={link.href} className="text-sm text-ink-2 transition-colors hover:text-accent">
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+          <div className="flex items-center gap-6">
+            <nav className="flex flex-wrap gap-x-6 gap-y-2">
+              {LINKS.map((link) => (
+                <Link key={link.href} href={link.href} className="text-sm text-ink-2 transition-colors hover:text-accent">
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+            {/* The top bar is desktop-only, so this is the toggle's reach on mobile. */}
+            <ThemeToggle className="md:hidden" />
+          </div>
         </div>
 
         <div className="mt-10 flex flex-col gap-3 border-t border-line pt-6 sm:flex-row sm:items-start sm:justify-between">
