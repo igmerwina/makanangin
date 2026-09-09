@@ -2,7 +2,7 @@
 
 Situs parodi pesan-makanan Indonesia. Kamu pesan, bayar demo, kurir jalan — terus dia telepon bilang makanannya **ga bakal dateng**. Yang beneran kamu dapet cuma resep asli dan cerita asal daerahnya.
 
-80 hidangan dari 34 provinsi. Ga ada pembayaran asli, ga ada data kartu yang diminta atau disimpan, di mana pun.
+201 hidangan dari 37 provinsi. Ga ada pembayaran asli, ga ada data kartu yang diminta atau disimpan, di mana pun.
 
 ## Screenshot
 
@@ -22,7 +22,7 @@ Beranda → Menu → Detail item (pilih opsi) → Keranjang → Checkout (kartu 
 
 ## Fitur
 
-- Katalog 80 item — makanan, minuman, jajanan, kudapan — dari 34 provinsi
+- Katalog 201 item — makanan, minuman, jajanan, kudapan — dari 37 provinsi
 - Foto asli tiap item (Wikimedia Commons, dikompres ke thumbnail kecil)
 - Filter kategori + pencarian
 - Keranjang, opsi/varian per item, harga dinamis
@@ -60,7 +60,7 @@ pnpm run build   # validasi data + build statis ke out/
 app/            rute (App Router)
 components/     komponen UI
 lib/            logic murni — cart, filter, harga, gambar, warung
-data/           items.json (80 item), warung.json, kurir.json, alasan.json, gambar.json
+data/           items.json (201 item), warung.json, kurir.json, alasan.json, gambar.json
 scripts/        validator data + self-check (jalan otomatis sebelum build)
 ```
 

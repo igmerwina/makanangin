@@ -72,3 +72,16 @@ export function validateItems(list: Item[] = items): string[] {
 
   return errors;
 }
+
+/** Angka katalog untuk copy di beranda, menu, dan halaman tentang. Dihitung dari
+ *  data supaya teksnya ga pernah bohong lagi waktu item ditambah. "Nasional"
+ *  bukan provinsi, jadi ga ikut dihitung. */
+export function statistik() {
+  const daerah = new Set(items.map((i) => i.daerah));
+  daerah.delete("Nasional");
+  return {
+    jumlahItem: items.length,
+    jumlahProvinsi: daerah.size,
+    jumlahPulau: new Set(items.map((i) => i.pulau)).size,
+  };
+}

@@ -13,7 +13,7 @@ export type BarisResep = {
   foto: string | null;
 };
 
-/** 80 resep is too many to scan, so the index gets its own search. Filtering
+/** Two hundred recipes is too many to scan, so the index gets its own search. Filtering
  *  happens on an already-loaded array; no request, no debounce needed. */
 export default function ResepBrowser({ baris }: { baris: BarisResep[] }) {
   const [cari, setCari] = useState("");

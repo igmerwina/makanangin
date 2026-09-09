@@ -1,10 +1,10 @@
-import { allItems } from "@/lib/items";
+import { allItems, statistik } from "@/lib/items";
 import { gambarUntuk } from "@/lib/gambar";
 import ResepBrowser, { type BarisResep } from "./ResepBrowser";
 
 export const metadata = {
   title: "Resep",
-  description: "80 resep masakan Indonesia, ditulis ulang, lengkap dengan bahan dan langkahnya.",
+  description: `${statistik().jumlahItem} resep masakan Indonesia, ditulis ulang, lengkap dengan bahan dan langkahnya.`,
 };
 
 export default function ResepIndexPage() {

@@ -78,7 +78,7 @@ export default function MenuBrowser({ items }: { items: ItemIndex[] }) {
         <div className="mx-auto max-w-sm rounded-card bg-surface px-6 py-14 text-center">
           <h2 className="font-display text-xl font-semibold">Ga ada yang cocok</h2>
           <p className="mt-2 text-sm text-ink-2">
-            Coba kata lain, atau lepas filternya dan lihat semua 80 hidangan.
+            Coba kata lain, atau lepas filternya dan lihat semua {items.length} hidangan.
           </p>
           <button
             type="button"

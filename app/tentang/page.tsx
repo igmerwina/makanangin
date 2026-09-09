@@ -1,13 +1,16 @@
 import Link from "next/link";
 import { Check, X } from "@phosphor-icons/react/ssr";
+import { statistik } from "@/lib/items";
 
 export const metadata = {
   title: "Tentang",
   description: "Kenapa Makan Angin ada, apa yang beneran jalan, dan apa yang sengaja nggak.",
 };
 
+const { jumlahItem, jumlahProvinsi } = statistik();
+
 const JALAN = [
-  "Katalog 80 hidangan asli Indonesia, lengkap dengan resep",
+  `Katalog ${jumlahItem} hidangan asli Indonesia, lengkap dengan resep`,
   "Keranjang, filter, dan pencarian, semuanya nyata",
   "Riwayat pesanan disimpan di HP kamu sendiri (localStorage), ga di server kami",
 ];
@@ -57,8 +60,8 @@ export default function TentangPage() {
         <p>
           Ga ada makanan asli. Ga ada pembayaran asli. Ga ada akun. Ga ada data kartu yang diminta
           atau disimpan, di mana pun. Semua data checkout cuma tampilan, ga pernah diproses atau
-          dikirim ke mana pun. Yang kamu dapet beneran cuma resep dan cerita asal daerahnya, buat 80
-          hidangan dari 34 provinsi.
+          dikirim ke mana pun. Yang kamu dapet beneran cuma resep dan cerita asal daerahnya, buat{" "}
+          {jumlahItem} hidangan dari {jumlahProvinsi} provinsi.
         </p>
       </div>
 

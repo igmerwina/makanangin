@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react/ssr";
 import Hero, { type HeroFoto } from "./Hero";
-import { getIndexItem, indexItems } from "@/lib/items";
+import { getIndexItem, indexItems, statistik } from "@/lib/items";
 import { gambarUntuk } from "@/lib/gambar";
 import ItemCard from "@/components/ItemCard";
 import FotoMarquee from "@/components/FotoMarquee";
@@ -18,10 +18,12 @@ const POPULER = [
   "klepon",
 ];
 
+const { jumlahItem, jumlahProvinsi } = statistik();
+
 const CARA = [
   {
     judul: "Pilih makanannya",
-    isi: "80 hidangan dari 34 provinsi. Atur porsi, level pedas, tambahan, semuanya jalan.",
+    isi: `${jumlahItem} hidangan dari ${jumlahProvinsi} provinsi. Atur porsi, level pedas, tambahan, semuanya jalan.`,
   },
   {
     judul: "Bayar pakai angin",
@@ -76,7 +78,7 @@ export default function Home() {
             href="/menu"
             className="inline-flex items-center gap-1.5 rounded-full px-1 py-1 text-sm font-medium text-accent hover:underline"
           >
-            Semua 80 hidangan
+            Semua {jumlahItem} hidangan
             <ArrowRight size={16} weight="bold" aria-hidden />
           </Link>
         </div>
