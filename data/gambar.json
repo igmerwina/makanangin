@@ -286,5 +286,317 @@
   "otak-otak": {
     "card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Otak-otak.jpg/330px-Otak-otak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Otak-otak.jpg/960px-Otak-otak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "kuah-pliek-u": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Kuwah_Pliek_U.jpg/330px-Kuwah_Pliek_U.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Kuwah_Pliek_U.jpg/960px-Kuwah_Pliek_U.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "ayam-tangkap": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Masakan_Khas_Kota_Aceh_Ayam_Tangkap.jpg/330px-Masakan_Khas_Kota_Aceh_Ayam_Tangkap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Masakan_Khas_Kota_Aceh_Ayam_Tangkap.jpg/960px-Masakan_Khas_Kota_Aceh_Ayam_Tangkap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "timphan": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Timphan_Asoe_Kaya.jpg/330px-Timphan_Asoe_Kaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Timphan_Asoe_Kaya.jpg/960px-Timphan_Asoe_Kaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "kuah-beulangong": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Kuah_Beulangong.JPG/330px-Kuah_Beulangong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Kuah_Beulangong.JPG/960px-Kuah_Beulangong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "saksang": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Saksang_2.JPG/330px-Saksang_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Saksang_2.JPG/960px-Saksang_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "mie-gomak": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mie_Gomak_2.jpg/330px-Mie_Gomak_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mie_Gomak_2.jpg/960px-Mie_Gomak_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "sate-padang": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sate_Padang2.JPG/330px-Sate_Padang2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sate_Padang2.JPG/960px-Sate_Padang2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "dendeng-balado": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Dendeng_balado.JPG/330px-Dendeng_balado.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Dendeng_balado.JPG/960px-Dendeng_balado.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "soto-padang": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Soto_Padang_1.JPG/330px-Soto_Padang_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Soto_Padang_1.JPG/960px-Soto_Padang_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "bubur-kampiun": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Lupis_bubur_kampiun.jpg/330px-Lupis_bubur_kampiun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Lupis_bubur_kampiun.jpg/960px-Lupis_bubur_kampiun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "lamang-tapai": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Lamang_Tapai_1.jpg/330px-Lamang_Tapai_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Lamang_Tapai_1.jpg/960px-Lamang_Tapai_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "bolu-kemojo": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Bolu_Kemojo.jpg/330px-Bolu_Kemojo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Bolu_Kemojo.jpg/960px-Bolu_Kemojo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "mie-lendir": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Resep_Mie_Lendir_Kuliner_Khas_Batam.jpg/330px-Resep_Mie_Lendir_Kuliner_Khas_Batam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/7/72/Resep_Mie_Lendir_Kuliner_Khas_Batam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "nasi-gemuk": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Nasi_Gmk.jpg/330px-Nasi_Gmk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Nasi_Gmk.jpg/960px-Nasi_Gmk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "kue-padamaran": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/KUE_PADAMARAN.jpg/330px-KUE_PADAMARAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/KUE_PADAMARAN.jpg/960px-KUE_PADAMARAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "tekwan": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Tekwan.JPG/330px-Tekwan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Tekwan.JPG/960px-Tekwan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "mie-celor": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Mie_Celor.jpg/330px-Mie_Celor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Mie_Celor.jpg/960px-Mie_Celor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "kerak-telor": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kerak_telor_Betawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "asinan-betawi": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Asinan_Betawi_2.jpg/330px-Asinan_Betawi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Asinan_Betawi_2.jpg/960px-Asinan_Betawi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "gabus-pucung": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Gabus_Pucung_1.jpg/330px-Gabus_Pucung_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Gabus_Pucung_1.jpg/960px-Gabus_Pucung_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "nasi-ulam-betawi": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Nasi_Ulam_bersama_Daging_Bakar.jpg/330px-Nasi_Ulam_bersama_Daging_Bakar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Nasi_Ulam_bersama_Daging_Bakar.jpg/960px-Nasi_Ulam_bersama_Daging_Bakar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "angeun-lada": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Angeun_Lada_Banten.jpg/330px-Angeun_Lada_Banten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/2/27/Angeun_Lada_Banten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "karedok": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Karedok_platter.JPG/330px-Karedok_platter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Karedok_platter.JPG/960px-Karedok_platter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "soto-bandung": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Soto_Bandung.jpg/330px-Soto_Bandung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Soto_Bandung.jpg/960px-Soto_Bandung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "batagor": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Batagor.jpg/330px-Batagor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Batagor.jpg/960px-Batagor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "tahu-gimbal": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Tahu_gimbal_in_Semarang.jpg/330px-Tahu_gimbal_in_Semarang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Tahu_gimbal_in_Semarang.jpg/960px-Tahu_gimbal_in_Semarang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "garang-asem": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Garang_asem_Pj.JPG/330px-Garang_asem_Pj.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Garang_asem_Pj.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "mangut-lele": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Mangut_lele.jpg/330px-Mangut_lele.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Mangut_lele.jpg/960px-Mangut_lele.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "soto-kudus": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Soto_Kudus_nasi.JPG/330px-Soto_Kudus_nasi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Soto_Kudus_nasi.JPG/960px-Soto_Kudus_nasi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "tempe-mendoan": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Mendoan.jpg/330px-Mendoan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Mendoan.jpg/960px-Mendoan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "nasi-gandul": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Nasi_Gandul_2.jpg/330px-Nasi_Gandul_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Nasi_Gandul_2.jpg/960px-Nasi_Gandul_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "sate-klathak": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/10._Sate_Klathak_2.jpg/330px-10._Sate_Klathak_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/10._Sate_Klathak_2.jpg/960px-10._Sate_Klathak_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "bakpia-pathok": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Bakpia_Pathok_3.jpg/330px-Bakpia_Pathok_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Bakpia_Pathok_3.jpg/960px-Bakpia_Pathok_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "tiwul": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tiwul-hariadhi.jpg/330px-Tiwul-hariadhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tiwul-hariadhi.jpg/960px-Tiwul-hariadhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "lontong-balap": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Lontong_Balap.jpg/330px-Lontong_Balap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Lontong_Balap.jpg/960px-Lontong_Balap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "rujak-cingur": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Rujak_Cingur.jpg/330px-Rujak_Cingur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rujak_Cingur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "tahu-campur": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tahu_Campur_2.jpg/330px-Tahu_Campur_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tahu_Campur_2.jpg/960px-Tahu_Campur_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "sate-klopo": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Sate_Kelapa.jpg/330px-Sate_Kelapa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Sate_Kelapa.jpg/960px-Sate_Kelapa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "pecel-madiun": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Pecel_Hariadhi.JPG/330px-Pecel_Hariadhi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Pecel_Hariadhi.JPG/960px-Pecel_Hariadhi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "nasi-krawu": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Krawu_rice.jpg/330px-Krawu_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Krawu_rice.jpg/960px-Krawu_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "lontong-kupang": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Lontong_Kupang.jpg/330px-Lontong_Kupang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Lontong_Kupang.jpg/960px-Lontong_Kupang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "tahu-tek": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tahu_telur_in_Banyuwangi.jpg/330px-Tahu_telur_in_Banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tahu_telur_in_Banyuwangi.jpg/960px-Tahu_telur_in_Banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "babi-guling": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Babi_guling.jpg/330px-Babi_guling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Babi_guling.jpg/960px-Babi_guling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "ayam-betutu": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Ayam_Betutu.jpg/330px-Ayam_Betutu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Ayam_Betutu.jpg/960px-Ayam_Betutu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "lawar": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lawar_babi_guling.jpg/330px-Lawar_babi_guling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lawar_babi_guling.jpg/960px-Lawar_babi_guling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "nasi-jinggo": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nasi_Jinggo.jpg/330px-Nasi_Jinggo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nasi_Jinggo.jpg/960px-Nasi_Jinggo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "plecing-kangkung": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Pelecing_kangkung.JPG/330px-Pelecing_kangkung.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Pelecing_kangkung.JPG/960px-Pelecing_kangkung.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "bebalung": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Bebalung_Tampak_Samping.jpg/330px-Bebalung_Tampak_Samping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/2/29/Bebalung_Tampak_Samping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "jagung-bose": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Jagung_Bose.jpg/330px-Jagung_Bose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Jagung_Bose.jpg/960px-Jagung_Bose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "choi-pan": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Choi_Pan.jpg/330px-Choi_Pan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Choi_Pan.jpg/960px-Choi_Pan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "ketupat-kandangan": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ketupat_Kandangan_ikan_haruan.JPG/330px-Ketupat_Kandangan_ikan_haruan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ketupat_Kandangan_ikan_haruan.JPG/960px-Ketupat_Kandangan_ikan_haruan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "apam-barabai": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Wadai_Apam_Barabai.JPG/330px-Wadai_Apam_Barabai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Wadai_Apam_Barabai.JPG/960px-Wadai_Apam_Barabai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "ayam-cincane": {
+    "card": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ayam-cincane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ayam-cincane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "pisang-gapit": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Pisang_gapit.jpg/330px-Pisang_gapit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Pisang_gapit.jpg/960px-Pisang_gapit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "lawa-tarakan": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Lava%2C_one_of_R%C4%81ma%E2%80%99s_sons..jpg/330px-Lava%2C_one_of_R%C4%81ma%E2%80%99s_sons..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Lava%2C_one_of_R%C4%81ma%E2%80%99s_sons..jpg/960px-Lava%2C_one_of_R%C4%81ma%E2%80%99s_sons..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "cakalang-fufu": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Cakalang_fufu.JPG/330px-Cakalang_fufu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Cakalang_fufu.JPG/960px-Cakalang_fufu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "klappertaart": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Coconut_custard_klappertaart.jpg/330px-Coconut_custard_klappertaart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Coconut_custard_klappertaart.jpg/960px-Coconut_custard_klappertaart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "panada": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Empanada_-_Stu_Spivack.jpg/330px-Empanada_-_Stu_Spivack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Empanada_-_Stu_Spivack.jpg/960px-Empanada_-_Stu_Spivack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "ilabulo": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ilabulo_%28Makanan_Khas_Gorontalo%29.jpg/330px-Ilabulo_%28Makanan_Khas_Gorontalo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ilabulo_%28Makanan_Khas_Gorontalo%29.jpg/960px-Ilabulo_%28Makanan_Khas_Gorontalo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "sop-konro": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sop_Konro.JPG/330px-Sop_Konro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sop_Konro.JPG/960px-Sop_Konro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "pallubasa": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pallubasa.jpg/330px-Pallubasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pallubasa.jpg/960px-Pallubasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "jalangkote": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Jalangkote.jpg/330px-Jalangkote.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Jalangkote.jpg/960px-Jalangkote.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "barongko": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Barongko_hendak_dimakan.jpg/330px-Barongko_hendak_dimakan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Barongko_hendak_dimakan.jpg/960px-Barongko_hendak_dimakan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "jepa": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Jepa_Saluan.jpg/330px-Jepa_Saluan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Jepa_Saluan.jpg/960px-Jepa_Saluan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "lapis-palaro": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Stamp_of_Indonesia_-_2010_-_Colnect_248254_-_Lapis_Palaro.jpeg/330px-Stamp_of_Indonesia_-_2010_-_Colnect_248254_-_Lapis_Palaro.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Stamp_of_Indonesia_-_2010_-_Colnect_248254_-_Lapis_Palaro.jpeg/960px-Stamp_of_Indonesia_-_2010_-_Colnect_248254_-_Lapis_Palaro.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "aunu-senebre": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Stamp_of_Indonesia_-_2006_-_Colnect_385078_-_Indonesian_Traditional_Foods_-_Aunu_Senebre.jpeg/330px-Stamp_of_Indonesia_-_2006_-_Colnect_385078_-_Indonesian_Traditional_Foods_-_Aunu_Senebre.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Stamp_of_Indonesia_-_2006_-_Colnect_385078_-_Indonesian_Traditional_Foods_-_Aunu_Senebre.jpeg/960px-Stamp_of_Indonesia_-_2006_-_Colnect_385078_-_Indonesian_Traditional_Foods_-_Aunu_Senebre.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "bakar-batu": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Barapen_Ceremony_Baliem_Valley.jpg/330px-Barapen_Ceremony_Baliem_Valley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/7/73/Barapen_Ceremony_Baliem_Valley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "sate-ulat-sagu": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Sate_ulat_sagu.webp/330px-Sate_ulat_sagu.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Sate_ulat_sagu.webp/960px-Sate_ulat_sagu.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "lontong-medan": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Lontong_sayur_without_spoon.JPG/330px-Lontong_sayur_without_spoon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Lontong_sayur_without_spoon.JPG/960px-Lontong_sayur_without_spoon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "gulai-itiak-lado-mudo": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Itiak_lado_mudo_2.jpg/330px-Itiak_lado_mudo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Itiak_lado_mudo_2.jpg/960px-Itiak_lado_mudo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "asam-pedas-baung": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ikan_Asam_Padeh_Padang.jpg/330px-Ikan_Asam_Padeh_Padang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ikan_Asam_Padeh_Padang.jpg/960px-Ikan_Asam_Padeh_Padang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "sup-ikan-batam": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Quail_07_bg_041506.jpg/330px-Quail_07_bg_041506.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Quail_07_bg_041506.jpg/960px-Quail_07_bg_041506.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "tempoyak-ikan-patin": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Tempoyak_Ikan_Patin_2.JPG/330px-Tempoyak_Ikan_Patin_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Tempoyak_Ikan_Patin_2.JPG/960px-Tempoyak_Ikan_Patin_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "pindang-patin": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Mackerel_tuna_pindangs_at_Kalibaru%27s_traditional_market%2C_Banyuwangi%2C_East_Java%2C_Indonesia.jpg/330px-Mackerel_tuna_pindangs_at_Kalibaru%27s_traditional_market%2C_Banyuwangi%2C_East_Java%2C_Indonesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Mackerel_tuna_pindangs_at_Kalibaru%27s_traditional_market%2C_Banyuwangi%2C_East_Java%2C_Indonesia.jpg/960px-Mackerel_tuna_pindangs_at_Kalibaru%27s_traditional_market%2C_Banyuwangi%2C_East_Java%2C_Indonesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "mie-kocok-bandung": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Mie_Kocok_Bandung.jpg/330px-Mie_Kocok_Bandung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Mie_Kocok_Bandung.jpg/960px-Mie_Kocok_Bandung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "bebek-sinjay": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Nasi_bebek_goreng_Ubud_Bali.JPG/330px-Nasi_bebek_goreng_Ubud_Bali.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Nasi_bebek_goreng_Ubud_Bali.JPG/960px-Nasi_bebek_goreng_Ubud_Bali.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "ayam-woku-belanga": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kakap_Woku.JPG/330px-Kakap_Woku.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kakap_Woku.JPG/960px-Kakap_Woku.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "sate-tuna-gorontalo": {
+    "card": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Sate_Tuna.jpg/330px-Sate_Tuna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Sate_Tuna.jpg/960px-Sate_Tuna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
 }

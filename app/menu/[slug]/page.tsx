@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { CheckCircle, Pepper, Storefront } from "@phosphor-icons/react/ssr";
 import { allItems, getItem } from "@/lib/items";
 import { formatRupiah, unitLabel } from "@/lib/harga";
 import { warungUntuk } from "@/lib/warung";
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!item) return {};
   const foto = gambarUntuk(slug, "hero");
   return {
-    title: `${item.nama} — Makan Angin`,
+    title: item.nama,
     description: item.deskripsi,
     openGraph: {
       title: item.nama,
@@ -32,94 +33,94 @@ export default async function ItemDetailPage({ params }: { params: Promise<{ slu
   if (!item) notFound();
   const warung = warungUntuk(item);
   const foto = gambarUntuk(slug, "hero");
-  const badge = item.tipe === "tradisional" ? `Khas ${item.daerah}` : "Favorit Semua Orang";
 
   return (
-    <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-10">
-      {/* ---------- hero ---------- */}
-      <div className="pt-6 lg:pt-12 lg:grid lg:grid-cols-2 lg:gap-14 lg:items-start">
-        {/* image column */}
-        <div className="relative">
-          <div aria-hidden className="dot-pattern hidden lg:block absolute -z-10 -top-6 -left-6 w-32 h-32 opacity-50" />
-          <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-krem ring-1 ring-border">
+    <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-10">
+      <Link
+        href="/menu"
+        className="inline-block py-5 text-sm font-medium text-ink-2 transition-colors hover:text-accent"
+      >
+        Kembali ke menu
+      </Link>
+
+      <div className="lg:grid lg:grid-cols-12 lg:items-start lg:gap-14">
+        <div className="lg:col-span-6 lg:sticky lg:top-[92px]">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-card bg-surface">
             {foto ? (
               <img
                 src={foto}
                 alt={item.nama}
-                loading="eager"
+                fetchPriority="high"
                 decoding="async"
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                className="absolute inset-0 h-full w-full object-cover"
               />
             ) : (
               <span className="absolute inset-0 flex items-center justify-center text-8xl" aria-hidden>
                 {item.emoji}
               </span>
             )}
-            <span className="absolute top-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-xs font-semibold tracking-wide text-tinta shadow-sm">
-              🔥 {badge.toUpperCase()}
-            </span>
           </div>
         </div>
 
-        {/* info column */}
-        <div className="mt-6 lg:mt-0 flex flex-col">
-          <Link
-            href={`/daerah/${item.pulau}`}
-            className="inline-flex w-fit items-center gap-1 text-xs font-semibold tracking-[0.18em] uppercase text-sambal hover:underline mb-2"
-          >
-            {item.daerah}
-          </Link>
+        <div className="mt-8 flex flex-col lg:col-span-6 lg:mt-0">
+          <h1 className="font-display text-4xl font-semibold leading-[1.03] sm:text-5xl">{item.nama}</h1>
 
-          <h1 className="font-display text-4xl sm:text-5xl leading-[1.05] tracking-tight text-tinta mb-3">
-            {item.nama}
-          </h1>
-
-          <p className="text-base text-foreground/70 leading-relaxed max-w-md mb-5">{item.deskripsi}</p>
-
-          {item.halal && (
-            <div className="mb-6">
-              <span className="inline-flex items-center gap-1 rounded-full bg-pandan/10 text-pandan text-xs font-medium px-2.5 py-1.5">
-                ✓ Halal
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <Link
+              href={`/daerah/${item.pulau}`}
+              className="min-h-8 rounded-full bg-accent-soft px-3 py-1.5 text-sm font-medium text-accent transition-opacity hover:opacity-80"
+            >
+              {item.daerah}
+            </Link>
+            {item.halal && (
+              <span className="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-sm font-medium text-pandan">
+                <CheckCircle size={15} weight="bold" aria-hidden />
+                Halal
               </span>
-            </div>
-          )}
-
-          <div className={`flex items-baseline gap-2 ${item.pedas > 0 ? "mb-2" : "mb-6"}`}>
-            <span className="font-display text-4xl text-tinta">{formatRupiah(item.harga)}</span>
-            <span className="text-sm text-muted">{unitLabel(item.kategori)}</span>
+            )}
+            {item.pedas > 0 && (
+              <span
+                className="tnum inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-sm font-medium text-accent"
+                aria-label={`Level pedas ${item.pedas} dari 5`}
+              >
+                <Pepper size={15} weight="fill" aria-hidden />
+                Pedas {item.pedas}/5
+              </span>
+            )}
           </div>
 
-          {item.pedas > 0 && (
-            <p className="text-sm text-sambal mb-6" aria-label={`Level pedas ${item.pedas} dari 5`}>
-              {"🌶️".repeat(item.pedas)} <span className="text-muted">level pedas</span>
-            </p>
-          )}
+          <p className="mt-5 max-w-[58ch] leading-relaxed text-ink-2">{item.deskripsi}</p>
 
-          <OpsiPicker item={item} />
+          <div className="mt-6 flex items-baseline gap-2">
+            <span className="tnum font-display text-4xl font-semibold">{formatRupiah(item.harga)}</span>
+            <span className="text-sm text-ink-2">{unitLabel(item.kategori)}</span>
+          </div>
 
-          <p className="mt-4 text-xs text-muted">
-            Dikemas rapi — soal beneran nyampe apa nggak, itu urusan lain. 😅
+          <div className="mt-7">
+            <OpsiPicker item={item} />
+          </div>
+
+          <p className="mt-4 text-xs text-ink-2">
+            Dikemas rapi. Soal beneran nyampe apa nggak, itu urusan lain.
           </p>
 
-          <div className="mt-6 pt-5 border-t border-border flex items-start gap-3">
-            <span className="text-lg shrink-0" aria-hidden>
-              🏪
-            </span>
-            <p className="text-sm text-muted">
-              Dijual oleh <span className="text-foreground font-medium">{warung.nama}</span> — {warung.tagline}
+          <div className="mt-7 flex items-start gap-3 border-t border-line pt-6">
+            <Storefront size={20} weight="bold" aria-hidden className="mt-0.5 shrink-0 text-ink-2" />
+            <p className="text-sm text-ink-2">
+              Dijual oleh <span className="font-medium text-ink">{warung.nama}</span>. {warung.tagline}
             </p>
           </div>
         </div>
       </div>
 
-      {/* ---------- origin story ---------- */}
-      <div className="mt-12 lg:mt-20 mb-16 rounded-3xl bg-krem px-6 py-10 sm:px-10 sm:py-12 lg:px-16">
-        <p className="text-xs font-semibold tracking-[0.25em] uppercase text-sambal mb-3">Asal-Usul</p>
-        <h2 className="font-display text-2xl sm:text-3xl text-tinta mb-5 max-w-xl">
-          {item.nama} dari {item.daerah}
-        </h2>
-        <p className="text-base sm:text-lg leading-relaxed text-foreground/80 max-w-2xl">{item.cerita}</p>
-      </div>
+      <section className="mb-16 mt-14 lg:mt-24">
+        <div className="max-w-3xl border-t-2 border-ink pt-8">
+          <h2 className="font-display text-2xl font-semibold sm:text-3xl">
+            {item.nama} dari {item.daerah}
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-ink-2">{item.cerita}</p>
+        </div>
+      </section>
     </div>
   );
 }

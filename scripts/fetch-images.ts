@@ -90,6 +90,26 @@ const OVERRIDES: Record<string, string> = {
   "nasi-liwet-solo": "Nasi liwet",
   "sate-ayam-madura": "Sate ayam",
   "es-pisang-ijo": "Pisang ijo",
+  // Judul artikelnya beda dari nama yang dipakai di katalog.
+  "lontong-medan": "Lontong sayur",
+  "mie-kocok-bandung": "Mi kocok",
+  "nasi-tutug-oncom": "Tutug oncom",
+  "oseng-mercon": "Oseng-oseng mercon",
+  "ayam-woku-belanga": "Woku",
+  "laksa-betawi": "Laksa Betawi",
+  "asam-pedas-baung": "Asam pedas",
+  "pindang-patin": "Pindang",
+  "sup-ikan-batam": "Sup ikan",
+  "gulai-itiak-lado-mudo": "Itiak lado mudo",
+  "mie-bangka": "Mi Bangka",
+  "tempoyak-ikan-patin": "Tempoyak",
+  "bebek-sinjay": "Bebek goreng",
+  "sate-ulat-sagu": "Ulat sagu",
+  "bakar-batu": "Barapen",
+  "sate-tuna-gorontalo": "Sate tuna",
+  "lema-bengkulu": "Lema",
+  "lawa-tarakan": "Lawa",
+  "rawon-setan": "Rawon",
 };
 
 // Cases where Wikipedia's own lead image is wrong/mismatched for the dish — bypass title lookup

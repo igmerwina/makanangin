@@ -23,3 +23,12 @@ const UNIT_PER_KATEGORI: Record<string, string> = {
 export function unitLabel(kategori: string): string {
   return UNIT_PER_KATEGORI[kategori] ?? "per porsi";
 }
+
+/** Ongkir dan biaya rindu kampung dipakai di keranjang dan checkout. Satu tempat
+ *  supaya total yang dilihat user sama persis di dua halaman itu. */
+export const ONGKIR = 5000;
+export const BIAYA_RINDU = 2000;
+
+export function totalPesanan(subtotal: number): number {
+  return subtotal + ONGKIR + BIAYA_RINDU;
+}

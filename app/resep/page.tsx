@@ -1,52 +1,29 @@
-import Link from "next/link";
-import { allItems } from "@/lib/items";
+import { allItems, statistik } from "@/lib/items";
 import { gambarUntuk } from "@/lib/gambar";
+import ResepBrowser, { type BarisResep } from "./ResepBrowser";
 
-export const metadata = { title: "Resep — Makan Angin" };
+export const metadata = {
+  title: "Resep",
+  description: `${statistik().jumlahItem} resep masakan Indonesia, ditulis ulang, lengkap dengan bahan dan langkahnya.`,
+};
 
 export default function ResepIndexPage() {
-  const items = allItems();
+  const baris: BarisResep[] = allItems().map((item) => ({
+    slug: item.slug,
+    nama: item.nama,
+    daerah: item.daerah,
+    waktu: item.resep.waktu,
+    sulit: item.resep.sulit,
+    foto: gambarUntuk(item.slug, "card"),
+  }));
 
   return (
-    <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-10 py-6 lg:py-10">
-      <p className="text-xs font-semibold tracking-[0.2em] uppercase text-sambal mb-2">80 Resep Asli</p>
-      <h1 className="font-display text-3xl sm:text-4xl text-tinta mb-6">Semua Resep</h1>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {items.map((item) => {
-          const foto = gambarUntuk(item.slug, "card");
-          return (
-            <li key={item.slug}>
-              <Link
-                href={`/resep/${item.slug}`}
-                className="flex items-center gap-4 rounded-2xl bg-krem p-3 hover:ring-2 hover:ring-sambal/30 transition-all"
-              >
-                <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden bg-white flex items-center justify-center">
-                  {foto ? (
-                    <img
-                      src={foto}
-                      alt={item.nama}
-                      loading="lazy"
-                      decoding="async"
-                      className="absolute inset-0 h-full w-full object-cover"
-                    />
-                  ) : (
-                    <span className="text-3xl" aria-hidden>
-                      {item.emoji}
-                    </span>
-                  )}
-                </div>
-                <div className="min-w-0">
-                  <p className="font-semibold text-tinta truncate">{item.nama}</p>
-                  <p className="text-xs text-muted mb-1 truncate">{item.daerah}</p>
-                  <p className="text-sm text-muted">
-                    {item.resep.waktu} · {item.resep.sulit}
-                  </p>
-                </div>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+    <div className="mx-auto max-w-[1280px] px-4 py-8 sm:px-6 lg:px-10 lg:py-12">
+      <h1 className="font-display text-4xl font-semibold sm:text-5xl">Resep</h1>
+      <p className="mt-2 max-w-[52ch] text-ink-2">
+        {baris.length} resep, ditulis ulang dari nol. Bahan, langkah, dan cerita asal daerahnya.
+      </p>
+      <ResepBrowser baris={baris} />
     </div>
   );
 }
