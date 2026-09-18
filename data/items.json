@@ -11005,5 +11005,612 @@
       ],
       "tips": "Bakar sebentar saja. Terlalu lama di bara bikin isinya keluar dan tinggal kulitnya."
     }
+  },
+  {
+    "slug": "ikan-bakar-rica-sorong",
+    "nama": "Ikan Bakar Rica Sorong",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Papua Barat Daya",
+    "pulau": "Papua",
+    "harga": 38000,
+    "emoji": "🐟",
+    "deskripsi": "Ikan laut segar dibakar, disiram sambal rica-rica pedas menyengat.",
+    "cerita": "Sorong ramai perantau Manado dan Bugis sejak dulu jadi kota pelabuhan, sambal rica ikut kebawa dan menyatu sama ikan tangkapan lokal. Sekarang jadi menu warung makan paling dicari di sana.",
+    "pedas": 4,
+    "halal": true,
+    "tags": ["ikan", "bakar", "pedas"],
+    "opsi": [
+      { "nama": "Ikan", "pilihan": ["Kakap", "Tongkol", "Baronang (+8k)"] },
+      { "nama": "Level pedas", "pilihan": ["Sedang", "Pedas", "Kematian"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "45 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "1 ekor ikan kakap, bersihkan",
+        "10 cabai rawit, 6 cabai merah",
+        "6 bawang merah, 4 bawang putih",
+        "3 cm jahe, 2 batang daun bawang",
+        "Jeruk nipis, garam secukupnya"
+      ],
+      "langkah": [
+        "Lumuri ikan dengan jeruk nipis dan garam, diamkan 15 menit.",
+        "Bakar ikan di atas bara sampai matang dan sedikit gosong di pinggir.",
+        "Iris kasar cabai rawit, cabai merah, bawang merah, bawang putih, jahe.",
+        "Tumis irisan bumbu sampai layu dan harum, masukkan daun bawang, tambahkan garam.",
+        "Siram sambal rica panas-panas ke atas ikan bakar."
+      ],
+      "tips": "Iris bumbu kasar, jangan diulek. Rica-rica asli teksturnya masih berserat, bukan sambal halus."
+    }
+  },
+  {
+    "slug": "nastar",
+    "nama": "Nastar",
+    "kategori": "kudapan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 20000,
+    "emoji": "🍪",
+    "deskripsi": "Kue kering mentega bulat kecil, isi selai nanas manis asam.",
+    "cerita": "Namanya dari bahasa Belanda 'ananas taart', diadaptasi lidah lokal jadi kue lebaran wajib. Isian nanasnya harus dimasak lama sampai kering supaya kulitnya ga lembek.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["lebaran", "mentega", "nanas"],
+    "opsi": [
+      { "nama": "Jumlah", "pilihan": ["1/4 kg", "1/2 kg (+18k)"] }
+    ],
+    "resep": {
+      "porsi": 25,
+      "waktu": "1.5 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "250 g mentega, 50 g gula halus",
+        "2 kuning telur",
+        "300 g tepung terigu, 30 g susu bubuk",
+        "1 buah nanas, parut, masak dengan gula sampai kering jadi selai",
+        "1 kuning telur untuk olesan, cengkeh untuk hiasan"
+      ],
+      "langkah": [
+        "Kocok mentega dan gula halus sampai lembut, tambahkan kuning telur.",
+        "Masukkan tepung terigu dan susu bubuk, aduk sampai kalis.",
+        "Ambil sedikit adonan, isi selai nanas, bulatkan rapat.",
+        "Susun di loyang, olesi kuning telur, tancapkan cengkeh di atasnya.",
+        "Panggang 20 menit di suhu 150 derajat sampai matang tapi ga cokelat."
+      ],
+      "tips": "Masak selai nanas sampai benar-benar kering dan bisa dibentuk bola, kalau masih basah nastar gampang meleleh saat dipanggang."
+    }
+  },
+  {
+    "slug": "kastengel",
+    "nama": "Kastengel",
+    "kategori": "kudapan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 22000,
+    "emoji": "🧀",
+    "deskripsi": "Kue kering keju berbentuk batang kecil, gurih dan renyah.",
+    "cerita": "Dari bahasa Belanda 'kaas stengels' yang artinya batang keju. Peninggalan resep kue kering Belanda yang ikut jadi tradisi meja lebaran keluarga Indonesia.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["lebaran", "keju", "gurih"],
+    "opsi": [
+      { "nama": "Jumlah", "pilihan": ["1/4 kg", "1/2 kg (+20k)"] }
+    ],
+    "resep": {
+      "porsi": 25,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "200 g mentega",
+        "150 g keju cheddar parut, 50 g keju edam parut",
+        "2 kuning telur",
+        "250 g tepung terigu",
+        "Keju parut secukupnya untuk taburan"
+      ],
+      "langkah": [
+        "Kocok mentega sampai lembut, campur keju parut dan kuning telur.",
+        "Masukkan tepung terigu sedikit-sedikit, aduk sampai kalis.",
+        "Giling adonan, potong bentuk batang kecil memanjang.",
+        "Susun di loyang, olesi kuning telur, taburi keju parut.",
+        "Panggang 20 menit di suhu 150 derajat sampai kekuningan."
+      ],
+      "tips": "Pakai campuran keju cheddar dan edam biar rasa gurihnya lebih dalam, bukan cuma asin."
+    }
+  },
+  {
+    "slug": "wingko-babat",
+    "nama": "Wingko Babat",
+    "kategori": "kudapan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Tengah",
+    "pulau": "Jawa",
+    "harga": 15000,
+    "emoji": "🥥",
+    "deskripsi": "Kue bulat gepeng dari kelapa parut dan ketan, manis dan kenyal.",
+    "cerita": "Dari Babat, Lamongan, tapi jadi oleh-oleh khas Semarang setelah dibawa pedagang yang jualan di stasiun kereta. Dua kota sampai sekarang klaim-klaiman jadi asal aslinya.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["oleh-oleh", "kelapa", "ketan"],
+    "opsi": [
+      { "nama": "Jumlah", "pilihan": ["5 buah", "10 buah (+12k)"] }
+    ],
+    "resep": {
+      "porsi": 10,
+      "waktu": "1 jam",
+      "sulit": "mudah",
+      "bahan": [
+        "1 butir kelapa muda, parut",
+        "250 g tepung ketan",
+        "150 g gula pasir",
+        "200 ml santan",
+        "Sedikit garam, vanili"
+      ],
+      "langkah": [
+        "Campur kelapa parut, tepung ketan, gula, santan, garam, dan vanili sampai rata.",
+        "Panaskan wajan datar anti lengket, olesi sedikit minyak.",
+        "Tuang adonan bentuk bulat gepeng, masak dengan api kecil sampai kedua sisi kecokelatan.",
+        "Angkat, dinginkan sebelum disimpan."
+      ],
+      "tips": "Pakai kelapa yang ga terlalu tua, kelapa muda bikin tekstur wingko lebih lembut dan manis alami."
+    }
+  },
+  {
+    "slug": "kue-pukis",
+    "nama": "Kue Pukis",
+    "kategori": "kudapan",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 12000,
+    "emoji": "🥞",
+    "deskripsi": "Kue setengah lingkaran dari adonan tepung dan santan, lembut berpori.",
+    "cerita": "Dimasak di cetakan besi khusus berbentuk setengah tabung, jajanan pasar yang selalu ada bareng kue lumpur dan bikang di gerobak yang sama.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "santan", "manis"],
+    "opsi": [
+      { "nama": "Topping", "pilihan": ["Original", "Keju", "Cokelat meses"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 15,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "250 g tepung terigu",
+        "1 sdt ragi instan",
+        "100 g gula pasir",
+        "2 butir telur",
+        "300 ml santan hangat",
+        "Keju parut dan meses untuk topping"
+      ],
+      "langkah": [
+        "Campur ragi dengan sedikit santan hangat dan gula, diamkan 10 menit sampai berbuih.",
+        "Kocok telur dan sisa gula, campur dengan tepung terigu dan santan bergantian.",
+        "Masukkan campuran ragi, aduk rata, diamkan adonan 30 menit.",
+        "Panaskan cetakan pukis, tuang adonan sampai 3/4 penuh.",
+        "Taburi topping, masak dengan api kecil sampai matang dan bagian bawah kecokelatan."
+      ],
+      "tips": "Diamkan adonan sampai benar-benar berbuih, itu yang bikin pukis lembut berpori bukan padat."
+    }
+  },
+  {
+    "slug": "es-kopi-susu-gula-aren",
+    "nama": "Es Kopi Susu Gula Aren",
+    "kategori": "minuman",
+    "tipe": "umum",
+    "daerah": "Nasional",
+    "pulau": "Jawa",
+    "harga": 18000,
+    "emoji": "☕",
+    "deskripsi": "Kopi susu dingin dimaniskan gula aren, creamy dan pekat.",
+    "cerita": "Booming lewat kedai kopi kekinian sekitar 2017, tapi bahannya sebenarnya lama: kopi, susu, gula aren. Cuma dikemas ulang jadi menu andalan warung kopi kekinian di seluruh kota.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["dingin", "kopi", "kekinian"],
+    "opsi": [
+      { "nama": "Level manis", "pilihan": ["Normal", "Less sugar"] }
+    ],
+    "resep": {
+      "porsi": 1,
+      "waktu": "10 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "30 ml espresso atau kopi tubruk pekat",
+        "100 ml susu cair atau susu kental manis",
+        "3 sdm gula aren cair",
+        "Es batu secukupnya"
+      ],
+      "langkah": [
+        "Masukkan gula aren cair ke dasar gelas.",
+        "Tambahkan es batu sampai penuh.",
+        "Tuang susu, lalu kopi di atasnya supaya terlihat berlapis.",
+        "Aduk sebelum diminum."
+      ],
+      "tips": "Tuang kopi paling akhir dan pelan-pelan lewat pinggir gelas biar lapisannya kelihatan cantik dulu sebelum diaduk."
+    }
+  },
+  {
+    "slug": "bir-pletok",
+    "nama": "Bir Pletok",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 12000,
+    "emoji": "🍵",
+    "deskripsi": "Minuman rempah merah khas Betawi, hangat tanpa alkohol sama sekali.",
+    "cerita": "Namanya 'bir' tapi ga ada alkoholnya, dulu dibuat orang Betawi supaya bisa tetap ikut gaya minum bir orang Belanda tanpa melanggar aturan agama. Warna merahnya dari kayu secang.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "rempah", "betawi"],
+    "opsi": [
+      { "nama": "Sajian", "pilihan": ["Hangat", "Dingin"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "30 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "100 g jahe, memarkan",
+        "20 g kayu secang",
+        "5 butir cengkeh, 2 batang kayu manis",
+        "150 g gula pasir",
+        "1 liter air"
+      ],
+      "langkah": [
+        "Rebus air dengan jahe, kayu secang, cengkeh, dan kayu manis sampai mendidih.",
+        "Masak dengan api kecil 15 menit sampai warna merah keluar dan aromanya kuat.",
+        "Masukkan gula, masak sampai larut.",
+        "Saring, sajikan hangat atau dinginkan dengan es batu."
+      ],
+      "tips": "Rebus lama dengan api kecil, jangan buru-buru besar api supaya warna merah dari secang keluar maksimal."
+    }
+  },
+  {
+    "slug": "es-selendang-mayang",
+    "nama": "Es Selendang Mayang",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 13000,
+    "emoji": "🍧",
+    "deskripsi": "Kue tepung berwarna-warni dipotong tipis, disiram santan dan gula merah.",
+    "cerita": "Namanya diambil dari warna-warni kuenya yang mirip selendang penari. Dulu dijual keliling pakai pikulan, sekarang jajanan Betawi yang mulai jarang ditemukan.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["dingin", "betawi", "santan"],
+    "opsi": [
+      { "nama": "Level manis", "pilihan": ["Standar", "Extra gula merah"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "45 menit",
+      "sulit": "sedang",
+      "bahan": [
+        "100 g tepung beras, 50 g tepung sagu",
+        "500 ml air, pewarna merah dan hijau",
+        "400 ml santan, sedikit garam",
+        "150 g gula merah, 100 ml air untuk gula cair",
+        "Es serut secukupnya"
+      ],
+      "langkah": [
+        "Masak tepung beras, tepung sagu, dan air sambil diaduk sampai kental dan matang.",
+        "Bagi adonan, beri pewarna berbeda, tuang tiap warna ke loyang tipis, dinginkan sampai set.",
+        "Potong adonan yang sudah set jadi bentuk memanjang tipis.",
+        "Rebus gula merah dengan air sampai larut jadi gula cair, saring.",
+        "Susun potongan kue di gelas, tuang santan dan gula merah cair, tambah es serut."
+      ],
+      "tips": "Dinginkan adonan sampai benar-benar set sebelum dipotong, kalau masih hangat gampang hancur."
+    }
+  },
+  {
+    "slug": "kopi-joss",
+    "nama": "Kopi Joss",
+    "kategori": "minuman",
+    "tipe": "tradisional",
+    "daerah": "Yogyakarta",
+    "pulau": "Jawa",
+    "harga": 10000,
+    "emoji": "☕",
+    "deskripsi": "Kopi hitam dicelup bongkahan arang panas langsung dari bara.",
+    "cerita": "Muncul dari angkringan di sekitar Tugu Yogyakarta, arang panas dipercaya menetralkan asam kopi. Bunyi 'joss' dari suara arang nyemplung ke gelas itu yang jadi asal namanya.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["hangat", "kopi", "angkringan"],
+    "opsi": [
+      { "nama": "Level manis", "pilihan": ["Manis", "Pahit"] }
+    ],
+    "resep": {
+      "porsi": 1,
+      "waktu": "10 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "2 sdm kopi bubuk kasar",
+        "1-2 sdm gula pasir",
+        "200 ml air panas mendidih",
+        "1 bongkah kecil arang kayu, bakar sampai membara"
+      ],
+      "langkah": [
+        "Masukkan kopi bubuk dan gula ke gelas.",
+        "Tuang air panas mendidih, aduk rata.",
+        "Ambil bongkahan arang yang sedang membara dengan penjepit.",
+        "Celupkan arang panas langsung ke dalam kopi sampai berbunyi 'joss', angkat setelah beberapa detik."
+      ],
+      "tips": "Pakai arang kayu asli yang benar-benar membara merah, bukan arang briket yang mengandung bahan kimia."
+    }
+  },
+  {
+    "slug": "soto-mie-bogor",
+    "nama": "Soto Mie Bogor",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Barat",
+    "pulau": "Jawa",
+    "harga": 22000,
+    "emoji": "🍜",
+    "deskripsi": "Mie kuning, risoles, dan jeroan sapi dalam kuah bening segar.",
+    "cerita": "Khas kota Bogor, bedanya dari soto lain ada risoles goreng yang dipotong-potong dan dicelup ke kuahnya. Selalu ramai jadi menu sarapan warga Bogor.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["berkuah", "mie", "khas kota"],
+    "opsi": [
+      { "nama": "Isi", "pilihan": ["Daging", "Campur jeroan"] },
+      { "nama": "Tambahan", "pilihan": ["Risoles", "Kerupuk", "Sambal"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1.5 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "300 g mie kuning basah",
+        "300 g daging sapi dan jeroan, rebus, potong",
+        "5 bawang merah, 3 bawang putih",
+        "2 cm kunyit, 2 batang serai",
+        "Risoles goreng, kol iris, tomat untuk pelengkap"
+      ],
+      "langkah": [
+        "Rebus daging dan jeroan sampai empuk, potong dadu, saring kaldunya.",
+        "Haluskan bawang merah, bawang putih, kunyit, tumis dengan serai sampai harum.",
+        "Masukkan tumisan ke kaldu, didihkan sampai kuah bening dan wangi.",
+        "Rebus mie sebentar, tata di mangkuk dengan kol, tomat, dan potongan daging.",
+        "Siram kuah panas, tambahkan potongan risoles dan kerupuk."
+      ],
+      "tips": "Potong risoles langsung sebelum disajikan supaya tetap renyah waktu dicelup kuah."
+    }
+  },
+  {
+    "slug": "nasi-campur-bali",
+    "nama": "Nasi Campur Bali",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Bali",
+    "pulau": "Bali",
+    "harga": 25000,
+    "emoji": "🍚",
+    "deskripsi": "Nasi dengan aneka lauk khas Bali: sate lilit, ayam sisit, sambal matah, lawar.",
+    "cerita": "Cara makan sehari-hari warga Bali, satu piring bisa berisi lima sampai delapan jenis lauk berbeda sekaligus. Tiap warung punya kombinasinya masing-masing.",
+    "pedas": 3,
+    "halal": true,
+    "tags": ["nasi", "lauk banyak", "khas kota"],
+    "opsi": [
+      { "nama": "Lauk utama", "pilihan": ["Ayam sisit", "Babi", "Ikan"] },
+      { "nama": "Tambahan", "pilihan": ["Sambal matah", "Lawar", "Kacang goreng"], "multi": true }
+    ],
+    "resep": {
+      "porsi": 1,
+      "waktu": "20 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "1 piring nasi putih hangat",
+        "Ayam sisit atau lauk pilihan secukupnya",
+        "2 sdm sambal matah",
+        "2 sdm lawar",
+        "Kacang goreng, kerupuk untuk pelengkap"
+      ],
+      "langkah": [
+        "Siapkan nasi putih hangat di piring.",
+        "Tata lauk pilihan di satu sisi piring.",
+        "Tambahkan sambal matah dan lawar di sisi lain.",
+        "Taburi kacang goreng dan kerupuk sebelum disantap."
+      ],
+      "tips": "Kalau masak sendiri, siapkan tiap lauk secara terpisah dulu baru dirakit di piring saat mau makan supaya rasa masing-masing tetap jelas."
+    }
+  },
+  {
+    "slug": "sate-maranggi",
+    "nama": "Sate Maranggi",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Barat",
+    "pulau": "Jawa",
+    "harga": 25000,
+    "emoji": "🍢",
+    "deskripsi": "Sate daging sapi atau kambing yang direndam bumbu sebelum dibakar, ga pakai bumbu kacang.",
+    "cerita": "Khas Purwakarta dan Cianjur, bedanya dari sate lain bumbunya sudah meresap sebelum dibakar jadi ga perlu disiram bumbu kacang atau kecap lagi setelahnya.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["bakar", "daging", "khas kota"],
+    "opsi": [
+      { "nama": "Daging", "pilihan": ["Sapi", "Kambing"] },
+      { "nama": "Porsi", "pilihan": ["10 tusuk", "20 tusuk (+20k)"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1.5 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g daging sapi, potong dadu",
+        "5 butir kemiri, 6 bawang merah, 4 bawang putih",
+        "3 cm ketumbar, 2 sdm kecap manis",
+        "Air asam jawa secukupnya",
+        "Sambal tomat mentah untuk pelengkap"
+      ],
+      "langkah": [
+        "Haluskan kemiri, bawang merah, bawang putih, ketumbar.",
+        "Campur bumbu halus dengan kecap manis dan air asam jawa jadi marinasi.",
+        "Rendam daging dengan marinasi minimal 1 jam, lebih lama lebih meresap.",
+        "Tusuk daging ke tusukan sate.",
+        "Bakar di atas bara sambil dibolak-balik sampai matang dan harum.",
+        "Sajikan dengan sambal tomat mentah, tanpa bumbu kacang."
+      ],
+      "tips": "Rendam daging semalaman kalau ada waktu, itu kunci sate maranggi enak tanpa bumbu tambahan."
+    }
+  },
+  {
+    "slug": "ayam-pop",
+    "nama": "Ayam Pop",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Sumatera Barat",
+    "pulau": "Sumatera",
+    "harga": 24000,
+    "emoji": "🍗",
+    "deskripsi": "Ayam rebus bumbu lalu digoreng sebentar, warnanya tetap putih pucat.",
+    "cerita": "Diciptakan sebagai versi lebih ringan dari ayam goreng Padang biasa, direbus dulu pakai bumbu supaya matang merata baru digoreng sebentar saja jadi ga terlalu berminyak.",
+    "pedas": 1,
+    "halal": true,
+    "tags": ["ayam", "gorengan", "khas kota"],
+    "opsi": [
+      { "nama": "Bagian", "pilihan": ["Dada", "Paha"] }
+    ],
+    "resep": {
+      "porsi": 3,
+      "waktu": "50 menit",
+      "sulit": "mudah",
+      "bahan": [
+        "1/2 ekor ayam, potong",
+        "500 ml air kelapa",
+        "5 bawang merah, 3 bawang putih",
+        "2 cm jahe, 2 batang serai",
+        "Garam, daun jeruk secukupnya"
+      ],
+      "langkah": [
+        "Haluskan bawang merah, bawang putih, jahe.",
+        "Rebus ayam dengan air kelapa, bumbu halus, serai, daun jeruk, dan garam sampai matang dan bumbu meresap.",
+        "Angkat ayam, tiriskan sampai kering dari kuah rebusan.",
+        "Goreng sebentar di minyak panas sampai permukaan agak kaku, jangan sampai kecokelatan.",
+        "Sajikan dengan sambal cabai hijau dan gulai."
+      ],
+      "tips": "Goreng sebentar saja dengan minyak sangat panas, tujuannya cuma mengunci kelembapan bukan mematangkan warna."
+    }
+  },
+  {
+    "slug": "gulai-kambing-bustaman",
+    "nama": "Gulai Kambing Bustaman",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Jawa Tengah",
+    "pulau": "Jawa",
+    "harga": 30000,
+    "emoji": "🍲",
+    "deskripsi": "Gulai kambing kuah kental rempah, khas Kampung Bustaman Semarang.",
+    "cerita": "Kampung Bustaman di Semarang dikenal sebagai kampung jagal sejak zaman kolonial, warganya turun-temurun jualan gulai kambing sampai jadi identitas kampung itu sendiri.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["berkuah", "kambing", "khas kota"],
+    "opsi": [
+      { "nama": "Porsi", "pilihan": ["Sedang", "Besar (+12k)"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "2 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "500 g daging kambing, potong",
+        "400 ml santan kental",
+        "8 cabai merah, 8 bawang merah, 4 bawang putih",
+        "3 cm kunyit, 3 cm jahe, 2 batang serai",
+        "Daun jeruk, garam secukupnya"
+      ],
+      "langkah": [
+        "Rebus daging kambing dengan serai dan daun jeruk sampai setengah empuk, buang buih.",
+        "Haluskan cabai merah, bawang merah, bawang putih, kunyit, jahe.",
+        "Tumis bumbu halus sampai harum, masukkan ke rebusan kambing.",
+        "Tuang santan, masak dengan api kecil sampai daging empuk dan kuah mengental.",
+        "Koreksi rasa dengan garam sebelum diangkat."
+      ],
+      "tips": "Rebus kambing dengan serai dari awal, itu yang bantu menghilangkan bau prengus tanpa harus digoreng dulu."
+    }
+  },
+  {
+    "slug": "kue-cucur",
+    "nama": "Kue Cucur",
+    "kategori": "jajanan",
+    "tipe": "tradisional",
+    "daerah": "DKI Jakarta",
+    "pulau": "Jawa",
+    "harga": 8000,
+    "emoji": "🍩",
+    "deskripsi": "Kue goreng dari tepung beras dan gula merah, tengahnya tebal empuk pinggirnya renyah.",
+    "cerita": "Jajanan lawas yang selalu ada di acara adat Betawi, bentuknya sengaja timpang antara tengah yang tebal dan pinggir yang tipis renyah, dua tekstur dalam satu gigitan.",
+    "pedas": 0,
+    "halal": true,
+    "tags": ["jajanan pasar", "gorengan", "gula merah"],
+    "opsi": [
+      { "nama": "Jumlah", "pilihan": ["3 buah", "6 buah (+7k)"] }
+    ],
+    "resep": {
+      "porsi": 6,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "250 g tepung beras, 50 g tepung terigu",
+        "150 g gula merah, 50 g gula pasir",
+        "300 ml air untuk merebus gula",
+        "Sedikit garam",
+        "Minyak untuk menggoreng"
+      ],
+      "langkah": [
+        "Rebus gula merah, gula pasir, dan air sampai larut, saring, dinginkan.",
+        "Campur air gula dengan tepung beras dan tepung terigu, aduk sampai licin tanpa gumpalan.",
+        "Diamkan adonan 30 menit.",
+        "Panaskan minyak, tuang satu sendok sayur adonan, siram-siram minyak panas ke tengahnya sampai mengembang.",
+        "Goreng sampai pinggirnya kecokelatan dan renyah, tengahnya tetap empuk."
+      ],
+      "tips": "Siram minyak panas ke tengah adonan waktu digoreng, itu triknya biar bagian tengah matang dan mengembang tanpa gosong."
+    }
+  },
+  {
+    "slug": "roti-jala",
+    "nama": "Roti Jala",
+    "kategori": "makanan",
+    "tipe": "tradisional",
+    "daerah": "Aceh",
+    "pulau": "Sumatera",
+    "harga": 20000,
+    "emoji": "🫓",
+    "deskripsi": "Adonan tepung tipis bermotif jala, disantap dengan kari daging.",
+    "cerita": "Pengaruh kuliner India-Melayu lewat jalur dagang Aceh, dicetak pakai alat khusus berlubang supaya adonannya jatuh membentuk motif jaring-jaring saat dituang ke wajan panas.",
+    "pedas": 2,
+    "halal": true,
+    "tags": ["kari", "tepung", "khas daerah"],
+    "opsi": [
+      { "nama": "Kari", "pilihan": ["Kari ayam", "Kari daging (+10k)"] }
+    ],
+    "resep": {
+      "porsi": 4,
+      "waktu": "1 jam",
+      "sulit": "sedang",
+      "bahan": [
+        "250 g tepung terigu",
+        "2 butir telur",
+        "400 ml santan cair",
+        "Sedikit kunyit bubuk untuk warna, garam secukupnya",
+        "Kari ayam atau daging untuk pelengkap"
+      ],
+      "langkah": [
+        "Campur tepung terigu, telur, santan, kunyit bubuk, dan garam, saring sampai licin.",
+        "Panaskan wajan datar anti lengket, olesi sedikit minyak.",
+        "Tuang adonan lewat cetakan roti jala berlubang sambil digerakkan memutar membentuk motif jaring.",
+        "Masak sebentar sampai matang, jangan dibalik.",
+        "Lipat roti jala jadi segi empat atau gulungan, sajikan dengan kari."
+      ],
+      "tips": "Kalau ga ada cetakan khusus, pakai kantong plastik yang ujungnya digunting kecil sebagai gantinya."
+    }
   }
 ]
