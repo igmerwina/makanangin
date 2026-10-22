@@ -89,6 +89,8 @@ const OVERRIDES: Record<string, string> = {
   "soto-mie-bogor": "Soto mie",
   "nasi-campur-bali": "Nasi campur",
   "gulai-kambing-bustaman": "Gulai kambing",
+  "es-dawet-ayu": "Dawet",
+  "bakwan-sayur": "Bakwan",
   // "gonggong-rebus": sengaja TANPA override — judul "Gonggong" nyasar ke artikel pemberontakan
   // Tiongkok (dapet gambar ukiran perang, bukan makanan). Biarin fallback emoji.
   "bubur-pedas-sambas": "Bubur pedas",
@@ -123,6 +125,9 @@ const DIRECT_FILE: Record<string, string> = {
   "nasi-goreng": "Nasi goreng indonesia.jpg",
   // "Kue pukis"/"Pukis" on id.wikipedia both lead to a mislabeled kue pancong photo.
   "kue-pukis": "34. Pukis 1.jpg",
+  // "Putri salju" = Snow White in Indonesian; title lookup returns the fairy tale, not the cookie.
+  "putri-salju": "Kue putri salju.JPG",
+  "jamu-kunyit-asam": "Jamu dan bahan-bahannya.jpg",
 };
 
 let filled = 0;
